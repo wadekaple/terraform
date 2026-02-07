@@ -1,0 +1,170 @@
+site_name: Coastal Desert Terraforming Project
+site_description: Using renewable energy to desalinate seawater for sustainable settlements and agriculture in coastal desert regions
+site_author: Coastal Desert Terraforming Project
+site_url: https://yourusername.github.io/terraform/
+
+# Repository
+repo_name: yourusername/terraform
+repo_url: https://github.com/yourusername/terraform
+edit_uri: edit/main/
+
+# Copyright
+copyright: Copyright &copy; 2024-2026 Coastal Desert Terraforming Project
+
+# Theme
+theme:
+  name: material
+  palette:
+    # Light mode
+    - scheme: default
+      primary: teal
+      accent: cyan
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    # Dark mode
+    - scheme: slate
+      primary: teal
+      accent: cyan
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.expand
+    - navigation.indexes
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.action.edit
+  icon:
+    repo: fontawesome/brands/github
+    edit: material/pencil
+
+# Extensions
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+      toc_depth: 3
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem
+  - pymdownx.caret
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.snippets
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
+# Plugins
+plugins:
+  - search:
+      separator: '[\s\-,:!=\[\]()"/]+|(?!\b)(?=[A-Z][a-z])|\.(?!\d)|&[lg]t;'
+  - tags
+
+# Extra CSS
+extra_css:
+  - stylesheets/extra.css
+
+# Extra JavaScript
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
+# Extra
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/yourusername/terraform
+      name: GitHub Repository
+  analytics:
+    feedback:
+      title: Was this page helpful?
+      ratings:
+        - icon: material/emoticon-happy-outline
+          name: This page was helpful
+          data: 1
+          note: >-
+            Thanks for your feedback!
+        - icon: material/emoticon-sad-outline
+          name: This page could be improved
+          data: 0
+          note: >-
+            Thanks for your feedback!
+
+# Navigation
+nav:
+  - Home: README.md
+  - Getting Started:
+    - Development Roadmap: 00-development-roadmap.md
+    - Open Questions: open-questions.md
+
+  - Concept:
+    - 01 - An Idea: 01-an-idea.md
+    - 02 - My Idea: 02-my-idea.md
+    - 03 - Renewable Desalination: 03-renewable-desalination.md
+    - 04 - Organic Farming Facility: 04-organic-farming-facility.md
+    - 05 - Sea Channels: 05-sea-channels.md
+
+  - Research:
+    - Overview: research/README.md
+    - Homestead System:
+      - System Overview: research/homestead-scale-system.md
+      - System Flowchart: research/homestead-system-flowchart.md
+      - Below-Grade Construction: research/below-grade-construction-analysis.md
+    - Energy Systems:
+      - Mechanical Wind Power: research/mechanical-wind-power-pumping-aeration.md
+      - Solar Thermal Expansion: research/solar-thermal-expansion-design.md
+      - RV Fridge Retrofit: research/rv-fridge-solar-thermal-retrofit.md
+      - Waste Heat Recovery: research/waste-heat-recovery-cascade-system.md
+    - Water & Brine:
+      - Aquaponics Design: research/aquaponics-system-design.md
+      - Brine Byproducts: research/brine-byproducts-fractional-crystallization.md
+      - MED Scaling Prevention: research/med-calcium-carbonate-scaling-prevention.md
+    - Agriculture:
+      - Seaweed Feed: research/seaweed-feed-feasibility.md
+      - Feed Budget Analysis: research/feed-budget-self-sufficiency-analysis.md
+      - Three Sisters Expansion: research/three-sisters-field-crop-expansion.md
+      - BSF & Chickens: research/chicken-seaweed-bsf-production.md
+      - Mushroom Cultivation: research/mushroom-substrate-preparation-species-selection.md
+    - Economics:
+      - Salt Market Analysis: research/salt-market-analysis.md
+    - Industrial Scale:
+      - 1-Acre System Summary: research/system-summary-1-acre.md
+
+  - Technical Specs:
+    - Overview: specs/README.md
+
+  - Design Documents:
+    - Overview: design/README.md
+
+  - Site Studies:
+    - Overview: sites/README.md

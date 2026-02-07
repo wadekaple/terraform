@@ -1,0 +1,199 @@
+# Coastal Desert Terraforming Project
+
+**Core Concept:** Using renewable energy to desalinate seawater for sustainable settlements and agriculture in coastal desert regions.
+
+---
+
+## Navigation
+
+### 📍 Start Here
+- **[Development Roadmap](00-development-roadmap.md)** - Project planning and next steps
+- **[Open Questions](open-questions.md)** - Research questions for future investigation
+
+### 📖 Concept Documents (Overview Level)
+- [01 - An Idea](01-an-idea.md) - Initial concept introduction
+- [02 - My Idea](02-my-idea.md) - Vision and target regions
+- [03 - Renewable Desalination](03-renewable-desalination.md) - Desalination overview
+- [04 - Organic Farming Facility](04-organic-farming-facility.md) - Agriculture overview
+- [05 - Sea Channels](05-sea-channels.md) - Water infrastructure overview
+
+### 🔬 Technical Specifications
+*Detailed engineering and design documents*
+- [specs/](specs/) - Technical specifications ([guide](specs/README.md))
+- [TEMPLATE-specification.md](specs/TEMPLATE-specification.md) - Template for new specs
+
+### 📊 Research & Data
+*Calculations, research findings, data analysis*
+- [research/](research/) - Research documents ([guide](research/README.md))
+- **[Homestead-Scale System](research/homestead-scale-system.md)** - Agriculture-first integrated design (NEW)
+- **[Below-Grade Construction Analysis](research/below-grade-construction-analysis.md)** - Feasibility study for underground facility (NEW)
+- **[Mechanical Wind Power for Pumping & Aeration](research/mechanical-wind-power-pumping-aeration.md)** - Wind resource assessment and direct mechanical drive applications (NEW)
+- **[Solar Thermal Expansion Design](research/solar-thermal-expansion-design.md)** - 24 m² system for RV fridges + DHW + processing (NEW)
+- **[RV Fridge Solar Thermal Retrofit](research/rv-fridge-solar-thermal-retrofit.md)** - Converting absorption fridges from propane to solar thermal (NEW)
+- **[Waste Heat Recovery Cascade System](research/waste-heat-recovery-cascade-system.md)** - Productive use of RO + fridge waste heat (NEW)
+- **[Homestead System Flowchart](research/homestead-system-flowchart.md)** - Visual system diagrams (NEW)
+- **[Three Sisters Field Crop Expansion](research/three-sisters-field-crop-expansion.md)** - Scaling to 5-10 m³/day with MED + field crops (NEW)
+- **[MED Calcium Carbonate Scaling Prevention](research/med-calcium-carbonate-scaling-prevention.md)** - Anti-scaling for thermal desalination (NEW)
+- **[Brine Byproducts: CaCO₃, Gypsum, Bitterns](research/brine-byproducts-fractional-crystallization.md)** - Isolation and utilization methods (NEW)
+- **[Aquaponics System Design](research/aquaponics-system-design.md)** - Fish species, system types, production estimates (NEW)
+- **[Seaweed Feed Feasibility](research/seaweed-feed-feasibility.md)** - Livestock feed from ocean seaweed (NEW)
+- **[Salt Market Analysis](research/salt-market-analysis.md)** - Mexico & international market research (NEW)
+- [System Summary (1-Acre Solar)](research/system-summary-1-acre.md) - Industrial-scale export model
+- [TEMPLATE-research.md](research/TEMPLATE-research.md) - Template for research docs
+
+### 🗺️ Site Studies
+*Location-specific analyses and plans*
+- [sites/](sites/) - Site-specific documents ([guide](sites/README.md))
+
+### 📝 Design Documents
+*Detailed system designs and integration plans*
+- [design/](design/) - Design documents ([guide](design/README.md))
+- [TEMPLATE-design.md](design/TEMPLATE-design.md) - Template for design docs
+
+---
+
+## Document Types Guide
+
+### **Concept Documents** (Current level)
+- **Purpose:** Communicate the vision and high-level approach
+- **Length:** 1-3 pages
+- **Audience:** Anyone interested in the concept
+- **Updates:** Infrequent (only when core concept evolves)
+
+### **Technical Specifications**
+- **Purpose:** Engineering details for implementation
+- **Length:** As needed (can be extensive)
+- **Audience:** Engineers, builders, technical reviewers
+- **Updates:** Frequent during development
+- **Example:** `specs/energy-system-specification.md`
+
+### **Research Documents**
+- **Purpose:** Data collection, calculations, analysis
+- **Length:** Variable
+- **Audience:** Yourself, technical validators
+- **Updates:** Continuous as research progresses
+- **Example:** `research/solar-resource-analysis-western-sahara.md`
+
+### **Design Documents**
+- **Purpose:** Integration of multiple systems, detailed planning
+- **Length:** 5-20 pages typically
+- **Audience:** Implementation teams
+- **Updates:** Iterative refinement
+- **Example:** `design/settlement-layout-mvp.md`
+
+### **Site Studies**
+- **Purpose:** Location-specific analysis and adaptation
+- **Length:** Comprehensive (10-30 pages)
+- **Audience:** Site developers, local stakeholders
+- **Updates:** Per-site basis
+- **Example:** `sites/western-sahara-pilot/README.md`
+
+---
+
+## Recommended Workflow
+
+1. **Concept Phase** (Current)
+   - Keep concept docs at overview level
+   - Don't add too much detail yet
+   - Focus on breadth of coverage
+
+2. **Deep Dive Phase** (When ready)
+   - Create folder for the area (e.g., `/specs/energy/`)
+   - Put detailed work in that folder
+   - Link from concept doc to detailed docs
+
+3. **Integration Phase**
+   - Create `/design/` documents that pull together multiple specs
+   - Show how systems interact
+   - Keep integration docs updated as specs evolve
+
+4. **Implementation Phase**
+   - Create `/sites/` folders for specific locations
+   - Site docs reference specs and designs
+   - Adapt general specs to site-specific conditions
+
+---
+
+## Linking Strategy
+
+### In Concept Documents
+```markdown
+For detailed engineering specifications, see [Energy System Spec](specs/energy-system-specification.md).
+```
+
+### In Technical Documents
+```markdown
+This specification supports the vision described in [Renewable Desalination](../03-renewable-desalination.md).
+```
+
+### In Design Documents
+```markdown
+This design integrates:
+- [Energy System Spec](../specs/energy-system-specification.md)
+- [Water Distribution Spec](../specs/water-distribution-specification.md)
+- [Farming Facility Spec](../specs/organic-farming-specification.md)
+```
+
+---
+
+## Document Naming Conventions
+
+### Concept Docs (Root Level)
+- `01-an-idea.md` - Numbered, short names
+- `00-development-roadmap.md` - Special docs start with 00
+
+### Specs (Technical)
+- `specs/energy-system-specification.md` - Descriptive, kebab-case
+- `specs/energy/solar-thermal-design.md` - Can nest by topic
+
+### Research
+- `research/2026-02-western-sahara-solar-data.md` - Include date if time-sensitive
+- `research/desalination-efficiency-comparison.md` - Topic-focused
+
+### Designs
+- `design/mvp-settlement-layout.md` - Clear purpose
+- `design/phase-1-implementation-plan.md` - Numbered phases
+
+### Sites
+- `sites/western-sahara/README.md` - Each site gets folder
+- `sites/western-sahara/resource-assessment.md` - Site-specific docs
+- `sites/baja-peninsula/README.md`
+
+---
+
+## When to Create New Folders
+
+Create a new folder when:
+- ✅ You have 3+ related documents
+- ✅ A topic needs multiple supporting documents
+- ✅ Clear hierarchical relationship exists
+- ✅ You want to keep related research together
+
+Don't create folders prematurely:
+- ❌ Only 1-2 docs exist for a topic
+- ❌ "Might need it later" (create when actually needed)
+- ❌ Over-categorization (too many small folders)
+
+---
+
+## Maintenance
+
+### Weekly
+- [ ] Update roadmap with completed tasks
+- [ ] Add new findings to research docs
+- [ ] Link new documents into README
+
+### Monthly
+- [ ] Review document organization
+- [ ] Consolidate or split docs if needed
+- [ ] Update cross-references
+- [ ] Archive outdated versions
+
+### Quarterly
+- [ ] Major structure review
+- [ ] Reorganize if growth patterns changed
+- [ ] Create new navigation aids if needed
+
+---
+
+**Last Updated:** 2026-02-06
