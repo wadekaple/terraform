@@ -154,7 +154,7 @@ The technology is fundamentally simple:
 - May need electric backup for prolonged calm periods
 
 **Implications for homestead aquaponics:**
-- **Current system:** 1,000 sq ft (93 m²) aquaponics
+- **Current system:** 100 m² (93 m²) aquaponics
 - **Current load:** 2.0-3.0 kWh/day for pumps + aeration (largest electrical consumer)
 - **Windmill aerator sizing:** System is tiny compared to 12-acre capacity windmills
 - **Estimated windmill size:** 8-12 ft diameter (2.4-3.7m) should be more than adequate
@@ -402,7 +402,7 @@ Based on this research:
 
 ### ✅ **DO: Consider windmill aerator for aquaponics**
 - **Strongest candidate:** Proven technology, eliminates largest electrical load, good payback
-- **Sizing:** 8-12 ft diameter windmill adequate for 1,000 sq ft system
+- **Sizing:** 8-12 ft diameter windmill adequate for 100 m² system
 - **Cost:** $3,500-5,000 installed
 - **Energy savings:** 1.5-2.0 kWh/day (26-35% of total electrical)
 - **Reliability:** Complementary to solar (night operation), keep electric backup for calm periods
@@ -480,7 +480,7 @@ Based on this research:
 | 3-6 acres (12,000-24,000 m²) | 16 ft (4.9m) | 4-8 CFM | $6,000-10,000 | Way oversized |
 | 6-12 acres (24,000-48,000 m²) | 20 ft (6.1m) | 8-15 CFM | $10,000-15,000 | Not applicable |
 
-*Note: Homestead aquaponics is 1,000 sq ft (93 m²) = 0.02 acres. Even the smallest commercial windmill aerator (8 ft) is oversized, but these are smallest available. Custom smaller windmill possible but would cost more due to one-off fabrication.*
+*Note: Homestead aquaponics is 100 m² (93 m²) = 0.02 acres. Even the smallest commercial windmill aerator (8 ft) is oversized, but these are smallest available. Custom smaller windmill possible but would cost more due to one-off fabrication.*
 
 ### Table 3: Wind Speed Requirements & Performance
 
@@ -509,10 +509,10 @@ Based on this research:
 
 ## Calculations
 
-### Windmill Aerator Sizing for 1,000 sq ft Aquaponics
+### Windmill Aerator Sizing for 100 m² Aquaponics
 
 **Given:**
-- Aquaponics area: 1,000 sq ft (93 m²)
+- Aquaponics area: 100 m² (93 m²)
 - Fish biomass: 250-300 kg tilapia
 - Current aeration: 2.0-3.0 kWh/day (includes pumps)
 - Typical aeration-only: 1.5-2.0 kWh/day

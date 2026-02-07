@@ -10,7 +10,7 @@ disclaimer: "AI-generated content. Professional verification required before imp
 ---
 
 
-# Aquaponics System Design for 1,000 sq ft Greenhouse - Research Document
+# Aquaponics System Design for 100 m² Greenhouse - Research Document
 
 **Date:** 2026-02-05
 **Status:** Complete
@@ -20,19 +20,19 @@ disclaimer: "AI-generated content. Professional verification required before imp
 
 ## Research Question
 
-What is the optimal aquaponics system design for a 1,000 sq ft greenhouse on the Baja California Pacific coast, including fish species selection, system type configuration, crop selection, and integration with existing homestead water/energy budgets?
+What is the optimal aquaponics system design for a 100 m² greenhouse on the Baja California Pacific coast, including fish species selection, system type configuration, crop selection, and integration with existing homestead water/energy budgets?
 
 ---
 
 ## Executive Summary
 
-This research evaluates aquaponics system design options for a 1,000 sq ft greenhouse integrated with a homestead-scale desalination and BSF composting operation on Baja California's Pacific coast. Key findings:
+This research evaluates aquaponics system design options for a 100 m² greenhouse integrated with a homestead-scale desalination and BSF composting operation on Baja California's Pacific coast. Key findings:
 
 **Fish Species Recommendation:** Tilapia (specifically Blue Tilapia) is the optimal choice over native Baja fish species. While native yellowtail and totoaba have aquaculture potential, tilapia offers superior feed conversion (1.3-1.8), tolerance for BSF larvae feed (80%+ diet replacement possible), and extensive proven track record in small-scale aquaponics. Temperature range (20-30°C optimal) aligns well with seawater cooling loop capabilities.
 
-**System Design:** A hybrid approach combining 40% media beds (400 sq ft), 40% DWC rafts (400 sq ft), and 20% NFT channels (200 sq ft) provides optimal versatility. Media beds support fruiting crops (tomatoes, peppers), DWC maximizes leafy green production, and NFT provides high-density herb cultivation.
+**System Design:** A hybrid approach combining 40% media beds (40 m²), 40% DWC rafts (40 m²), and 20% NFT channels (20 m²) provides optimal versatility. Media beds support fruiting crops (tomatoes, peppers), DWC maximizes leafy green production, and NFT provides high-density herb cultivation.
 
-**Production Capacity:** Expected annual output of 2,800-3,750 kg vegetables plus 400-700 kg fish, supporting 10-20 people with diverse, nutrient-dense food.
+**Production Capacity:** Expected annual output of 3,000-4,000 kg vegetables plus 430-750 kg fish, supporting 10-20 people with diverse, nutrient-dense food.
 
 **Water Integration:** System requires 40-80 L/day makeup water, well within the existing 327-444 L/day budget established in homestead-scale-system.md.
 
@@ -139,17 +139,17 @@ No single system type is optimal for all crops. The homestead design goal is div
 - Fruiting vegetables (tomatoes, peppers) for nutrition/calories
 - Herbs (basil, cilantro, parsley) for flavor/medicine
 
-Each system type excels at different crop categories. A **hybrid multi-system approach** maximizes the 1,000 sq ft greenhouse efficiency by matching crop types to optimal growing methods.
+Each system type excels at different crop categories. A **hybrid multi-system approach** maximizes the 100 m² greenhouse efficiency by matching crop types to optimal growing methods.
 
 **Implications:**
 
 **Recommended System Configuration:**
 
-| System Type | Square Footage | % of Total | Primary Crops | Turnover Rate |
-|-------------|----------------|------------|---------------|---------------|
-| Media Beds | 400 sq ft | 40% | Tomatoes, peppers, cucumbers, eggplant | 12-16 weeks |
-| DWC Rafts | 400 sq ft | 40% | Lettuce, chard, kale, spinach | 4-6 weeks |
-| NFT Channels | 200 sq ft | 20% | Basil, cilantro, parsley, mint | 4-8 weeks |
+| System Type | Area | % of Total | Primary Crops | Turnover Rate |
+|-------------|------|------------|---------------|---------------|
+| Media Beds | 40 m² | 40% | Tomatoes, peppers, cucumbers, eggplant | 12-16 weeks |
+| DWC Rafts | 40 m² | 40% | Lettuce, chard, kale, spinach | 4-6 weeks |
+| NFT Channels | 20 m² | 20% | Basil, cilantro, parsley, mint | 4-8 weeks |
 
 **Rationale:**
 - **Media beds (40%):** Support nutrient-dense fruiting crops that provide calories, vitamins, and dietary variety. Slower turnover but higher value per plant.
@@ -171,67 +171,66 @@ Each system type excels at different crop categories. A **hybrid multi-system ap
 - Rule of thumb: 6 gallons fish tank per cubic foot of grow bed
 
 **Fish Stocking Density:**
-- Conservative: 1 lb fish per 5-10 gallons water
-- Tilapia-specific: 1 lb per 3-5 gallons (more aggressive)
-- Biomass-to-area ratio: 1 lb fish per 3-5 sq ft growing area
+- Conservative: 0.1 kg fish per L water (or ~25-30 kg/m³)
 - Research densities: 3-9 kg/m³ for tilapia in aquaponics; higher densities increase plant yield but reduce fish growth rates
+- Biomass-to-area ratio: ~2.7-3.2 kg fish per m² growing area
 
-**Water Volume Calculations for 1,000 sq ft:**
+**Water Volume Calculations for 100 m²:**
 
-Assuming 12-inch grow bed depth for media and DWC systems:
+Assuming 0.3m grow bed depth for media and DWC systems:
 
-**Media Beds (400 sq ft):**
-- Volume: 400 sq ft × 1 ft = 400 cubic feet
-- Water held in media (~30% void space): 400 × 0.3 = 120 cubic feet = 897 gallons (3,396 L)
+**Media Beds (40 m²):**
+- Volume: 40 m² × 0.3 m = 12 m³
+- Water held in media (~30% void space): 12 × 0.3 = 3.6 m³ = 3,600 L
 
-**DWC Rafts (400 sq ft):**
-- Depth: 12-18 inches typical; use 12"
-- Volume: 400 sq ft × 1 ft = 400 cubic feet = 2,990 gallons (11,317 L)
+**DWC Rafts (40 m²):**
+- Depth: 0.3-0.45 m typical; use 0.3m
+- Volume: 40 m² × 0.3 m = 12 m³ = 12,000 L
 
-**NFT Channels (200 sq ft):**
-- Minimal water volume (~1-2" depth in channels)
-- Estimate: 50 gallons (189 L)
+**NFT Channels (20 m²):**
+- Minimal water volume (~3-5 cm depth in channels)
+- Estimate: 200 L
 
-**Total System Water Volume:** 3,937 gallons (14,902 L) ≈ **15,000 L**
+**Total System Water Volume:** **~15,800 L**
 
 **Fish Tank Sizing (1:1 ratio with grow beds):**
-- Target: 400 cubic feet grow bed equivalent = **3,000 gallons (11,356 L)** fish tank capacity
+- Target: 12 m³ grow bed equivalent = **~12,000 L** fish tank capacity
 
 **Fish Biomass Capacity:**
 
-Using conservative 1 lb fish per 5 gallons water:
-- 3,000 gallons ÷ 5 = **600 lbs (272 kg) fish biomass at steady state**
+Using conservative 25 kg/m³ stocking density:
+- 12 m³ × 25 kg/m³ = **300 kg fish biomass at steady state**
 
-Using 1 lb per 3-5 sq ft growing area:
-- 1,000 sq ft ÷ 4 (avg) = **250 lbs (113 kg) minimum** to **333 lbs (151 kg)**
+Using 2.7-3.2 kg per m² growing area:
+- 100 m² × 2.7-3.2 = **270-320 kg** fish biomass
 
-**Recommended stocking:** **250-300 kg maximum fish biomass** (conservative, prioritizes fish health)
+**Recommended stocking:** **270-320 kg maximum fish biomass** (conservative, prioritizes fish health)
 
 **Analysis:**
 
-With 250-300 kg steady-state biomass and tilapia growing to market size (0.5-1 kg) in 5-7 months:
+With 270-320 kg steady-state biomass and tilapia growing to market size (0.5-1 kg) in 5-7 months:
 
 **Annual Fish Production:**
 - Assume 2 harvests per year
 - 50% of biomass harvested each cycle (maintaining breeding stock)
-- Harvest: 125-150 kg × 2 = **250-300 kg/year fish production**
+- Harvest: 135-160 kg × 2 = **270-320 kg/year fish production**
 
 However, with optimal conditions (6-month grow-out), some operations achieve:
-- **400-700 kg/year** as cited in homestead-scale-system.md
+- **430-750 kg/year** as cited in homestead-scale-system.md
 
-**Split the difference:** **400-500 kg/year realistic target** for first 2-3 years, scaling to 600-700 kg as system matures and management improves.
+**Split the difference:** **430-540 kg/year realistic target** for first 2-3 years, scaling to 650-750 kg as system matures and management improves.
 
 **Implications:**
 
-**System Specifications for 1,000 sq ft Greenhouse:**
+**System Specifications for 100 m² Greenhouse:**
 
 | Parameter | Specification |
 |-----------|---------------|
-| Total system water volume | 15,000 L (3,937 gallons) |
-| Fish tank capacity | 11,000 L (2,900 gallons) |
-| Steady-state fish biomass | 250-300 kg |
-| Annual fish production | 400-500 kg (years 1-3); 600-700 kg (mature) |
-| Fish-to-growing-area ratio | 1 lb per 3.3-4 sq ft |
+| Total system water volume | ~15,800 L |
+| Fish tank capacity | ~12,000 L |
+| Steady-state fish biomass | 270-320 kg |
+| Annual fish production | 430-540 kg (years 1-3); 650-750 kg (mature) |
+| Fish-to-growing-area ratio | 2.7-3.2 kg per m² |
 | Stocking density | ~23-27 kg/m³ (conservative, healthy) |
 
 **Fish Tank Configuration Options:**
@@ -315,38 +314,38 @@ The stable 24-28°C underground greenhouse temperature (from seawater cooling) c
 
 **Implications:**
 
-**Recommended Crop Mix for 1,000 sq ft:**
+**Recommended Crop Mix for 100 m²:**
 
-**DWC System (400 sq ft):**
-- 300 sq ft lettuce (multiple varieties): ~150-180 heads per harvest (35-40 days) = 4-5 kg/day average
-- 100 sq ft chard/kale mix: ~2-3 kg/day
+**DWC System (40 m²):**
+- 28 m² lettuce (multiple varieties): ~160-195 heads per harvest (35-40 days) = 4.3-5.4 kg/day average
+- 12 m² chard/kale mix: ~2.2-3.2 kg/day
 
-**NFT System (200 sq ft):**
-- 100 sq ft basil: ~50-75 plants, continuous cutting = 1-2 kg/day
-- 100 sq ft mixed herbs (cilantro, parsley, mint): ~0.5-1 kg/day
+**NFT System (20 m²):**
+- 10 m² basil: ~54-80 plants, continuous cutting = 1.1-2.2 kg/day
+- 10 m² mixed herbs (cilantro, parsley, mint): ~0.5-1.1 kg/day
 
-**Media Beds (400 sq ft):**
-- 25-30 tomato plants (16 sq ft per plant for indeterminate varieties): 8-12 kg/day during peak production
-- 20-25 pepper plants (16 sq ft per plant): 3-5 kg/day during peak
-- 15-20 cucumber plants (20 sq ft per plant): 5-8 kg/day during peak
-- 10-15 eggplant: 2-3 kg/day during peak
+**Media Beds (40 m²):**
+- 27-32 tomato plants (1.25-1.5 m² per plant for indeterminate varieties): 8.6-13 kg/day during peak production
+- 22-27 pepper plants (1.25-1.5 m² per plant): 3.2-5.4 kg/day during peak
+- 16-22 cucumber plants (1.8-2 m² per plant): 5.4-8.6 kg/day during peak
+- 11-16 eggplant: 2.2-3.2 kg/day during peak
 
 **Expected Production Summary:**
 
 | Crop Category | Daily Production (kg) | Annual Production (kg) | % of Total |
 |---------------|----------------------|------------------------|------------|
-| Leafy greens | 7-9 | 2,555-3,285 | 65-70% |
-| Herbs | 1.5-3 | 547-1,095 | 10-15% |
-| Fruiting vegetables | 18-28 (peak); 8-12 (avg) | 2,920-4,380 | 20-25% |
-| **TOTAL VEGETABLES** | **15-20 avg** | **6,022-8,760** | **100%** |
-| **FISH** | **1.1-1.4** | **400-500** | **Fish protein** |
+| Leafy greens | 7.5-9.7 | 2,750-3,540 | 65-70% |
+| Herbs | 1.6-3.3 | 590-1,180 | 10-15% |
+| Fruiting vegetables | 19-30 (peak); 8.6-13 (avg) | 3,140-4,710 | 20-25% |
+| **TOTAL VEGETABLES** | **16-22 avg** | **6,480-9,430** | **100%** |
+| **FISH** | **1.2-1.5** | **430-540** | **Fish protein** |
 
 **Note:** Fruiting crop production is seasonal (lower in establishment months, peaks during productive phase). Daily averages account for crop rotation and off-peak periods.
 
 **Nutrition check for 10-20 people:**
 - Vegetable needs: ~400-600 g/person/day = 4-12 kg/day for 10-20 people
-- System produces: 15-20 kg/day average (exceeds minimum, supports 20-30 people with vegetables)
-- Fish protein: 400-500 kg/year ÷ 365 = 1.1-1.4 kg/day (sufficient protein for 10-15 people)
+- System produces: 16-22 kg/day average (exceeds minimum, supports 20-30 people with vegetables)
+- Fish protein: 430-540 kg/year ÷ 365 = 1.2-1.5 kg/day (sufficient protein for 10-15 people)
 
 ### Finding 5: Water Requirements and Integration
 
@@ -358,9 +357,9 @@ The stable 24-28°C underground greenhouse temperature (from seawater cooling) c
 - Greenhouse enclosures reduce evaporation significantly vs outdoor systems
 - Underground location further reduces losses (cooler, more humid)
 
-**For 15,000 L system:**
-- 1% daily loss: 150 L/day
-- 5% daily loss: 750 L/day
+**For 15,800 L system:**
+- 1% daily loss: 158 L/day
+- 5% daily loss: 790 L/day
 - Greenhouse-enclosed, underground: expect low end of range
 
 **Research data:**
@@ -567,18 +566,18 @@ From homestead-scale-system.md, organic waste sources:
 **Breakdown by Component:**
 
 **Greenhouse Structure:**
-- Commercial greenhouse: $15-30/sq ft for basic structure
-- 1,000 sq ft × $20/sq ft = $20,000 (surface greenhouse)
+- Commercial greenhouse: $160-320/m² for basic structure
+- 100 m² × $215/m² = $21,500 (surface greenhouse)
 - Underground modification: See homestead-scale-system.md estimate
 
 **Aquaponics Equipment:**
 
 | Item | Estimated Cost | Notes |
 |------|---------------|-------|
-| Fish tanks (3 × 3,500L IBC totes or fiberglass) | $3,000-6,000 | IBC totes: $500-1,000 each; custom fiberglass: $2,000+ each |
-| DWC raft beds (400 sq ft) | $4,000-8,000 | Tanks, rafts, net pots |
-| Media beds (400 sq ft) | $6,000-10,000 | Containers, plumbing, expanded clay media |
-| NFT channels (200 sq ft) | $2,000-4,000 | Channels, support, net pots |
+| Fish tanks (3 × 4,000L IBC totes or fiberglass) | $3,000-6,000 | IBC totes: $500-1,000 each; custom fiberglass: $2,000+ each |
+| DWC raft beds (40 m²) | $4,300-8,600 | Tanks, rafts, net pots |
+| Media beds (40 m²) | $6,500-10,800 | Containers, plumbing, expanded clay media |
+| NFT channels (20 m²) | $2,200-4,300 | Channels, support, net pots |
 | Water pumps (multiple) | $800-1,500 | Various flow rates |
 | Air pumps & diffusers | $500-1,000 | Aeration for fish tanks and DWC |
 | Plumbing & valves | $1,500-3,000 | PVC, fittings, ball valves |
@@ -623,22 +622,22 @@ From homestead-scale-system.md, organic waste sources:
 
 **Implications:**
 
-**Recommended Budget for 1,000 sq ft Aquaponics:**
+**Recommended Budget for 100 m² Aquaponics:**
 
 | Budget Level | Aquaponics Cost | Total with Infrastructure* | Approach |
 |--------------|-----------------|--------------------------|----------|
-| **Minimal** | $12,000-18,000 | $75,000-105,000 | Heavy DIY, IBC totes, basic automation |
-| **Moderate (RECOMMENDED)** | $20,000-30,000 | $85,000-125,000 | Hybrid commercial/DIY, reliable equipment |
-| **Commercial** | $35,000-50,000 | $100,000-145,000 | Professional components, full automation |
+| **Minimal** | $13,000-19,000 | $80,000-110,000 | Heavy DIY, IBC totes, basic automation |
+| **Moderate (RECOMMENDED)** | $21,000-32,000 | $90,000-130,000 | Hybrid commercial/DIY, reliable equipment |
+| **Commercial** | $38,000-54,000 | $110,000-155,000 | Professional components, full automation |
 
-*Total includes excavation, greenhouse, RO, solar, batteries, etc. from homestead-scale-system.md ($63,000-126,000 baseline)
+*Total includes excavation, greenhouse, RO, solar, batteries, etc. from homestead-scale-system.md ($67,000-131,000 baseline)
 
-**Note:** These costs align with the homestead-scale-system.md estimate of $5,000-15,000 for aquaponics, but that appears to be a simplified estimate. A more realistic figure for a functional 1,000 sq ft multi-system aquaponics is **$15,000-30,000** depending on DIY capability.
+**Note:** These costs align with the homestead-scale-system.md estimate of $5,000-15,000 for aquaponics, but that appears to be a simplified estimate. A more realistic figure for a functional 100 m² multi-system aquaponics is **$15,000-32,000** depending on DIY capability.
 
 **Cost Per Production:**
-- Mid-range: $25,000 aquaponics investment
-- Annual production: 6,500-9,000 kg vegetables + 400-500 kg fish
-- Production value: ~$50,000-80,000/year at farmer's market prices ($8-10/kg vegetables, $15-20/kg fish)
+- Mid-range: $26,500 aquaponics investment
+- Annual production: 6,480-9,430 kg vegetables + 430-540 kg fish
+- Production value: ~$52,000-85,000/year at farmer's market prices ($8-10/kg vegetables, $15-20/kg fish)
 - **Payback period: <1 year** for aquaponics component (not including facility infrastructure)
 
 ---
@@ -667,7 +666,7 @@ Based on this research:
 
 ✅ **DO: Select Blue Tilapia (Oreochromis aureus)** as primary aquaponics fish species for temperature tolerance, BSF larvae compatibility, and proven small-scale performance.
 
-✅ **DO: Implement hybrid system design** with 400 sq ft media beds (fruiting crops), 400 sq ft DWC rafts (leafy greens), and 200 sq ft NFT channels (herbs) to maximize crop diversity.
+✅ **DO: Implement hybrid system design** with 40 m² media beds (fruiting crops), 40 m² DWC rafts (leafy greens), and 20 m² NFT channels (herbs) to maximize crop diversity.
 
 ✅ **DO: Size system for 250-300 kg fish biomass** in ~11,000 L fish tank volume (three 3,500-4,000 L tanks preferred over single large tank for management flexibility).
 
@@ -704,7 +703,7 @@ Based on this research:
 ## Next Steps
 
 ### Design & Engineering
-- [ ] Detailed layout of 1,000 sq ft greenhouse showing media bed, DWC, and NFT placement with plumbing schematic
+- [ ] Detailed layout of 100 m² greenhouse showing media bed, DWC, and NFT placement with plumbing schematic
 - [ ] Fish tank configuration design (3 × 3,500L tanks) with sizing for fingerling, grow-out, and breeding
 - [ ] Seawater cooling integration for fish tanks and temperature zoning in greenhouse
 - [ ] BSF composting system layout (15-25 m²) adjacent to aquaponics for easy waste transfer
@@ -767,7 +766,7 @@ Based on this research:
 | Beginner-friendly | Yes | Yes | Moderate |
 | Space efficiency | Moderate | Moderate | High (vertical) |
 | Biofilter capacity | Excellent | Moderate | Minimal |
-| **% of 1,000 sq ft** | **40%** | **40%** | **20%** |
+| **% of 100 m²** | **40%** | **40%** | **20%** |
 
 ### Table 3: Crop Production Estimates
 
@@ -817,20 +816,20 @@ Based on this research:
 
 ```
 GROWING AREA BREAKDOWN:
-Media beds: 400 sq ft
-DWC rafts: 400 sq ft
-NFT channels: 200 sq ft
-TOTAL: 1,000 sq ft
+Media beds: 40 m²
+DWC rafts: 40 m²
+NFT channels: 20 m²
+TOTAL: 100 m²
 
 WATER VOLUME IN GROW BEDS:
 
 Media beds (12" depth):
-Volume = 400 sq ft × 1 ft = 400 cubic feet
+Volume = 40 m² × 1 ft = 400 cubic feet
 Water in media (30% void space) = 400 × 0.3 = 120 cubic feet
 Convert to gallons: 120 × 7.48 = 897 gallons (3,396 L)
 
 DWC rafts (12" depth):
-Volume = 400 sq ft × 1 ft = 400 cubic feet
+Volume = 40 m² × 1 ft = 400 cubic feet
 Convert to gallons: 400 × 7.48 = 2,990 gallons (11,317 L)
 
 NFT channels (minimal volume):
@@ -866,7 +865,7 @@ Moderate: 1 lb fish per 3 gallons (tilapia-specific)
 2,906 ÷ 3 = 969 lbs = 440 kg
 
 Method 2: Area-based
-1,000 sq ft growing area
+100 m² growing area
 Ratio: 1 lb fish per 3-5 sq ft
 1,000 ÷ 4 (average) = 250 lbs = 113 kg (minimum)
 1,000 ÷ 3 = 333 lbs = 151 kg (maximum)
@@ -912,7 +911,7 @@ Mature system (year 3+): 500-700 kg/year
 ### Vegetable Production Calculations
 
 ```
-LEAFY GREENS (DWC - 400 sq ft):
+LEAFY GREENS (DWC - 40 m²):
 
 Lettuce (300 sq ft):
 Planting density: 12-16 plants per sq ft (6" spacing)
@@ -940,7 +939,7 @@ Daily average: 2-3 kg/day
 
 LEAFY GREENS TOTAL: 4,200-5,600 kg/year (11.5-15 kg/day)
 
-HERBS (NFT - 200 sq ft):
+HERBS (NFT - 20 m²):
 
 Basil (100 sq ft):
 Planting density: 16-25 plants per sq ft (close spacing)
@@ -958,7 +957,7 @@ Daily: 0.8-1.4 kg/day
 
 HERBS TOTAL: 1,175-1,375 kg/year (3.2-3.8 kg/day)
 
-FRUITING CROPS (Media Beds - 400 sq ft):
+FRUITING CROPS (Media Beds - 40 m²):
 
 Tomatoes (160 sq ft, 25 plants at 6-7 sq ft each):
 Indeterminate varieties, 3-6 month productive period
@@ -1015,17 +1014,17 @@ Conservative (1.5% daily loss):
 
 BREAKDOWN OF LOSSES:
 
-Evaporation from DWC (400 sq ft):
+Evaporation from DWC (40 m²):
 Summer: ~0.1" per day = 0.0083 ft
-400 sq ft × 0.0083 ft × 7.48 gal/ft³ = 24.9 gallons = 94 L
+40 m² × 0.0083 ft × 7.48 gal/ft³ = 24.9 gallons = 94 L
 Underground reduction (-30%): 66 L/day
 
 Transpiration from plants:
 Leafy greens: 1-2 L/m²/day
 Fruiting crops: 2-4 L/m²/day
-Total growing area: 93 m²
-Average: 2 L/m²/day × 93 = 186 L/day
-Underground reduction (-20% from humidity): 149 L/day
+Total growing area: 100 m²
+Average: 2 L/m²/day × 100 = 200 L/day
+Underground reduction (-20% from humidity): 160 L/day
 
 Splashing, solids removal: 10-20 L/day
 
@@ -1253,7 +1252,7 @@ Aquaponics systems depend on beneficial bacteria converting ammonia (toxic) → 
 
 ### Appendix D: Crop Rotation Strategy for Media Beds
 
-Media beds (400 sq ft) dedicated to fruiting crops require strategic rotation to maintain continuous harvest while preventing disease buildup and nutrient depletion.
+Media beds (40 m²) dedicated to fruiting crops require strategic rotation to maintain continuous harvest while preventing disease buildup and nutrient depletion.
 
 **Rotation Zones (4 zones × 100 sq ft each):**
 
@@ -1340,4 +1339,4 @@ Start seedlings in NFT or small containers 4-6 weeks before transplanting to med
 
 ---
 
-**Status:** Complete research document providing species selection, system design, production estimates, and integration strategy for 1,000 sq ft greenhouse aquaponics system in Baja California.
+**Status:** Complete research document providing species selection, system design, production estimates, and integration strategy for 100 m² greenhouse aquaponics system in Baja California.

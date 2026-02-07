@@ -186,7 +186,7 @@ The underground design eliminates the *need* for evaporative cooling, which is t
   - Waterproofing membrane on exterior
 
 - **Roof structure:** Must support earth load + greenhouse
-  - Level 0 roof: 1,000 sq ft supporting 0.5-1.0m soil = 50-100 tonnes load
+  - Level 0 roof: 100 m² supporting 0.5-1.0m soil = 50-100 tonnes load
   - Requires steel I-beams or reinforced concrete slab
   - NOT a typical greenhouse structure
 

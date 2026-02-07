@@ -184,7 +184,7 @@ Average year-round: 5-10 kWh/day
 
 **Thermal requirements:**
 - Tilapia optimal temperature: 28-30°C (vs 18-22°C ambient seawater)
-- Current system: 1,000 sq ft aquaponics, 28 m³ water volume
+- Current system: 100 m² aquaponics, 28 m³ water volume
 - Target: Maintain 28-30°C year-round
 - Heat loss: Through greenhouse glazing, evaporation, water exchange
 
@@ -196,7 +196,7 @@ Winter heating (worst case):
 - Make-up water: 100-150 L/day @ 18°C → 28°C (ΔT = 10°C)
   Q_makeup = 0.125 m³/day × 4,186 kJ/m³/°C × 10°C = 5,233 kJ/day = 1.5 kWh/day
 
-- Surface evaporation: 1,000 sq ft = 93 m² water surface
+- Surface evaporation: 100 m² = 93 m² water surface
   Evaporation rate: 1-2 L/m²/day (greenhouse, humid)
   Water loss: 93-186 L/day
   Latent heat: 0.14 m³ × 2,450 kJ/L = 343 MJ/day = 95 kWh/day (!)
@@ -672,7 +672,7 @@ Cost: $300-600 (titanium tubing + fittings)
 
 ```
 Heat transfer requirement: 0.7 kW average (17 kWh/day winter)
-Floor area: 93 m² (1,000 sq ft greenhouse)
+Floor area: 93 m² (100 m² greenhouse)
 Target floor temp: 20-22°C (gentle warmth)
 Hot water: 35°C inlet, 28°C outlet (ΔT = 7°C)
 

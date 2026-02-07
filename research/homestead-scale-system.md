@@ -36,7 +36,7 @@ This produces a more practical, buildable design at homestead scale.
 
 | Component | Quantity |
 |---|---|
-| Aquaponics greenhouse | 1,000 sq ft (93 m²) |
+| Aquaponics greenhouse | 100 m² |
 | Chickens | 24 birds |
 | Sheep | 5 animals |
 | Goats | 5 animals |
@@ -59,7 +59,7 @@ SITE LAYOUT VIEW:
 │   GREENHOUSE            │     │  PROCESSING BUILDING │
 │   (partial earth-shelter)│     │  (green roof)        │
 │                         │     │                      │
-│ • Aquaponics (1,000 ft²)│     │ • RO desalination    │
+│ • Aquaponics (100 m²)   │     │ • RO desalination    │
 │ • Fish tanks            │     │ • BSF composting     │
 │ • Glazed roof (70-80%)  │     │ • Mushroom growing   │
 │ • Solar panels (20-30%) │     │ • Seaweed processing │
@@ -112,25 +112,25 @@ SITE LAYOUT VIEW:
 
 ### Green Roof Vegetation & Water Requirements
 
-**Total green roof area:** ~186 m² (93 m² processing + 93 m² livestock)
+**Total green roof area:** ~200 m² (100 m² processing + 100 m² livestock)
 
 **Planting strategy:**
 
-**Processing Building Roof (~93 m²):**
+**Processing Building Roof (~100 m²):**
 - **Plants:** Native drought-tolerant succulents (sedums, ice plant, native cacti)
 - **Purpose:** Insulation only (no livestock access)
 - **Water needs:** 0.3-0.5 L/m²/day after establishment
 - **Substrate depth:** 0.5m (shallow, lightweight)
 
-**Livestock Shelter Roof (~93 m²):**
+**Livestock Shelter Roof (~100 m²):**
 - **Plants:** Mix of prickly pear cactus (Opuntia) + native browse plants (prostrate saltbush, trailing succulents)
 - **Purpose:** Insulation + supplemental livestock browse (plants cascade over roof edge for ground-level grazing)
 - **Water needs:** 0.3-0.5 L/m²/day after establishment
 - **Substrate depth:** 0.7-1.0m (deeper for browse plants)
 
 **Total green roof irrigation (established plants):**
-- Daily: 186 m² × 0.4 L/m²/day = **~75 L/day** (11-20% of fresh water budget)
-- Establishment phase (first 6-12 months): 186 m² × 1.0 L/m²/day = **~186 L/day**
+- Daily: 200 m² × 0.4 L/m²/day = **~80 L/day** (13-18% of fresh water budget)
+- Establishment phase (first 6-12 months): 200 m² × 1.0 L/m²/day = **~200 L/day**
 
 **Water source options:**
 1. **Fresh RO water** (primary) - fits within expanded capacity or reduces other uses temporarily
@@ -239,9 +239,9 @@ Instead of disposing of RO brine, convert it to food-grade sea salt:
 | Human domestic (8 people) | 200 | 25 L/person/day |
 | BSF composting moisture | 10-20 | Maintain substrate humidity |
 | Facility cleaning | 20-40 | Pens, equipment |
-| Green roof irrigation (186 m²) | 55-95 | 0.3-0.5 L/m²/day established plants; 186 L/day during establishment (6-12 months) |
-| **TOTAL (established)** | **~442-609** | **~0.44-0.61 m³/day** |
-| **TOTAL (establishment phase)** | **~518-700** | **~0.52-0.70 m³/day** |
+| Green roof irrigation (200 m²) | 60-100 | 0.3-0.5 L/m²/day established plants; 200 L/day during establishment (6-12 months) |
+| **TOTAL (established)** | **~447-614** | **~0.45-0.61 m³/day** |
+| **TOTAL (establishment phase)** | **~532-714** | **~0.53-0.71 m³/day** |
 
 ### Water Sources
 
@@ -251,7 +251,7 @@ Instead of disposing of RO brine, convert it to food-grade sea salt:
 | Seawater (cooling loop) | 1.0+ m³/day | Not consumed; returns to ocean or feeds RO |
 | Rainwater harvesting | Variable | Supplemental; unreliable in desert |
 
-**Note:** With green roof irrigation included, total water demand (442-609 L/day established, 518-700 L/day during establishment) **exceeds baseline 0.5 m³/day (500 L/day) RO capacity**. Options:
+**Note:** With green roof irrigation included, total water demand (447-614 L/day established, 532-714 L/day during establishment) **exceeds baseline 0.5 m³/day (500 L/day) RO capacity**. Options:
 
 1. **Expand RO capacity to 0.6-0.7 m³/day** - adds $500-1,500 to capital cost (slightly larger membrane/pump)
 2. **Phase green roof planting** - establish roofs over 2-3 years to spread water demand
@@ -263,10 +263,10 @@ Instead of disposing of RO brine, convert it to food-grade sea salt:
 
 ### Aquaponics System Details
 
-The 1,000 sq ft greenhouse uses a hybrid system design:
-- **Fish:** Blue tilapia (400-500 kg/year production, 250-300 kg biomass)
+The 100 m² greenhouse uses a hybrid system design:
+- **Fish:** Blue tilapia (430-540 kg/year production, 270-320 kg biomass)
 - **System mix:** 40% media beds (tomatoes, peppers) + 40% DWC rafts (leafy greens) + 20% NFT channels (herbs)
-- **Production:** 6,000-9,000 kg/year vegetables (16-25 kg/day average)
+- **Production:** 6,500-9,700 kg/year vegetables (18-27 kg/day average)
 - **Feed:** 49% from BSF larvae (2.0 kg/day), 51% commercial pellets (2.1 kg/day, $1,150/year)
 - **Water:** 100-150 L/day makeup water (conservative estimate)
 
@@ -334,22 +334,21 @@ For complete specifications, see [Aquaponics System Design](aquaponics-system-de
 **System efficiency:** 80% (inverter, wiring losses)
 
 ```
-Usable energy per sq ft of panel:
-5.7 kWh/m² × 0.20 × 0.80 = 0.91 kWh/m²/day
-0.91 ÷ 10.76 = 0.085 kWh/sq ft/day
+Usable energy per m² of panel:
+5.7 kWh/m²/day × 0.20 × 0.80 = 0.91 kWh/m²/day
 
 Panels needed for 5.7 kWh/day:
-5.7 ÷ 0.085 = 67 sq ft
+5.7 ÷ 0.91 = 6.3 m²
 
 With safety margin (1.3x):
-67 × 1.3 = ~87 sq ft of panels
+6.3 × 1.3 = ~8.2 m² of panels
 ```
 
-**Result: ~90 sq ft of solar panels (2-3 standard 400W residential panels)**
+**Result: ~8.5 m² of solar panels (2-3 standard 400W residential panels)**
 
 This is integrated into the greenhouse roof — 20-30% panels with 70-80% glazing.
 
-**Cost savings:** 10-20 sq ft less panels needed vs underground design = **$500-1,000 saved**
+**Cost savings:** ~1-2 m² less panels needed vs underground design = **$500-1,000 saved**
 
 ### Energy Self-Sufficiency
 
@@ -574,13 +573,13 @@ The liquid remaining after salt crystallization (~29-35 L/day):
 
 ## Food Production Estimates
 
-### Aquaponics (1,000 sq ft)
+### Aquaponics (100 m²)
 
 | Product | Yield | Notes |
 |---|---|---|
-| Leafy greens | 15-20 kg/day | Lettuce, chard, herbs |
-| Vegetables | 5-10 kg/day | Tomatoes, peppers, cucumbers |
-| Fish (tilapia) | 1-2 kg/day | ~400-700 kg/year |
+| Leafy greens | 16-22 kg/day | Lettuce, chard, herbs |
+| Vegetables | 5-11 kg/day | Tomatoes, peppers, cucumbers |
+| Fish (tilapia) | 1-2 kg/day | ~430-750 kg/year |
 | Mushrooms (processing bldg) | 2 kg/day | Paddy Straw on manure substrate (see [Mushroom Research](mushroom-substrate-preparation-species-selection.md)) |
 
 ### Livestock
@@ -667,20 +666,20 @@ The system design follows a phased approach to feed independence:
 
 | Component | Area | Notes |
 |---|---|---|
-| Greenhouse | 1,000 sq ft (93 m²) | Aquaponics + fish tanks |
-| Processing building | ~1,000 sq ft (93 m²) | RO, BSF, mushrooms, workshop |
-| Livestock shelter | ~1,000 sq ft (93 m²) | Chickens, sheep, goats |
-| Salt evaporation ponds | 2,195 sq ft (204 m²) | 7 ponds (batch operation), 15m × 14m |
-| Livestock paddock | ~1,500 sq ft (140 m²) | Small outdoor area for daily activity |
-| Access paths/spacing | ~500 sq ft (46 m²) | Between structures, maintenance access |
-| **Subtotal (core facility)** | **~7,195 sq ft** | **~668 m² / 0.17 acres** |
+| Greenhouse | 100 m² | Aquaponics + fish tanks |
+| Processing building | ~100 m² | RO, BSF, mushrooms, workshop |
+| Livestock shelter | ~100 m² | Chickens, sheep, goats |
+| Salt evaporation ponds | 204 m² | 7 ponds (batch operation), 15m × 14m |
+| Livestock paddock | ~140 m² | Small outdoor area for daily activity |
+| Access paths/spacing | ~50 m² | Between structures, maintenance access |
+| **Subtotal (core facility)** | **~694 m²** | **~0.17 acres** |
 | Desert browse (optional) | Variable | Unirrigated rangeland for extended foraging |
 | Feed patch (Phase 2, optional) | 100-200 m² | Fodder trees + prickly pear |
-| **Total developed (Phase 1)** | **~0.14 acres** | Core facility only, excluding rangeland |
-| **Total developed (Phase 2)** | **~0.17 acres** | With optional feed patch |
+| **Total developed (Phase 1)** | **~694 m²** | Core facility only, excluding rangeland (~0.17 acres) |
+| **Total developed (Phase 2)** | **~794-894 m²** | With optional feed patch (~0.20-0.22 acres) |
 
 **Compact footprint comparison:**
-- Phase 1 core facility: 575 m² (~0.14 acres) - smaller than typical suburban house lot
+- Phase 1 core facility: 694 m² (~0.17 acres) - smaller than typical suburban house lot
 - Produces: Food for 10-20 people + 11.5 tonnes salt/year
 - Can operate on marginal coastal land unsuitable for conventional agriculture
 
@@ -702,7 +701,7 @@ The system design follows a phased approach to feed independence:
 | Component | Estimated Cost | Notes |
 |---|---|---|
 | RO desalination unit (0.6 m³/day) | $3,500-9,000 | Sized for green roofs + operations; household-scale units available |
-| Solar panels (1.2-1.5 kW, ~90 sq ft) | $2,500-4,000 | 2-3 panels + inverter (mounted on greenhouse) |
+| Solar panels (1.2-1.5 kW, ~8.5 m²) | $2,500-4,000 | 2-3 panels + inverter (mounted on greenhouse) |
 | Battery storage (15-20 kWh) | $5,000-10,000 | LFP batteries |
 | **Solar thermal system (14 m²)** | **$4,300-8,100** | **1 RV fridge + DHW + processing - Phase 1 (see [Solar Thermal Expansion](solar-thermal-expansion-design.md))** |
 | Aquaponics system | $5,000-15,000 | Tanks, grow beds, pumps |
@@ -756,7 +755,7 @@ The system design follows a phased approach to feed independence:
 
 | Metric | Industrial (Previous) | Homestead (This) |
 |---|---|---|
-| Solar PV | 1 acre (43,560 sq ft) | 90 sq ft (2-3 panels) |
+| Solar PV | 1 acre (4,047 m²) | 8.5 m² (2-3 panels) |
 | Solar thermal | N/A | 14 m² collectors (Phase 1) |
 | Fresh water | 923 m³/day | 0.5 m³/day |
 | Population fed | 7,000+ (exports) | 10-20 (direct) |
@@ -786,7 +785,7 @@ The system design follows a phased approach to feed independence:
 
 5. **Feed independence is achievable.** Seaweed (seawater) + BSF larvae (composting) provide complete animal nutrition without fresh water irrigation.
 
-6. **The system fits on a rooftop.** 2-3 solar panels (~90 sq ft) provide full energy self-sufficiency — the entire power system fits on 20-30% of the greenhouse roof.
+6. **The system fits on a rooftop.** 2-3 solar panels (~8.5 m²) provide full energy self-sufficiency — the entire power system fits on 20-30% of the greenhouse roof.
 
 7. **Multi-structure design reduces energy consumption.** Skylights and natural ventilation eliminate 1.0-1.5 kWh/day compared to underground design, while maintaining thermal benefits through green roofs and partial earth-sheltering. Natural light improves animal welfare and egg production.
 

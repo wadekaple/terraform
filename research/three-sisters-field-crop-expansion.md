@@ -388,7 +388,7 @@ Back to Three Sisters field
 **Status:** Active implementation
 
 **Components:**
-- ✅ Aquaponics: 1,000 sq ft operational
+- ✅ Aquaponics: 100 m² operational
 - ✅ RO desalination: 0.5 m³/day
 - ✅ Livestock: 24 chickens, 10 ruminants
 - ✅ Salt production: 20-25 kg/day

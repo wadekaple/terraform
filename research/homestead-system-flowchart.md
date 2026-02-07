@@ -69,7 +69,7 @@ graph TB
     SUN[☀️ SUNLIGHT]
 
     %% Solar Systems
-    PV[SOLAR PANELS<br/>90 sq ft<br/>~5.7 kWh/day]
+    PV[SOLAR PANELS<br/>~8.5 m²<br/>~5.7 kWh/day]
     GH_LIGHT[GREENHOUSE GLAZING<br/>Natural light for plants]
     EVAP_HEAT[EVAPORATION PONDS<br/>Solar heating]
 
@@ -94,7 +94,7 @@ graph TB
     BITTERNS[BITTERNS<br/>29-35 L/day<br/>Mg, K salts]
 
     %% Aquaponics
-    AQUA[AQUAPONICS<br/>1,000 sq ft]
+    AQUA[AQUAPONICS<br/>100 m²]
     GROW[GROW BEDS<br/>Vegetables, Herbs<br/>20-30 kg/day]
     FISH_TANK[FISH TANKS<br/>Tilapia<br/>1-2 kg/day]
     WASTE[PLANT WASTE<br/>Fish mortality]
@@ -286,7 +286,7 @@ graph TB
 graph TB
     SUN[☀️ SUNLIGHT<br/>5.7 kWh/m²/day]
 
-    PV[SOLAR PANELS<br/>90 sq ft<br/>~5.7 kWh/day output]
+    PV[SOLAR PANELS<br/>~8.5 m²<br/>~5.7 kWh/day output]
 
     ELEC[ELECTRICITY DISTRIBUTION]
 
@@ -331,7 +331,7 @@ graph TB
     FRESH[FRESH WATER<br/>600 L/day]
     BRINE[BRINE<br/>733 L/day<br/>70,000 ppm TDS]
 
-    CONSUMED[FRESH WATER CONSUMPTION<br/>• Aquaponics: 100-150 L<br/>• Livestock drinking: 77-144 L<br/>• Human domestic: 200 L<br/>• BSF composting: 10-20 L<br/>• Cleaning: 20-40 L<br/>• Green roofs 186 m²: 55-95 L<br/>TOTAL: 462-649 L/day]
+    CONSUMED[FRESH WATER CONSUMPTION<br/>• Aquaponics: 100-150 L<br/>• Livestock drinking: 77-144 L<br/>• Human domestic: 200 L<br/>• BSF composting: 10-20 L<br/>• Cleaning: 20-40 L<br/>• Green roofs 200 m²: 60-100 L<br/>TOTAL: 447-614 L/day]
 
     PONDS[EVAPORATION PONDS<br/>204 m² total<br/>7 ponds batch/rotating<br/><br/>CaCO₃ pond: 4 m²<br/>Concentrators 2A,B,C,D: 144 m²<br/>Crystallizers A,B: 50 m²]
 
@@ -553,8 +553,8 @@ graph TB
 
 | Output | Daily Yield | Annual Yield | Source |
 |--------|-------------|--------------|--------|
-| 🥬 Vegetables | 20-30 kg | 7-11 tonnes | Aquaponics |
-| 🐟 Fish | 1-2 kg | 400-700 kg | Aquaponics |
+| 🥬 Vegetables | 16-27 kg | 6.5-9.7 tonnes | Aquaponics |
+| 🐟 Fish | 1-2 kg | 430-750 kg | Aquaponics |
 | 🥚 Eggs | 12-18 | ~5,500 | Chickens (24) |
 | 🥛 Milk | 5-10 L | 1,800-3,600 L | Goats (5, 2-3 lactating) |
 | 🍖 Meat | ~0.3 kg | ~100 kg | All livestock |
@@ -583,4 +583,4 @@ graph TB
 
 ---
 
-**Status:** Interactive flowchart diagrams using Mermaid syntax. Updated 2026-02-06 to show mushroom production, corrected BSF substrate pathway, updated system capacities (0.6 m³/day RO, 90 sq ft solar, 4.4-7.0 kWh/day energy, green roof irrigation, 11.5 tonnes salt/year), and **corrected salt pond sizing** (204 m² total: 1 CaCO₃ pond 4m², 4 concentrator ponds 144m² batch/rotating, 2 crystallizer ponds 50m² batch/rotating) to properly account for residence time requirements.
+**Status:** Interactive flowchart diagrams using Mermaid syntax. Updated 2026-02-07 to show 100 m² aquaponics greenhouse, 8.5 m² solar panels, 200 m² green roofs, and all metric units. System capacities: 0.6 m³/day RO, 4.4-7.0 kWh/day energy, 11.5 tonnes salt/year from 204 m² evaporation ponds (1 CaCO₃ pond 4m², 4 concentrator ponds 144m² batch/rotating, 2 crystallizer ponds 50m² batch/rotating).

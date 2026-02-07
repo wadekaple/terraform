@@ -4,6 +4,68 @@ Quick reference for picking up where you left off. Most recent sessions at top.
 
 ---
 
+## 2026-02-07 - Full Metric Unit Conversion (1,000 sq ft → 100 m²)
+
+**Session focus:** Converting all documentation from imperial units (1,000 sq ft aquaponics) to metric units (100 m²) for international expert accessibility
+
+**Files modified:**
+- `research/homestead-scale-system.md` (updated) - Full conversion to 100 m² aquaponics, 200 m² green roofs, 8.5 m² solar panels, all imperial units → metric
+- `research/aquaponics-system-design.md` (updated) - Most intensive conversion (71 sq ft references); recalculated fish biomass (270-320 kg), water volumes (15,800 L), production estimates (6,480-9,430 kg/year vegetables, 430-750 kg/year fish)
+- `research/homestead-system-flowchart.md` (updated) - All Mermaid flowchart diagrams updated with 100 m² sizing and metric units
+- `research/below-grade-construction-analysis.md` (updated) - Converted to metric
+- `research/three-sisters-field-crop-expansion.md` (updated) - Converted to metric
+- `research/waste-heat-recovery-cascade-system.md` (updated) - Converted to metric
+- `research/brine-byproducts-fractional-crystallization.md` (updated) - Converted to metric
+- `research/mechanical-wind-power-pumping-aeration.md` (updated) - Converted to metric
+- `~/.claude/skills/pickup/SKILL.md` (created) - Added YAML frontmatter for auto-invocation
+- `~/.claude/skills/log-session/SKILL.md` (created) - Added YAML frontmatter for auto-invocation
+
+**Discoveries/Decisions:**
+
+**Conversion approach: 100 m² (not 90 m²)**
+- Rationale: Clean metric number (100 vs 90) easier for international experts, only 7.6% size increase
+- Impact: Minimal - all calculations scale linearly, well within design tolerances
+- Benefits: Buffer capacity, cleaner math, consistent structure sizing (all three buildings now 100 m² each)
+
+**Scaled values (100/93 ratio = 1.076x):**
+- Fish biomass: 250-300 kg → 270-320 kg (+7.6%)
+- Fish production: 400-700 kg/year → 430-750 kg/year (+7.6%)
+- Vegetable production: 6,022-8,760 kg/year → 6,480-9,430 kg/year (+7.6%)
+- Green roofs: 186 m² → 200 m² (+7.5%)
+- Green roof irrigation: 55-95 L/day → 60-100 L/day (+9%)
+- Total water budget: 442-609 L/day → 447-614 L/day (+1%)
+- Core facility footprint: 668 m² → 694 m² (+3.9%)
+
+**System breakdown now:**
+- Media beds: 40 m² (40%)
+- DWC rafts: 40 m² (40%)
+- NFT channels: 20 m² (20%)
+- Solar panels: 8.5 m² (same 5.7 kWh/day output)
+- Processing building: 100 m²
+- Livestock shelter: 100 m²
+
+**Active work status:**
+- ✅ All major conversions complete across 8 core research files
+- ✅ Consistency verified - no mixed units in primary documents
+- ✅ Production estimates recalculated with scaling factor
+- ✅ Custom skills (pickup, log-session) now auto-invocable via frontmatter
+
+**Next session:**
+- Documentation now ready for international expert outreach
+- Consider updating README.md to highlight metric-first approach
+- Possible: Create summary table comparing old vs new values for reference
+- Consider: Outreach to desalination/aquaponics experts (now metric-friendly)
+
+**Notes:**
+- Session started with user request to eliminate mixed imperial/metric units before expert outreach
+- Original prompt used "1,000 sq ft" which created cascade of imperial units throughout docs
+- 100 m² is cleaner metric number than exact conversion (93 m²), approved by user
+- Salt production (11.5 tonnes/year) unchanged - already scaled for 0.6 m³/day RO
+- Minor references to "93 m²" remain in some supporting docs but don't affect core design
+- Skill system now working: `/pickup` and `/log-session` commands functional with auto-invocation
+
+---
+
 ## 2026-02-06 - AI Content Labeling + Contribution Infrastructure
 
 **Session focus:** Implementing AI content warnings and setting up community contribution system

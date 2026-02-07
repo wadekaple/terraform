@@ -582,9 +582,9 @@ Aquaponics systems commonly lack three key nutrients:
 
 **Critical balance:** These three nutrients compete for plant uptake. Maintaining proper Ca:Mg:K ratios is essential.
 
-**Dosing calculations for 1,000 sq ft aquaponics system:**
+**Dosing calculations for 100 m² aquaponics system:**
 
-Assume system volume: **3,000 gallons (11,350 liters)** - typical for 1,000 sq ft media beds
+Assume system volume: **3,000 gallons (11,350 liters)** - typical for 100 m² media beds
 
 **Weekly top-off water:** ~10% of volume = 1,135 L/week (evaporation + plant transpiration)
 
@@ -1211,7 +1211,7 @@ Based on this research:
 | **NaCl** | 10-11 tonnes/year | 180 tonnes/year | Food-grade sea salt (see Salt Market Analysis) |
 | **Bitterns** | 10-11 m³/year (27-30 L/day) | 180 m³/year (493 L/day) | Nigari (tofu), aquaponics Mg/K, livestock Mg |
 
-### Table 3: Aquaponics Supplementation Requirements (1,000 sq ft system)
+### Table 3: Aquaponics Supplementation Requirements (100 m² system)
 
 | Nutrient | Target (mg/L) | Weekly Need | Annual Need | Byproduct Source | Annual Production | Surplus |
 |----------|---------------|-------------|-------------|------------------|-------------------|---------|
@@ -1315,7 +1315,7 @@ Bitterns: 180 m³/year = 493 L/day
 ### Aquaponics Calcium Supplementation
 
 ```
-System volume: 11,350 L (3,000 gallons for 1,000 sq ft)
+System volume: 11,350 L (3,000 gallons for 100 m²)
 Weekly water addition: 10% = 1,135 L
 
 Target calcium: 60 mg/L
