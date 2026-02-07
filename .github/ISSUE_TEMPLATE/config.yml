@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: GitHub Discussions
+    url: https://github.com/wadekaple/terraform/discussions
+    about: Ask questions or start general discussions about the project
+  - name: Documentation Site
+    url: https://wadekaple.github.io/terraform/
+    about: View the full documentation and research

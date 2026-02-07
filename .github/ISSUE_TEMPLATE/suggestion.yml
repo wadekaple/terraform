@@ -1,0 +1,159 @@
+name: 💡 Suggestion / Alternative Approach
+description: Propose a different design approach or improvement
+title: "[SUGGESTION] "
+labels: ["enhancement", "suggestion"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Have a better idea? We'd love to hear it!
+
+        This form is for:
+        - Alternative design approaches
+        - More efficient methods
+        - Cost-saving ideas
+        - Performance improvements
+        - Simplifications that reduce complexity
+
+  - type: dropdown
+    id: suggestion-area
+    attributes:
+      label: What Part of the System?
+      description: Which subsystem does your suggestion apply to?
+      options:
+        - Energy Generation (solar collectors, PV)
+        - Desalination (RO, MED, alternative methods)
+        - Thermal Management (cooling, heating)
+        - Food Production (aquaponics, livestock, crops)
+        - Salt Production (evaporation, crystallization)
+        - Infrastructure (buildings, layout, materials)
+        - Economics / Business Model
+        - Overall System Integration
+        - Other
+    validations:
+      required: true
+
+  - type: input
+    id: current-approach
+    attributes:
+      label: Current Approach in Documentation
+      description: What's the current design this would replace/improve?
+      placeholder: research/homestead-scale-system.md - RO desalination using 0.5 m³/day system
+    validations:
+      required: false
+
+  - type: textarea
+    id: suggestion-description
+    attributes:
+      label: Your Suggested Approach
+      description: Describe your alternative or improvement
+      placeholder: |
+        Instead of [current approach], consider [alternative]:
+
+        This would work by...
+
+        The advantages are...
+    validations:
+      required: true
+
+  - type: textarea
+    id: advantages
+    attributes:
+      label: Advantages of Your Approach
+      description: Why is this better than the current design?
+      placeholder: |
+        - Lower cost ($X vs $Y)
+        - Higher efficiency (X% vs Y%)
+        - Simpler to operate
+        - More reliable
+        - Easier to maintain
+        - Better suited for Baja conditions
+    validations:
+      required: true
+
+  - type: textarea
+    id: disadvantages
+    attributes:
+      label: Trade-offs or Disadvantages
+      description: What are the downsides or trade-offs? (honest assessment helps!)
+      placeholder: |
+        - Higher upfront cost
+        - Requires specialized expertise
+        - Harder to source in Mexico
+        - Less proven at this scale
+    validations:
+      required: false
+
+  - type: textarea
+    id: implementation
+    attributes:
+      label: Implementation Details
+      description: How would this actually work in practice?
+      placeholder: |
+        Required equipment: ...
+        Installation process: ...
+        Operating procedure: ...
+        Maintenance requirements: ...
+    validations:
+      required: false
+
+  - type: textarea
+    id: cost-estimate
+    attributes:
+      label: Cost Implications
+      description: How does this affect the budget?
+      placeholder: |
+        Capital cost: $X-Y
+        Operating cost: $Z/year
+        Compared to current: +/- $...
+    validations:
+      required: false
+
+  - type: textarea
+    id: references
+    attributes:
+      label: References or Examples
+      description: Has this been done before? Any references or case studies?
+      placeholder: |
+        - Company X uses this approach for similar application
+        - Research paper: [citation]
+        - Example installation: [link]
+        - Personal experience: I've built/operated similar systems
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: suggestion-type
+    attributes:
+      label: Type of Improvement
+      options:
+        - label: Cost reduction
+        - label: Performance improvement
+        - label: Simplification / reduced complexity
+        - label: Better suited for location/climate
+        - label: More sustainable / environmentally friendly
+        - label: Easier to maintain
+        - label: More reliable
+        - label: Better scalability
+
+  - type: textarea
+    id: expertise-source
+    attributes:
+      label: Your Expertise / Background (optional)
+      description: What's your experience with this approach?
+      placeholder: |
+        - I've designed/built similar systems
+        - I work in this industry
+        - I researched this for my thesis
+        - I've seen this work well at [company/location]
+    validations:
+      required: false
+
+  - type: markdown
+    attributes:
+      value: |
+        ---
+
+        **Thank you for sharing your ideas!** Alternative approaches help us explore better solutions and avoid getting locked into one design path.
+
+        We'll evaluate your suggestion and may incorporate it into the documentation or create an alternative design document comparing approaches.

@@ -1,0 +1,196 @@
+name: 🎓 Expert Review Feedback
+description: Provide comprehensive expert feedback on a subsystem or document
+title: "[REVIEW] "
+labels: ["expert-review", "enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Thank you for offering your expert review!**
+
+        This form is for domain experts who can provide comprehensive feedback on:
+        - Overall approach and methodology
+        - System-level design decisions
+        - Industry best practices
+        - Regulatory or compliance issues
+        - Realistic cost/performance expectations
+
+  - type: input
+    id: reviewer-name
+    attributes:
+      label: Your Name (optional)
+      description: For attribution in CONTRIBUTORS.md if you'd like to be credited
+      placeholder: Dr. Jane Smith or leave blank for anonymous review
+    validations:
+      required: false
+
+  - type: dropdown
+    id: expertise-area
+    attributes:
+      label: Your Area of Expertise
+      options:
+        - Desalination Engineering
+        - Solar Energy / Solar Thermal
+        - Aquaculture / Aquaponics
+        - Agricultural Engineering (crops)
+        - Animal Science / Veterinary
+        - Civil / Structural Engineering
+        - Mechanical Engineering
+        - Chemical Engineering
+        - Salt Production / Mineral Processing
+        - Cost Estimation / Construction
+        - Mexican Regulatory / COFEPRIS
+        - Environmental Engineering
+        - Other (please specify below)
+    validations:
+      required: true
+
+  - type: textarea
+    id: credentials
+    attributes:
+      label: Professional Background (optional)
+      description: Helps us understand the weight of your feedback
+      placeholder: |
+        - 15 years in commercial desalination design
+        - PhD in Solar Thermal Engineering, MIT
+        - Licensed PE in California
+        - Operations manager at XYZ Aquaponics
+    validations:
+      required: false
+
+  - type: dropdown
+    id: review-scope
+    attributes:
+      label: What Are You Reviewing?
+      description: Choose the scope of your review
+      options:
+        - Single document (specific technical analysis)
+        - Subsystem (e.g., all aquaponics documents)
+        - Entire homestead system integration
+        - Specific calculation or methodology
+        - Regulatory compliance aspect
+    validations:
+      required: true
+
+  - type: input
+    id: documents
+    attributes:
+      label: Document(s) Reviewed
+      description: Which file(s) did you review?
+      placeholder: research/homestead-scale-system.md, research/aquaponics-system-design.md
+    validations:
+      required: true
+
+  - type: textarea
+    id: overall-assessment
+    attributes:
+      label: Overall Assessment
+      description: High-level summary of your review
+      placeholder: |
+        The approach is generally sound, but there are three major issues...
+
+        Overall feasibility rating: 7/10
+
+        Key concerns: ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: technical-feedback
+    attributes:
+      label: Detailed Technical Feedback
+      description: Specific technical issues, corrections, or suggestions
+      placeholder: |
+        1. RO Energy Calculation (line 245):
+           - Current assumption: 2.5 kWh/m³
+           - Issue: Doesn't account for membrane fouling in practice
+           - Recommendation: Use 3.5-4.0 kWh/m³ for real-world operation
+
+        2. Solar Collector Sizing:
+           - ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: missing-considerations
+    attributes:
+      label: What's Missing?
+      description: Important considerations not addressed in the documentation
+      placeholder: |
+        - Membrane replacement schedule and costs
+        - Biofouling prevention strategy
+        - Seasonal variation impacts
+        - Emergency shutdown procedures
+    validations:
+      required: false
+
+  - type: textarea
+    id: regulatory-compliance
+    attributes:
+      label: Regulatory / Compliance Issues
+      description: Any regulatory concerns or requirements that need to be addressed?
+      placeholder: |
+        For Mexico (COFEPRIS, NOM standards):
+        - Food-grade salt requires NOM-040-SSA1-1993 compliance
+        - Aquaculture requires SENASICA permits
+        - Desalination discharge requires CONAGUA approval
+    validations:
+      required: false
+
+  - type: textarea
+    id: alternative-approaches
+    attributes:
+      label: Alternative Approaches
+      description: Would you design this differently? If so, how?
+      placeholder: |
+        Instead of RO, consider:
+        - Membrane Distillation for smaller scale
+        - Hybrid RO+ED for higher recovery rate
+        - Different collector type for better efficiency
+    validations:
+      required: false
+
+  - type: textarea
+    id: references
+    attributes:
+      label: Relevant References
+      description: Research papers, standards, or resources that would help improve this work
+      placeholder: |
+        - ISO 9001 standard for desalination plant design
+        - Smith et al. (2020) - Best practices in small-scale RO
+        - ASHRAE Handbook (2021) - Solar thermal sizing
+    validations:
+      required: false
+
+  - type: dropdown
+    id: feasibility
+    attributes:
+      label: Overall Feasibility Assessment
+      description: Based on your expertise, how viable is this approach?
+      options:
+        - Highly feasible with minor corrections
+        - Feasible but needs significant modifications
+        - Challenging but possibly workable
+        - Significant concerns about viability
+        - Not feasible as currently designed
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: follow-up
+    attributes:
+      label: Follow-up
+      options:
+        - label: I'm willing to answer follow-up questions
+        - label: I'd like to be credited in CONTRIBUTORS.md
+        - label: I can provide additional references if needed
+        - label: I'd be interested in reviewing future updates
+
+  - type: markdown
+    attributes:
+      value: |
+        ---
+
+        **Thank you for your comprehensive expert review!** This feedback is invaluable for improving the technical accuracy and feasibility of this project.
+
+        Your insights will be carefully reviewed and incorporated into the documentation. If you'd like to be credited, we'll add your name and expertise area to CONTRIBUTORS.md.

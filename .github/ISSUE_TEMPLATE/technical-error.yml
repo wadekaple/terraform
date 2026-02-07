@@ -1,0 +1,108 @@
+name: 🐛 Technical Error Report
+description: Report a calculation error, incorrect assumption, or technical mistake
+title: "[ERROR] "
+labels: ["bug", "needs-review"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for helping improve the technical accuracy of this project!
+
+        This form is for reporting specific technical errors like:
+        - Math calculation mistakes
+        - Incorrect physics/chemistry
+        - Unrealistic assumptions
+        - Outdated or incorrect data
+
+  - type: dropdown
+    id: expertise
+    attributes:
+      label: Your Area of Expertise
+      description: This helps us understand the context of your feedback
+      options:
+        - Desalination Engineering
+        - Solar Energy / Solar Thermal
+        - Aquaculture / Aquaponics
+        - Agricultural Engineering
+        - Civil / Structural Engineering
+        - Mechanical Engineering
+        - Chemical Engineering
+        - Salt Production
+        - Cost Estimation / Construction
+        - Regulatory / Compliance
+        - Other (please specify in description)
+    validations:
+      required: true
+
+  - type: input
+    id: document
+    attributes:
+      label: Document with Error
+      description: Which file contains the error? (e.g., research/homestead-scale-system.md)
+      placeholder: research/...
+    validations:
+      required: true
+
+  - type: input
+    id: section
+    attributes:
+      label: Section or Line Number
+      description: Where in the document is the error? (section heading or approximate line number)
+      placeholder: "Line 245 or 'Energy Budget' section"
+    validations:
+      required: false
+
+  - type: textarea
+    id: error-description
+    attributes:
+      label: What's Wrong?
+      description: Describe the technical error you found
+      placeholder: |
+        The calculation assumes X, but this is incorrect because...
+
+        The correct value should be Y because...
+    validations:
+      required: true
+
+  - type: textarea
+    id: correction
+    attributes:
+      label: Suggested Correction
+      description: How should this be fixed? (if you know)
+      placeholder: |
+        Replace the calculation with: ...
+
+        Update the assumption to: ...
+
+        Use this reference instead: ...
+    validations:
+      required: false
+
+  - type: textarea
+    id: references
+    attributes:
+      label: References or Citations
+      description: Any research papers, standards, or sources that support your correction?
+      placeholder: |
+        - Smith et al. (2020) - Journal of Desalination
+        - ASHRAE Handbook, Chapter 15
+        - Personal experience from 10 years in solar thermal design
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: severity
+    attributes:
+      label: How Critical is this Error?
+      options:
+        - label: Minor (typo, formatting, small numerical error)
+        - label: Moderate (affects one calculation but not overall system)
+        - label: Major (significantly affects system design or feasibility)
+        - label: Critical (makes the entire approach unworkable)
+
+  - type: markdown
+    attributes:
+      value: |
+        ---
+
+        **Thank you for your expertise!** Even small corrections help improve this documentation.

@@ -1,0 +1,93 @@
+name: ❓ Question / Clarification
+description: Ask questions about the design, calculations, or documentation
+title: "[QUESTION] "
+labels: ["question"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Have a question about the project? Ask here!
+
+        This could be:
+        - Clarification about a calculation
+        - Understanding the reasoning behind a design decision
+        - Questions about data sources or references
+        - How different subsystems integrate
+        - Implementation details
+
+  - type: dropdown
+    id: question-category
+    attributes:
+      label: Question Category
+      description: What aspect of the project is your question about?
+      options:
+        - Energy System (solar, RO, thermal)
+        - Water System (desalination, distribution, cooling)
+        - Food Production (aquaponics, livestock, crops)
+        - Salt Production (brine, crystallization, market)
+        - Infrastructure (buildings, rooftops, underground)
+        - Economics (costs, revenue, ROI)
+        - Regulatory / Compliance
+        - Site Selection / Geography
+        - General System Integration
+        - Other
+    validations:
+      required: true
+
+  - type: input
+    id: document
+    attributes:
+      label: Related Document (if applicable)
+      description: Which document is your question about?
+      placeholder: research/homestead-scale-system.md
+    validations:
+      required: false
+
+  - type: textarea
+    id: question
+    attributes:
+      label: Your Question
+      description: What would you like to know?
+      placeholder: |
+        I'm confused about...
+
+        Why did you choose X instead of Y?
+
+        How does the [system A] connect to [system B]?
+
+        What happens if [scenario]?
+    validations:
+      required: true
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional Context
+      description: Any additional information that might help us answer your question?
+      placeholder: |
+        I'm asking because...
+
+        I noticed that...
+
+        This seems to conflict with...
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: background
+    attributes:
+      label: Your Background (optional)
+      description: Helps us tailor the response to your knowledge level
+      options:
+        - label: I'm an engineer/technical professional
+        - label: I'm a student or researcher
+        - label: I'm interested in building something similar
+        - label: I'm just curious about the approach
+        - label: Other
+
+  - type: markdown
+    attributes:
+      value: |
+        ---
+
+        **Thank you for your question!** We'll do our best to clarify. If the answer reveals gaps in the documentation, we'll update it to be clearer for future readers.
