@@ -207,8 +207,8 @@ Combined with partial earth-sheltering: likely sufficient without evaporative co
 - **Recommendation:** Phase 2 optimization after base system validation (Year 2-3). Not necessary for initial operation - green roofs already provide some browse, and $250-500/year supplement is manageable.
 
 **Chicken and fish feed:** Black Soldier Fly (BSF) larvae + commercial supplements
-- **Material flow:** Livestock manure (12 kg/day) → Mushroom substrate → Spent mushroom substrate (SMS, 18 kg/day) → BSF composting
-- **BSF production:** 2.7 kg fresh larvae/day (990 kg/year) from SMS + aquaponics waste
+- **Material flow:** Livestock manure (12 kg/day) → Mushroom substrate → Spent mushroom substrate (SMS, 18 kg/day) + kitchen scraps (1.5-2.5 kg/day) + aquaponics waste (1.5-2.5 kg/day) → BSF composting
+- **BSF production:** 2.7 kg fresh larvae/day (990 kg/year) from SMS + kitchen scraps + aquaponics waste
 - **BSF allocation:** Fish 2.0 kg/day (49% of diet), Chickens 0.7 kg/day (30% of diet)
 - **Commercial feed needed:** Fish pellets 2.1 kg/day ($1,150/year), Chicken feed 1.8 kg/day ($460/year)
 - **Feed self-sufficiency:** 42% from BSF, 58% purchased ($1,610/year total)
@@ -230,7 +230,7 @@ Instead of disposing of RO brine, convert it to food-grade sea salt:
 
 | Use | Daily (L) | Notes |
 |---|---|---|
-| Aquaponics make-up | 100-150 | Conservative estimate: 0.5-1% daily loss + transpiration (see [Aquaponics Research](aquaponics-system-design.md)) |
+| Aquaponics make-up | 150-200 | Conservative design value: 1-1.5% daily loss + transpiration (see [Aquaponics Research](aquaponics-system-design.md)) |
 | Chickens (24 birds) | 12-24 | 0.5-1.0 L/bird in desert heat (35-45°C) |
 | Sheep (5 animals) | 25-40 | 5-8 L/head in hot arid climate |
 | Goats (5 animals) | 20-40 | 4-8 L/head in hot arid climate |
@@ -240,8 +240,8 @@ Instead of disposing of RO brine, convert it to food-grade sea salt:
 | BSF composting moisture | 10-20 | Maintain substrate humidity |
 | Facility cleaning | 20-40 | Pens, equipment |
 | Green roof irrigation (200 m²) | 60-100 | 0.3-0.5 L/m²/day established plants; 200 L/day during establishment (6-12 months) |
-| **TOTAL (established)** | **~447-614** | **~0.45-0.61 m³/day** |
-| **TOTAL (establishment phase)** | **~532-714** | **~0.53-0.71 m³/day** |
+| **TOTAL (established)** | **~497-664** | **~0.50-0.66 m³/day** |
+| **TOTAL (establishment phase)** | **~582-764** | **~0.58-0.76 m³/day** |
 
 ### Water Sources
 
@@ -477,20 +477,32 @@ As the system scales up, MED becomes increasingly attractive:
 
 **Pond configuration (7 ponds total):**
 
-| Pond | Size | Volume | Purpose | Residence/Cycle |
-|---|---|---|---|---|
-| **CaCO₃ settling** | 2m × 2m × 0.75m | 3 m³ (4 m²) | Calcium carbonate precipitation | 4 days continuous |
-| **Concentrator 2A** | 6m × 6m × 0.5m | 18 m³ (36 m²) | Evaporation + gypsum | 33-day cycle (batch) |
-| **Concentrator 2B** | 6m × 6m × 0.5m | 18 m³ (36 m²) | Evaporation + gypsum | 33-day cycle (batch) |
-| **Concentrator 2C** | 6m × 6m × 0.5m | 18 m³ (36 m²) | Evaporation + gypsum | 33-day cycle (batch) |
-| **Concentrator 2D** | 6m × 6m × 0.5m | 18 m³ (36 m²) | Evaporation + gypsum | 33-day cycle (batch) |
-| **Crystallizer A** | 5m × 5m × 0.2m | 5 m³ (25 m²) | NaCl crystallization | 45-day cycle (batch) |
-| **Crystallizer B** | 5m × 5m × 0.2m | 5 m³ (25 m²) | NaCl crystallization | 45-day cycle (batch) |
-| **Bitterns tank** | 2m × 3m | (6 m²) | Mg/K-rich mother liquor | Collection |
+| Pond | Size | Volume | Location | Purpose | Residence/Cycle |
+|---|---|---|---|---|---|
+| **CaCO₃ settling** | 2m × 2m × 0.75m | 3 m³ (4 m²) | Ground | Calcium carbonate precipitation | 4 days continuous |
+| **Concentrator 2A** | 6m × 6m × 0.5m | 18 m³ (36 m²) | **Processing roof** | Evaporation + gypsum | 33-day cycle (batch) |
+| **Concentrator 2B** | 6m × 6m × 0.5m | 18 m³ (36 m²) | **Processing roof** | Evaporation + gypsum | 33-day cycle (batch) |
+| **Concentrator 2C** | 6m × 6m × 0.5m | 18 m³ (36 m²) | **Livestock roof** | Evaporation + gypsum | 33-day cycle (batch) |
+| **Concentrator 2D** | 6m × 6m × 0.5m | 18 m³ (36 m²) | **Livestock roof** | Evaporation + gypsum | 33-day cycle (batch) |
+| **Crystallizer A** | 5m × 5m × 0.2m | 5 m³ (25 m²) | **Processing roof** | NaCl crystallization | 45-60 day cycle |
+| **Crystallizer B** | 5m × 5m × 0.2m | 5 m³ (25 m²) | **Livestock roof** | NaCl crystallization | 45-60 day cycle |
+| **Bitterns tank** | 2m × 3m | (6 m²) | Ground | Mg/K-rich mother liquor | Collection |
 
-**Total footprint:** ~15m × 14m (204 m² / 2,195 sq ft)
+**Roof distribution:**
+- **Processing building roof:** 2A + 2B + Crystallizer A = 97 m² (fits in 100 m² available)
+- **Livestock building roof:** 2C + 2D + Crystallizer B = 97 m² (fits in 100 m² available)
+- **Ground level:** CaCO₃ settling + Bitterns tank = 10 m²
+- **Total system:** 204 m²
 
-**Note:** Pond area increased significantly from initial estimate (110 m² → 204 m²) to properly account for residence time requirements in batch operation. Four concentrator ponds operating in rotating cycles ensure continuous brine processing with 1-day overlaps between filling windows for operational buffer.
+**Flow architecture (self-contained per roof):**
+- **Roof 1 loop:** Ground CaCO₃ → Pump 1 → Concentrators 2A/2B → Gravity → Crystallizer A → Gravity → Ground bitterns
+- **Roof 2 loop:** Ground CaCO₃ → Pump 2 → Concentrators 2C/2D → Gravity → Crystallizer B → Gravity → Ground bitterns
+
+Each roof operates independently with its own concentrator-to-crystallizer flow path. No cross-roof brine transfers needed.
+
+**Evaporative cooling benefit:** 194 m² of rooftop evaporation provides ~273 kWh/day time-averaged cooling (7.8x facility cooling need of 20-35 kWh/day), while producing 11.5 tonnes/year of food-grade salt. See [Rooftop Salt Pond Design](rooftop-salt-pond-design.md) for detailed thermal analysis.
+
+**Note:** Pond area increased significantly from initial estimate (110 m² → 204 m²) to properly account for residence time requirements in batch operation. Four concentrator ponds operating in rotating cycles ensure continuous brine processing with 1-day overlaps between filling windows for operational buffer. Rooftop placement provides massive passive cooling while eliminating need for dedicated ground space.
 
 ### Production Process (Batch Operation)
 
@@ -507,19 +519,40 @@ As the system scales up, MED becomes increasingly attractive:
 4. **Repeat cycle**
 
 **Four concentrators offset by 8 days provide continuous operation:**
-- Pond 2A fills Days 1-10
-- Pond 2B fills Days 9-18 (1-day overlap)
-- Pond 2C fills Days 17-26 (1-day overlap)
-- Pond 2D fills Days 25-34 (1-day overlap)
+- Pond 2A fills Days 1-10 → transfers to Crystallizer A (Day 33)
+- Pond 2B fills Days 9-18 (1-day overlap) → transfers to Crystallizer A (Day 41)
+- Pond 2C fills Days 17-26 (1-day overlap) → transfers to Crystallizer B (Day 49)
+- Pond 2D fills Days 25-34 (1-day overlap) → transfers to Crystallizer B (Day 57)
 - Pond 2A fills Days 33-42 (new cycle, 1-day overlap)
 
-**Crystallizer cycle (45-60 days per pond, rotating harvest):**
-1. **Receive:** ~2,000 L concentrated brine at 260,000 ppm from concentrator
-2. **Crystallize:** Static pond for 45-60 days, NaCl crystals grow and settle
-3. **Harvest:** Rake salt from pond floor when 5-10 cm layer accumulates
-4. **Wash:** Rinse with saturated brine (not fresh water) to remove bitter compounds
-5. **Dry:** Sun-dry or solar dryer
-6. **Package:** Food-grade bags
+**Self-contained roof flows:**
+- **Processing roof:** 2A and 2B both feed Crystallizer A (receives brine every 16 days)
+- **Livestock roof:** 2C and 2D both feed Crystallizer B (receives brine every 16 days)
+- No cross-roof brine transfers needed - each roof is independent
+
+**Crystallizer cycle (continuous accumulation, weekly incremental harvest):**
+1. **Receive:** ~2,000 L concentrated brine at 260,000 ppm from concentrator (every 16 days)
+2. **Crystallize:** Continuous accumulation, NaCl crystals grow and settle in layers
+3. **Harvest:** Weekly incremental harvest of ~200 kg (1-2 cm layer depth)
+   - **Schedule:** Alternating roofs each week (Roof 1 Week 1, Roof 2 Week 2, repeat)
+   - **Timing:** Early morning (6-7 AM) when cool
+   - **Method:** Rake salt to gravity chute opening → slides to ground collection bins
+   - **Duration:** 1-2 hours including washing and spreading to dry
+   - **Safety:** Fall protection required; no heavy lifting (gravity does the work)
+4. **Material handling:** Gravity chute (PVC or metal slide) from roof to ground
+   - **Advantage:** No lifting, fast, kid-friendly operation
+   - **Collection bins:** 200L barrels or totes at ground level
+5. **Wash:** Rinse with saturated brine (not fresh water) to remove bitter compounds
+6. **Dry:** Spread in solar dryer or sun-dry area (1-2 days)
+7. **Package:** Food-grade bags
+
+**Weekly incremental harvest advantages:**
+- Smaller loads (200 kg vs 800+ kg) reduce physical strain
+- No heavy lifting - gravity chute handles material transport
+- Flexible scheduling (can skip a week for weather/schedule)
+- Easier to rake thinner salt layers (less compaction)
+- Fun for kids - watching/helping with salt collection
+- More consistent product quality (fresher harvests)
 7. **Clean pond and repeat**
 
 ### Salt Quality

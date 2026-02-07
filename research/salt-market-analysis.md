@@ -267,7 +267,7 @@ Your 600-750 kg/month is ~10% of Jacobsen's volume — appropriate for 1-2 perso
 | **Annual revenue** | **$315,000** |
 | Primary channels | Direct retail, resort, online premium |
 
-### Reality Check
+### Reality Check: Market Entry Timelines
 
 Achieving premium pricing ($40-50+/kg) requires:
 - Strong brand and packaging
@@ -276,8 +276,31 @@ Achieving premium pricing ($40-50+/kg) requires:
 - Effective storytelling (origin, sustainability, purity)
 - Time to build reputation (2-3 years typically)
 
-**Year 1 realistic target:** $80,000-120,000 (wholesale + some direct)
-**Year 3 potential:** $150,000-250,000 (established brand, diversified channels)
+**Market entry takes time.** Distribution relationships, brand recognition, and premium pricing don't happen overnight. Two realistic scenarios:
+
+#### Optimistic Scenario (Fast Market Entry)
+Assumes strong network, prior relationships, or exceptional marketing:
+- **Year 1:** $80,000-120,000 (wholesale + some direct retail)
+- **Year 2:** $120,000-175,000 (expanding distribution)
+- **Year 3:** $150,000-250,000 (established brand, diversified channels)
+
+#### Conservative Scenario (Typical Market Entry)
+More realistic timeline for new producer without existing network:
+- **Year 1:** $20,000-40,000 (farmers markets, bulk commodity $0.40-0.80/kg, initial retail)
+- **Year 2:** $50,000-80,000 (regional distribution beginning, some premium accounts)
+- **Year 3:** $100,000-150,000 (established regional presence, growing brand)
+- **Year 5:** $200,000-300,000 (mature market position, premium pricing established)
+
+**Why conservative scenario is likely:**
+- Certifications and permits take 3-6 months (delays Year 1 sales)
+- Shelf space/distribution agreements take 6-12 months to establish
+- Premium pricing requires proven track record (1-2 years minimum)
+- Initial sales will be heavily commodity/wholesale priced
+
+**Good news:** Even the conservative scenario is profitable:
+- **Year 3 example:** $100K revenue - $10K operating costs - $12K labor (520 hrs @ $23/hr) = **$78K net profit**
+- **Capital payback:** $15K startup ÷ $78K profit = **2.3 months**
+- System economics remain strong even with slower market development
 
 ---
 
@@ -301,7 +324,25 @@ Achieving premium pricing ($40-50+/kg) requires:
 | Lab testing | $500-1,000 | Quarterly batches |
 | Marketing | $2,000-5,000 | Variable |
 | Shipping supplies | $1,000-3,000 | Depends on D2C volume |
-| **Total annual** | **$6,500-15,000** | |
+| **Total materials/overhead** | **$6,500-15,000** | |
+
+### Labor Requirements
+
+| Activity | Time | Notes |
+|----------|------|-------|
+| Gypsum harvest (rooftop) | Every 8 days, 2-3 hrs | Concentrator ponds, can schedule for cool hours |
+| Salt harvest (rooftop via chute) | Weekly, 1-2 hrs | Incremental 200 kg harvest, gravity chute to ground |
+| Processing, washing, packaging | 2-4 hrs/week | At ground level after chute collection |
+| Sales, marketing, customer service | 3-6 hrs/week | More in early years |
+| **Total time** | **10-15 hrs/week** | **520-780 hrs/year** |
+
+**Labor opportunity cost:** At $20-25/hr, this represents $10,400-19,500/year in time value. However:
+- Many activities can flex around other work (not rigid schedule)
+- Harvest timing is predictable (plan weeks ahead)
+- Processing can be batched
+- Early morning/evening work avoids heat
+
+**Important:** Labor cost is real even if unpaid (opportunity cost). Conservative economic scenario accounts for this ($12K-13K/year labor cost in profitability calculations).
 
 ---
 

@@ -1056,7 +1056,8 @@ Aquaponics plant waste:
 7,500 kg annual veg production × 15% waste = 1,125 kg/year = 3.1 kg/day
 
 Kitchen waste (8 people):
-1.5 kg/person/day × 8 = 12 kg/day = 4,380 kg/year
+0.2-0.3 kg/person/day × 8 = 1.6-2.4 kg/day = 600-875 kg/year
+(Vegetable prep scraps only: peelings, cores, stems — not total food waste)
 
 Chicken manure (24 birds):
 0.1 kg/bird/day × 24 = 2.4 kg/day = 876 kg/year
@@ -1064,7 +1065,7 @@ Chicken manure (24 birds):
 Small ruminant manure (10 animals):
 2.5 kg/animal/day × 10 = 25 kg/day = 9,125 kg/year
 
-TOTAL: 3.1 + 12 + 2.4 + 25 = 42.5 kg/day = 15,506 kg/year
+TOTAL: 3.1 + 2.0 + 2.4 + 25 = 32.5 kg/day = 11,863 kg/year (range: 32-33 kg/day)
 
 BSF LARVAE PRODUCTION:
 

@@ -105,24 +105,49 @@ TOTAL: ~177-182 tonnes (950-980 kg/m²)
 
 | Parameter | Value |
 |---|---|
-| Water evaporated per day | 538 L |
-| Heat of vaporization | 2,260 kJ/kg |
-| Cooling energy absorbed | 338 kWh/day |
-| Average cooling power | 14.1 kW continuous |
+| Total rooftop evaporation area | 194 m² (4 concentrators + 2 crystallizers) |
+| Time-averaged evaporation area | 157 m² (accounting for batch cycle fill levels) |
+| Water evaporated per day (time-avg) | 435 L |
+| Heat of vaporization | 2,260 kJ/kg (628 Wh/kg) |
+| **Cooling energy absorbed (time-avg)** | **273 kWh/day** |
+| **Average cooling power** | **11.4 kW continuous** |
 | **Facility summer cooling need** | **20-35 kWh/day** |
-| Seawater cooling (current design) | 15.3 kWh/day |
-| **Rooftop pond excess** | **10x facility need** |
+| Seawater cooling (alternative design) | 15.3 kWh/day |
+| **Rooftop pond margin** | **7.8x facility need** |
+
+**Important: Peak vs Time-Averaged Cooling**
+
+The evaporative cooling capacity depends on actual pond fill levels throughout batch cycles:
+
+**Total rooftop evaporation area:** 194 m² (4 concentrators @ 36 m² each + 2 crystallizers @ 25 m² each)
+
+**Time-averaged fill levels:**
+- **Concentrators (144 m²):** 33-day cycle with 10 days filling (41% full), 21 days full evaporation (100% full), 2 days harvest (empty)
+  - Time-averaged fill: ~76% of maximum capacity = 109 m² effective
+- **Crystallizers (50 m²):** 45-60 day cycle, continuous accumulation with brief harvest periods
+  - Time-averaged fill: ~95% of maximum capacity = 48 m² effective
+- **Effective evaporation area:** 157 m² time-averaged (vs 194 m² peak)
+
+**Time-averaged cooling capacity:** ~273 kWh/day
+
+Calculation: 538 L/day total evaporation × (157 m² / 194 m²) = 435 L/day time-averaged × 0.628 kWh/L = **273 kWh/day**
+
+**Design basis:** Using the 273 kWh/day time-averaged value:
+- Provides **7.8x facility cooling need** (273 ÷ 35 = 7.8x)
+- Equivalent to 11.4 kW continuous cooling power
+- Each roof contributes ~136 kWh/day
+- Sufficient thermal margin for hot weather and system reliability
 
 **Analysis:**
 
-Evaporating 538 L/day of water absorbs 338 kWh of thermal energy - equivalent to running a 14 kW air conditioner continuously. This is applied directly at the roof surface where solar gain is highest.
+Evaporating 538 L/day of water at peak capacity (all ponds full) would absorb 338 kWh of thermal energy. With batch cycle operations, time-averaged cooling is **273 kWh/day**, equivalent to running an 11.4 kW air conditioner continuously. This cooling is applied directly at the roof surface where solar gain is highest.
 
 Compare to current cooling strategies:
 - Seawater loop: 15.3 kWh/day (45% of need, requires pumping, complex piping)
 - Earth-sheltering: Reduces load by 30-50% (expensive excavation, drainage challenges)
 - Green roof insulation: R-15 to R-20, maybe 5-10 kWh/day equivalent (requires 167-335 tonnes structure)
 
-Rooftop salt ponds provide **22x more cooling than seawater loop** and **34-68x more than green roof evapotranspiration**, while being 6-13x lighter.
+Rooftop salt ponds provide **18x more cooling than seawater loop** (273 kWh ÷ 15.3 kWh, time-averaged) and **27-54x more than green roof evapotranspiration**, while being 6-13x lighter.
 
 **Thermal mechanism:**
 1. Incoming solar radiation (6-8 kWh/m²/day) heats brine surface
@@ -138,58 +163,64 @@ Rooftop salt ponds provide **22x more cooling than seawater loop** and **34-68x 
 3. **Greenhouse benefits:** Cooler roof reduces greenhouse overheating risk
 4. **Processing building benefits:** Maintains stable temperatures for mushrooms, BSF, RO equipment
 5. **Energy savings:** 0.2-0.5 kWh/day ventilation/cooling eliminated from energy budget
-6. **Can eliminate seawater cooling loop:** If ponds provide sufficient cooling, seawater loop becomes optional backup
+6. **Reduces seawater cooling loop dependency:** With 7.5x margin over cooling needs (time-averaged), seawater loop becomes optional backup rather than primary system
 
 ### Finding 3: Configuration Options - Split vs. Concentrated
 
 **Data:**
 
-Three viable configurations analyzed:
+**Final Configuration (Split Between Two Roofs):**
 
-**Option A: Split Between Two Roofs (RECOMMENDED)**
-- Processing building roof: 55 m² (Concentrator 1 + half of Crystallizer A)
-- Livestock building roof: 55 m² (Concentrator 2 + half of Crystallizer B)
-- Bitterns tank: 6 m² (ground level or one roof)
-- Weight per building: 12.7 tonnes
-- Load per building: 136 kg/m²
+After accounting for residence time requirements in batch operation, the pond system expanded from initial 110 m² estimate to 204 m² total (4 concentrators + 2 crystallizers instead of 2+2). The system splits evenly across both building roofs:
 
-**Option B: All Ponds on Processing Roof**
-- Processing building: 110 m² (all ponds)
-- Requires slightly oversized roof (93 m² base → 110 m² with overhang)
-- Weight: 25.3 tonnes on one structure
-- Load: 230 kg/m² (still within commercial capacity)
+**Processing Building Roof (97 m² of 100 m² available):**
+- Concentrator 2A: 36 m² (6m × 6m × 0.5m, 18 m³)
+- Concentrator 2B: 36 m² (6m × 6m × 0.5m, 18 m³)
+- Crystallizer A: 25 m² (5m × 5m × 0.2m, 5 m³)
+- Weight: ~22.4 tonnes (18+18+2.5+3.9 tonnes water/liner/structure)
+- Load: 227 kg/m² (within commercial roof capacity of 250+ kg/m²)
 
-**Option C: Hybrid Rooftop/Ground**
-- Processing roof: 60 m² (Crystallizers A & B - final evaporation)
-- Livestock roof: 25 m² (Concentrator 2)
-- Ground level: 25 m² (Concentrator 1 + Bitterns tank)
-- Roof weight: ~14 tonnes distributed
-- Benefit: Easier brine flow management from ground concentrators
+**Livestock Building Roof (97 m² of 100 m² available):**
+- Concentrator 2C: 36 m² (6m × 6m × 0.5m, 18 m³)
+- Concentrator 2D: 36 m² (6m × 6m × 0.5m, 18 m³)
+- Crystallizer B: 25 m² (5m × 5m × 0.2m, 5 m³)
+- Weight: ~22.4 tonnes
+- Load: 227 kg/m² (within commercial roof capacity)
 
-**Analysis:**
+**Ground Level (10 m²):**
+- CaCO₃ settling pond: 4 m² (2m × 2m × 0.75m, 3 m³)
+- Bitterns collection tank: 6 m² (2m × 3m)
 
-**Option A (Split) advantages:**
-- Balanced cooling across both buildings (each gets ~169 kWh/day)
-- Lower point loads (136 kg/m² vs 230 kg/m²)
-- Redundancy - if one roof fails, partial salt production continues
-- Easier access for harvesting (two smaller areas vs one large)
+**Self-contained flow architecture:**
+- **Roof 1 loop:** Ground CaCO₃ → Pump 1 → Concentrators 2A/2B → Gravity → Crystallizer A → Gravity → Ground bitterns
+- **Roof 2 loop:** Ground CaCO₃ → Pump 2 → Concentrators 2C/2D → Gravity → Crystallizer B → Gravity → Ground bitterns
+- Each roof operates independently - no cross-roof brine transfers needed
+- Concentrators on same roof feed that roof's crystallizer (every 16 days)
 
-**Option B (Concentrated) advantages:**
-- Centralized salt processing (all harvesting in one location)
-- Simpler plumbing (one brine feed point)
-- More roof area free for other uses (solar, skylights)
+**Design Advantages:**
 
-**Option C (Hybrid) advantages:**
-- Ground concentrators easier to manage heavy brine inflow
-- Roof crystallizers provide maximum cooling benefit (most evaporation)
-- Reduces roof loads (only 85 m² on roof vs 110 m²)
-- Progressive concentration: Ground→Roof with gravity assist
+**Balanced cooling across both buildings:**
+- Each roof: ~136 kWh/day time-averaged evaporative cooling
+- Total: 273 kWh/day (7.8x facility cooling need of 20-35 kWh/day)
+- Processing building benefits: Cools RO unit, workshop, mushroom cultivation
+- Livestock building benefits: Reduces animal heat stress, improves air quality
 
-**Implications:**
+**Self-contained operational loops:**
+- No cross-roof brine transfers simplifies pumping and scheduling
+- Each roof has 2 concentrators + 1 crystallizer (complete salt production chain)
+- If one roof system fails, other roof continues 50% salt production
+- Maintenance and harvesting distributed across both roofs
 
-**Recommended: Option A (Split)** for homestead scale because:
-1. Both buildings need cooling (processing has RO/workshop heat, livestock has animal heat)
-2. Load distribution reduces structural requirements
+**Structural feasibility:**
+- 227 kg/m² loading well within commercial roof capacity (250-400 kg/m²)
+- Weight balanced across both buildings (~22.4 tonnes each)
+- Fits within available roof area (97 m² of 100 m² per roof)
+
+**Pumping simplicity:**
+- Two small pumps (1-2 L/min capacity, only ~10 days duty per 33-day cycle)
+- Low head pressure (4m = 0.4 bar)
+- Gravity return flow (concentrators → crystallizers → ground bitterns)
+- Minimal energy use: ~0.05-0.1 kWh/day per pump
 3. Easier construction phasing (build one roof of ponds, validate, add second)
 4. Harvest labor distributed (not all on one roof)
 
@@ -545,6 +576,13 @@ This approach targets **standard/premium sea salt market** ($20-40/kg average):
 - Appropriate for restaurant sales, retail, online channels
 - Annual revenue potential: **$140,000-280,000** (7 tonnes @ $20-40/kg)
 
+**Market entry timeline:** The $140K-280K figure represents established market positioning (Year 3-5). Realistic expectations:
+- **Year 1:** $20K-40K (farmers markets, bulk commodity, building relationships)
+- **Year 2:** $50K-80K (regional distribution starting, some premium accounts)
+- **Year 3+:** $100K-280K (established brand, diversified channels)
+
+Market development takes 2-3 years for premium pricing. Initial sales will focus on bulk/wholesale ($0.40-0.80/kg) while building brand and distribution. See [Salt Market Analysis](salt-market-analysis.md) for detailed projections and timeline scenarios.
+
 **NOT targeting ultra-premium market** ($50-80+/kg):
 - Would require transparent panel covers over crystallizers ($400-600)
 - Ultra-clean "finishing salt" positioning
@@ -587,6 +625,78 @@ Harvest → Drain excess brine → Saturated brine rinse → Drain → Sun dry (
 
 ---
 
+### Finding 11: Material Handling - Gravity Chute System for Safe Salt Harvest
+
+**Challenge identified:**
+Crystallizers on rooftops require harvesting ~827 kg of salt per event (every 22-30 days). Moving nearly a ton of material from roof to ground presents safety risks (fall hazard, heat exposure, physical strain).
+
+**Solution: Weekly incremental harvest + gravity chute**
+
+**Harvest schedule:**
+- **Weekly incremental:** ~200 kg per week instead of 800+ kg monthly
+- **Alternating roofs:** Week 1 (Roof 1), Week 2 (Roof 2), repeat
+- **Timing:** Early morning (6-7 AM) when temperatures are coolest
+- **Duration:** 1-2 hours including raking, washing, and spreading to dry
+
+**Gravity chute system:**
+
+| Component | Specification | Cost |
+|-----------|--------------|------|
+| **Chute material** | 8" PVC pipe or metal trough, 4-5m length | $200-600 |
+| **Angle** | 30-45° for good flow | - |
+| **Opening** | Hinged door at roof edge, secure when not in use | $50-100 |
+| **Weather cover** | Lid/cap to protect when not in use | $30-80 |
+| **Collection bins** | 200L drums or totes at ground level (×2 per roof) | $120-200 |
+| **Total system (both roofs)** | | **$800-1,960** |
+
+**Operation:**
+1. Rake 1-2 cm salt layer toward chute opening (~200 kg)
+2. Open chute door, push salt in
+3. Salt slides down to collection bins at ground
+4. Close and secure chute
+5. Wash salt with saturated brine at ground level
+6. Spread to dry in solar dryer
+
+**Advantages:**
+
+**Safety:**
+- ✅ No heavy lifting - gravity does the work
+- ✅ No carrying loads across roof
+- ✅ Faster operation = less roof exposure time
+- ✅ Fall protection still required but lower risk (no heavy loads)
+
+**Operational:**
+- ✅ 1-2 hours per week vs 4-6 hours per month (same total, safer pace)
+- ✅ Flexible scheduling (can skip a week for bad weather)
+- ✅ Thinner salt layers easier to rake (less compaction)
+- ✅ More consistent product quality (fresher salt)
+
+**Family-friendly:**
+- ✅ Kids can safely help at ground level (collecting, watching)
+- ✅ Fun activity ("salt slide day!") vs. dangerous chore
+- ✅ Educational about salt production process
+- ✅ Turns weekly harvest into engaging family routine
+
+**Comparison to alternatives:**
+
+| Method | Cost | Safety | Labor | Kid-Safe |
+|--------|------|--------|-------|----------|
+| **Gravity chute (CHOSEN)** | **$800-2,000** | **High** | **Low** | **✅ Yes** |
+| Electric hoist | $1,000-3,000 | Medium | Medium | ⚠️ Supervised |
+| Manual pulley | $200-500 | Medium | High | ❌ No |
+| Ground crystallizers | $0 | High | Low | ✅ Yes |
+
+**Trade-off accepted:**
+Keeping crystallizers on roof provides ~50 m² additional evaporative cooling (~87 kWh/day, 2.5x facility need). Gravity chute system makes this operationally safe and practical while maintaining full cooling benefit.
+
+**Design note:**
+Chute must be secured when not in use (lock or removable section) to prevent:
+- Unauthorized access
+- Wildlife/debris entry
+- Weather damage to collection area
+
+---
+
 ## Key Takeaways
 
 1. **Rooftop salt ponds are 6-13x lighter than green roofs** (25 tonnes vs 167-335 tonnes), requiring only standard commercial roof structure instead of heavy reinforcement. This saves $5,000-9,000 in structural costs alone.
@@ -606,6 +716,8 @@ Harvest → Drain excess brine → Saturated brine rinse → Drain → Sun dry (
 8. **Salt production unaffected** - 11.5 tonnes/year production continues with optimal solar exposure and airflow on rooftops. May even improve due to better sun angle and wind circulation.
 
 9. **Dust contamination is manageable with zero added cost** - Existing windbreak walls (salt spray control) reduce dust deposition 40-60%, and post-harvest brine washing produces clean food-grade salt suitable for standard market positioning ($140K-280K/year revenue at $20-40/kg).
+
+10. **Safe material handling via gravity chute system ($800-2,000)** - Weekly incremental harvest (200 kg vs 800+ kg monthly) combined with gravity chutes eliminates heavy lifting and reduces safety risk. Bonus: turns salt harvest into kid-friendly family activity instead of dangerous chore.
 
 ---
 

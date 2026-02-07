@@ -71,6 +71,21 @@ The project has developed **two parallel system models**:
 
 ## Working with This Repository
 
+### Session Startup Protocol
+
+**When resuming work with `/pickup`:**
+
+1. **Check peer review recommendations FIRST:**
+   - Read `../terraform-review/recommendations.md`
+   - Summarize any CRITICAL or HIGH priority items
+   - Ask user which (if any) to address this session
+
+2. **Then proceed with pickup's "Next session" items**
+
+This ensures review feedback from the agentic review project is incorporated before continuing planned work. The review project performs consistency checks, skeptical analysis, and expert simulations.
+
+**Manual check anytime:** Use `/check-reviews` to see current recommendations.
+
 ### Session Continuity
 
 **Session log location:** `session-log.md` at the **project root** (NOT in `.claude/skills/continue/`)
@@ -84,7 +99,7 @@ The project has developed **two parallel system models**:
 3. Archive entries older than 30 days to keep file lightweight
 
 **To resume work:**
-- Use the `/continue` command - it will load and display the session log
+- Use the `/pickup` command - it will load and display the session log
 - Review "Next session" items from the previous entry
 - Load only the specific files mentioned (don't load entire repo)
 
