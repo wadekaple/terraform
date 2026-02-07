@@ -66,7 +66,7 @@ git commit -m "Initial commit with MkDocs setup"
 gh repo create terraform --public --source=. --remote=origin
 
 # Or add remote manually
-git remote add origin https://github.com/yourusername/terraform.git
+git remote add origin https://github.com/wadekaple/terraform.git
 
 # Push to GitHub
 git branch -M main
@@ -87,9 +87,9 @@ git push -u origin main
    Edit `mkdocs.yml` and update these fields:
 
    ```yaml
-   site_url: https://yourusername.github.io/terraform/
-   repo_name: yourusername/terraform
-   repo_url: https://github.com/yourusername/terraform
+   site_url: https://wadekaple.github.io/terraform/
+   repo_name: wadekaple/terraform
+   repo_url: https://github.com/wadekaple/terraform
    ```
 
 ### Automated Deployment
@@ -111,7 +111,7 @@ git push origin main
 # GitHub Actions will automatically:
 # 1. Build the site with mkdocs
 # 2. Deploy to gh-pages branch
-# 3. Site will be live at https://yourusername.github.io/terraform/
+# 3. Site will be live at https://wadekaple.github.io/terraform/
 ```
 
 **Check deployment status:**
@@ -165,7 +165,7 @@ Edit `mkdocs.yml` to customize:
 site_name: Your Project Name
 site_description: Your description
 site_author: Your Name
-site_url: https://yourusername.github.io/yourrepo/
+site_url: https://wadekaple.github.io/yourrepo/
 ```
 
 ### Navigation
@@ -332,7 +332,7 @@ mkdocs --version
 3. Create GitHub repository
 4. Push to GitHub: `git push origin main`
 5. Enable GitHub Pages in repository settings
-6. Site will be live at `https://yourusername.github.io/terraform/`
+6. Site will be live at `https://wadekaple.github.io/terraform/`
 
 ---
 
