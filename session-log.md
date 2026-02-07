@@ -4,6 +4,80 @@ Quick reference for picking up where you left off. Most recent sessions at top.
 
 ---
 
+## 2026-02-06 - AI Content Labeling + Contribution Infrastructure
+
+**Session focus:** Implementing AI content warnings and setting up community contribution system
+
+**Files modified:**
+- `overrides/main.html` (created) - HTML meta tags, JSON-LD, HTML comments for AI agents
+- `docs/ai-agents.txt` (created) - Dedicated instructions for AI crawlers
+- `AI_CONTENT_LABELING.md` (created) - Documentation of 5-layer labeling system
+- `add_metadata.sh` (created + executed) - Script to add YAML front matter to all .md files
+- All `.md` files (updated) - Added AI-generated content metadata in YAML front matter
+- `research/rooftop-salt-pond-design.md` (updated) - Added Finding 10: Dust Management
+- `CONTRIBUTING.md` (created) - Comprehensive contributor guide with specific asks
+- `CONTRIBUTORS.md` (created) - Placeholder for expert reviewer credits
+- `.github/ISSUE_TEMPLATE/` (created) - 4 issue templates + config:
+  - `technical-error.yml` - For reporting calculation errors
+  - `expert-review.yml` - For comprehensive domain expert feedback
+  - `question.yml` - For clarification questions
+  - `suggestion.yml` - For proposing alternative approaches
+  - `config.yml` - Issue template configuration
+
+**Discoveries/Decisions:**
+
+**AI Content Labeling (5-layer approach):**
+1. HTML meta tags + JSON-LD structured data (every page via MkDocs override)
+2. HTML comments with explicit AI agent instructions
+3. YAML front matter in all markdown source files
+4. Dedicated ai-agents.txt with comprehensive guidelines
+5. Full documentation in AI_CONTENT_LABELING.md
+
+**Dust Management for Salt Ponds:**
+- Question: How to keep windblown dust out of rooftop salt ponds?
+- Answer: Standard market positioning ($20-40/kg) using existing infrastructure
+- Windbreak walls (already budgeted) reduce dust 40-60%
+- Post-harvest brine washing (saturated brine won't dissolve crystals)
+- Winter covers can deploy during dust storms
+- Revenue potential: $140K-280K/year (7 tonnes @ $20-40/kg)
+- No additional cost beyond what's already specified
+
+**Calcium Carbonate Settling:**
+- Question: Could vortex separator replace large settling ponds?
+- Answer: Yes, technically - could save 15-25 m² roof space for $350-800
+- Hydrocyclone would do separation job in minutes vs days
+- BUT: Still need evaporation surface area (that's the real constraint)
+- Not worth added complexity at homestead scale
+- Good option for industrial scale or space-constrained sites
+- Decision: Not documenting this alternative (kept as Q&A knowledge)
+
+**Contribution Infrastructure:**
+- Targeting 8 expert categories (desalination, solar, aquaponics, etc.)
+- Specific ask: Aquaponics media/DWC/NFT ratio recommendations
+- Contribution methods: GitHub Issues + Discussions only (no PRs/email yet)
+- Issue templates provide structured forms for feedback
+- CONTRIBUTORS.md ready to credit expert reviewers
+
+**Active work status:**
+- All AI labeling deployed to GitHub and live on published site
+- Contribution infrastructure complete and ready for outreach
+- No active research work in progress
+
+**Next session:**
+Consider community outreach strategies:
+- Create seed GitHub issues to show activity
+- Reddit post to r/aquaponics about media/DWC/NFT ratios
+- Hacker News "Show HN" post when ready for wider exposure
+- Direct email to desalination/solar researchers
+
+**Notes:**
+- Session was continuation from context compaction - prior work included MkDocs setup, Mermaid diagrams, GitHub deployment
+- Project now has robust metadata for future AI systems to understand limitations
+- Ready for expert review and community engagement
+- Contribution infrastructure designed to make feedback easy and structured
+
+---
+
 ## 2026-02-06 - Below-Grade Construction Analysis
 
 **Session focus:** Feasibility analysis of underground/earth-sheltered construction approach
