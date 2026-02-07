@@ -14,6 +14,7 @@ copyright: Copyright &copy; 2024-2026 Coastal Desert Terraforming Project
 # Theme
 theme:
   name: material
+  custom_dir: overrides
   palette:
     # Light mode
     - scheme: default
@@ -103,8 +104,13 @@ extra_javascript:
 extra:
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/yourusername/terraform
+      link: https://github.com/wadekaple/terraform
       name: GitHub Repository
+
+  # AI Agent Metadata
+  generator: Claude AI (Anthropic)
+  content_status: hypothetical
+  verification_status: unverified
   analytics:
     feedback:
       title: Was this page helpful?
