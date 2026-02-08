@@ -28,24 +28,25 @@ Questions are grouped by topic. When a question is answered, move the findings t
 - Resolution: Greenhouse roof must be transparent glazing (70-80%) + solar panels (20-30%). Green roofs with soil cover are appropriate for processing buildings (RO, BSF, mushrooms) and livestock shelters, but NOT for the greenhouse. See `research/below-grade-construction-analysis.md` for details.
 - Related files: `research/homestead-scale-system.md`, `research/below-grade-construction-analysis.md`
 
-**Should salt evaporation ponds be moved to rooftops instead of ground level?**
-- Context: Corrected pond sizing shows 204 m² total footprint (nearly doubled from initial estimate). Rooftop configuration could place 4 concentrator ponds (144 m²) on processing building + livestock shelter roofs, keeping only CaCO₃ (4 m²) + crystallizers (50 m²) = 54 m² on ground. **73% land footprint reduction.**
-- **Advantages:**
-  - Land savings: 204 m² → 54 m² ground (150 m² moved to roofs)
-  - 2-3x lighter than green roofs (500 kg/m² vs 800-1,600 kg/m²)
-  - Massive evaporative cooling: 715 kWh/day (vs 5-10 kWh/day from green roofs)
-  - Cost savings: $4,000-8,000 vs green roof construction
-  - Water savings: Eliminate 55-95 L/day green roof irrigation
-  - Gravity feed from elevated concentrators to ground crystallizers
-- **Challenges:**
-  - Structural engineering required (500 kg/m² roof loading)
-  - Plumbing complexity (pumps between roof levels)
-  - Leak risk (double-liner + detection system needed)
-  - Roof access for pond maintenance
-  - Safety (fall protection, railings)
-- Related files: `research/rooftop-salt-pond-design.md` (comprehensive analysis), `research/homestead-scale-system.md`
-- Priority: High (significant land savings, but major architectural decision)
-- Added: 2026-02-06
+**~~Should salt evaporation ponds be moved to rooftops instead of ground level?~~** ✅ RESOLVED 2026-02-07
+- Resolution: **YES - rooftop configuration finalized.** Salt ponds now implemented on both roofs (194 m² total split across processing + livestock roofs). Each roof gets 97 m² (2 concentrators @ 36 m² each + 1 crystallizer @ 25 m²). Only CaCO₃ settling pond (10 m²) + bitterns tank on ground.
+- **Final configuration:**
+  - **Processing roof:** Concentrators 2A, 2B (72 m²) + Crystallizer A (25 m²) = 97 m²
+  - **Livestock roof:** Concentrators 2C, 2D (72 m²) + Crystallizer B (25 m²) = 97 m²
+  - **Ground:** CaCO₃ settling pond (10 m²) + bitterns storage tank only
+  - **Land footprint reduction:** 204 m² → 10 m² ground (95% reduction)
+- **Key benefits achieved:**
+  - Self-contained flow per roof (no cross-roof brine transfers)
+  - Evaporative cooling: 273 kWh/day time-averaged (7.8× facility cooling need)
+  - Eliminates green roof irrigation (60-100 L/day savings)
+  - Material handling: Weekly incremental harvest + gravity chute system (safe operation)
+- **Implementation details:**
+  - Structural loading: 500 kg/m² (within roof capacity)
+  - Double-liner system with leak detection
+  - Fall protection and safety railings included in design
+  - Gravity chute salt harvest system ($800-2,000) eliminates heavy lifting
+- Related files: `research/rooftop-salt-pond-design.md` (comprehensive analysis), `research/homestead-scale-system.md` (finalized configuration), `research/salt-market-analysis.md` (economics)
+- Updated: 2026-02-07
 
 ---
 

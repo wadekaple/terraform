@@ -13,14 +13,14 @@ disclaimer: "AI-generated content. Professional verification required before imp
 # Solar Thermal System Expansion Design
 
 **Date:** 2026-02-06
-**Status:** Draft - Sizing complete, integration pending
+**Status:** Phase 1 (14 m²) adopted as homestead baseline design
 **Related:** `rv-fridge-solar-thermal-retrofit.md`, `waste-heat-recovery-cascade-system.md`, `homestead-scale-system.md`
 
 ## Summary
 
-**RECOMMENDED APPROACH: Phased expansion starting with 14 m² system**
+**ADOPTED DESIGN: 14 m² Phase 1 system (baseline for homestead-scale-system.md)**
 
-**Phase 1 (14 m² system - BASELINE):**
+**Phase 1 (14 m² system - ADOPTED BASELINE):**
 - **1 RV fridge:** Absorption refrigeration using solar thermal instead of propane
 - **Domestic hot water (DHW):** 150 L/day at 50°C for 8-10 people
 - **Existing loads:** Mushroom pasteurization + BSF processing (unchanged)
@@ -36,7 +36,7 @@ disclaimer: "AI-generated content. Professional verification required before imp
 
 ---
 
-## Current System (Baseline)
+## Starting Point (6 m² System Before Expansion)
 
 ### Existing 6 m² Solar Thermal Array
 
@@ -1041,29 +1041,51 @@ Cascade applications (aquaponics, dehydration, greenhouse, soil, DHW pre-heat)
 - RO waste heat goes to cascade system (established design)
 - Solar thermal expansion reduces electrical load, indirectly reduces RO waste heat slightly
 
-### Rooftop Salt Ponds (If Implemented)
+### Rooftop Salt Ponds Integration
 
-**Potential conflict:** Both solar thermal collectors and salt ponds need roof space
+**Finalized configuration:** Salt ponds implemented on both roofs (194 m² total)
 
-**Resolution options:**
+**Current rooftop allocation:**
 
-**Option 1: Salt ponds on livestock roof only**
-- Processing roof: 14 m² solar thermal collectors
-- Livestock roof: 144 m² concentrator salt ponds
-- Ground: 54 m² CaCO₃ + crystallizer ponds
+**Processing roof (100 m² total):**
+- Salt ponds: 97 m² (2 concentrators @ 36 m² each + 1 crystallizer @ 25 m²)
+- Available for solar thermal: 3 m² remaining
+- Current allocation: Salt ponds only (nearly full roof utilization)
 
-**Option 2: Split configuration**
-- Processing roof: 7 m² solar thermal + 72 m² salt ponds (mixed use)
-- Livestock roof: 72 m² salt ponds
-- Greenhouse roof: 7 m² solar thermal (add to existing 10 m²)
+**Livestock roof (100 m² total):**
+- Salt ponds: 97 m² (2 concentrators @ 36 m² each + 1 crystallizer @ 25 m²)
+- Available for solar thermal: 3 m² remaining
+- Current allocation: Salt ponds only (nearly full roof utilization)
+
+**Greenhouse roof (100 m² total):**
+- Glazing + structure: ~85 m² (transparent for light)
+- Solar PV panels: 8.5 m²
+- Available for solar thermal: 6.5 m² remaining (limited by glazing requirements)
+
+**Ground level:**
+- CaCO₃ settling pond: 10 m²
+- Bitterns storage tank: 1 m³ capacity
+- No crystallizers (all crystallization on rooftops)
+
+**Space availability for solar thermal expansion:**
+- Salt pond roofs: Only ~6 m² total available (3 m² per roof, constrained by pond configuration)
+- Greenhouse roof: ~6.5 m² available (limited by glazing requirements)
+- Proposed solar thermal: 14 m² requires ground-mount or dedicated structure
+- **Recommendation:** Ground-mount solar thermal collectors near processing building
 
 **Synergy opportunity:**
 - Solar thermal collectors reject heat during summer (16 kWh/day excess)
 - Could pre-warm brine entering concentrator ponds
 - Increases evaporation rate 10-15% during summer
 - Requires heat exchanger in brine feed line
+- Added benefit: Provides productive use for excess thermal energy
 
-**Recommendation:** Defer detailed integration until rooftop pond decision finalized
+**Integration recommendation:**
+- Solar thermal collectors (14 m²) require ground-mount or dedicated structure
+- Roofs nearly fully utilized by salt ponds (~97% occupancy)
+- Locate ground-mount near processing building for easy plumbing access
+- Alternative: Wall-mounted vertical collectors on building south face
+- Note: Thermal synergy with brine pre-heating would require ground-to-roof plumbing (added complexity)
 
 ---
 

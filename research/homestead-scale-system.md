@@ -18,7 +18,7 @@ disclaimer: "AI-generated content. Professional verification required before imp
 
 **Major Updates:**
 - **2026-02-06:** Changed from multi-level underground facility to three separate single-level structures (greenhouse, processing building, livestock shelter) based on feasibility analysis. See [Below-Grade Construction Analysis](below-grade-construction-analysis.md) for rationale.
-- **2026-02-06:** Added expanded solar thermal system (24 m²) for RV absorption fridges, DHW, and processing. See [Solar Thermal Expansion Design](solar-thermal-expansion-design.md) for details.
+- **2026-02-06:** Added expanded solar thermal system (14 m² Phase 1) for RV absorption fridge, DHW, and processing. See [Solar Thermal Expansion Design](solar-thermal-expansion-design.md) for details. (24 m² Phase 2 expansion available for 3 fridges if needed)
 
 ---
 

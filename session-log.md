@@ -4,6 +4,50 @@ Quick reference for picking up where you left off. Most recent sessions at top.
 
 ---
 
+## 2026-02-07 - Crystallizer Location Updates & Solar Thermal Sizing Corrections
+
+**Session focus:** Correcting outdated references showing crystallizers on ground (now on rooftops) and fixing solar thermal sizing inconsistencies (6 m² → 14 m² adopted baseline)
+
+**Files modified:**
+- `research/solar-thermal-expansion-design.md` (updated) - Corrected roof sizes (186 m² → 100 m²), updated crystallizer locations to rooftops, clarified solar thermal must be ground-mounted (roofs 97% full with salt ponds), changed status to show 14 m² as adopted baseline (not just recommended)
+- `research/open-questions.md` (updated) - Marked rooftop salt ponds question as RESOLVED with final configuration details (crystallizers A & B on rooftops, 95% land footprint reduction, 273 kWh/day cooling)
+- `research/homestead-scale-system.md` (updated) - Fixed Major Updates note (24 m² → 14 m² Phase 1 with note about 24 m² Phase 2 expansion option)
+
+**Discoveries/Decisions:**
+
+**Roof space constraint identified:**
+- Each building roof is 100 m² (not 186 m²)
+- Salt ponds use 97 m² per roof (97% occupancy)
+- Only ~6 m² total available across both roofs
+- **Decision:** Solar thermal collectors (14 m²) must be ground-mounted or wall-mounted, not roof-mounted
+
+**Documentation clarity:**
+- Solar thermal expansion doc showed "6 m²" as "Current System (Baseline)" → renamed to "Starting Point (6 m² System Before Expansion)"
+- 6 m² = original minimal system (mushrooms + BSF only)
+- 14 m² = adopted Phase 1 design (1 fridge + DHW + processing)
+- 24 m² = future Phase 2 option (3 fridges if needed)
+
+**Active work status:**
+- ✅ All crystallizer references now correctly show rooftop locations
+- ✅ Solar thermal sizing consistent across all documents (14 m² adopted, 6 m² was "before")
+- ✅ Roof sizes corrected throughout (100 m² per building, not 186 m²)
+- ✅ Documentation now accurately reflects space constraints
+
+**Next session:**
+- Ready for commit when user wants (3 files modified this session)
+- Consider adding ground-mount solar thermal details to design docs (mounting options, cost impact, plumbing runs)
+- Possible: Create footprint diagram showing all three 100 m² buildings + pond locations + solar thermal ground-mount
+- Future: Review other documents for any remaining "186 m²" references or outdated pond configurations
+
+**Notes:**
+- User caught two important inconsistencies that needed fixing
+- 186 m² roof size was likely from green roof area calculations that included soil margins
+- Actual building footprints are 100 m² each (cleaner metric number)
+- Ground-mounting solar thermal adds plumbing complexity but necessary due to space constraints
+- Session demonstrates value of cross-checking related documents for consistency
+
+---
+
 ## 2026-02-07 - Review System Setup + All 4 Recommendations Applied
 
 **Session focus:** Implementing automated review checking system and addressing all pending recommendations from agentic review project (water budget, kitchen scraps, cooling calculations, economics, material handling)
