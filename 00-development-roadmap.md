@@ -17,7 +17,7 @@
 #### Energy System Design ✅
 - [x] Solar PV sizing: 90 sq ft (~5.7 kWh/day) for RO + aquaponics + operations
 - [x] Battery storage: 15-20 kWh capacity for overnight/cloudy periods
-- [x] Dual-purpose solar thermal: 6 m² expandable system for mushroom pasteurization + future MED
+- [x] Dual-purpose solar thermal: 14 m² expandable system for mushroom pasteurization + future MED
 - [x] Energy budget validated: 4.4-7.0 kWh/day total system demand
 - [x] **Multi-structure energy savings:** 1.0-1.5 kWh/day from natural light + passive ventilation
 - [x] **Output:** [Homestead-Scale System](research/homestead-scale-system.md)
@@ -35,6 +35,7 @@
   - Production: 6,000-9,000 kg/year vegetables, 400-700 kg/year fish
   - Water: 100-150 L/day makeup (conservative estimate)
   - Feed: 49% from BSF larvae (2.0 kg/day), 51% commercial pellets (2.1 kg/day)
+  - Overall system feed self-sufficiency: 42% (fish 49%, chickens 30%, ruminants 90-95%)
   - [x] **Output:** [Aquaponics System Design](research/aquaponics-system-design.md)
 
 - [x] **Mushroom cultivation (processing building):** Paddy Straw on manure substrate
@@ -157,14 +158,14 @@
 ### Priority 3: Dual-Purpose Solar Thermal System 🔄 PHASE 1 COMPLETE, EXPANSION DESIGNED
 
 - [x] **Phase 1: Mushroom pasteurization (installed)**
-  - [x] 6 m² evacuated tube collectors (oversized for expansion)
+  - [x] 14 m² evacuated tube collectors (oversized for expansion)
   - [x] 500 L insulated storage (foundation rated for 2,000 L)
   - [x] Oversized manifolds (30 m² total capacity)
   - [x] Energy: 6.2 kWh/week for substrate pasteurization
   - [x] Capital: $3,700-7,500
 
 - [ ] **Phase 2: MED thermal input (future)**
-  - [ ] Add 22 m² collectors (total 28 m²)
+  - [ ] Add 10 m² collectors (total 24 m²)
   - [ ] Add 1,500 L storage (total 2,000 L)
   - [ ] Thermal output: 60 kWh/day at 60°C
   - [ ] MED production: 2.5 m³/day fresh water

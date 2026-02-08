@@ -25,7 +25,9 @@ disclaimer: "AI-generated content. Professional verification required before imp
 - **Domestic hot water (DHW):** 150 L/day at 50°C for 8-10 people
 - **Existing loads:** Mushroom pasteurization + BSF processing (unchanged)
 - **Cost:** $4,300-8,100
-- **Electrical savings:** 7.6 kWh/day (24% reduction from 32 kWh/day baseline)
+- **Electrical savings:** 7.6 kWh/day (24% reduction from 32 kWh/day hypothetical all-electric baseline)
+
+**Note:** The "32 kWh/day baseline" represents a hypothetical all-electric system using electric water heaters and electric refrigeration. The actual homestead system electrical loads are **4.6-7.2 kWh/day** as documented in `homestead-scale-system.md` - the solar thermal system handles DHW and refrigeration loads directly with heat, not electricity.
 
 **Phase 2 (expansion to 24 m² - FUTURE OPTION):**
 - Add 2 more RV fridges (10 m² additional collectors)
@@ -215,12 +217,14 @@ Area = 58.8 kWh/day ÷ 2.8 kWh/m²/day = 21.0 m²
 - Winter: 26.2 kWh/day net output (comfortable margin)
 - Summer: 32.6 kWh/day net output (35% surplus)
 
-**Electrical impact:**
-- Current electrical demand: 32 kWh/day
-- Loads eliminated: 7.8 kWh/day (1 fridge 2.6 + DHW 5.2)
+**Electrical impact (vs. hypothetical all-electric alternative):**
+- Hypothetical all-electric demand: 32 kWh/day (if using electric water heater + electric fridge)
+- Thermal loads eliminated: 7.8 kWh/day (1 fridge 2.6 + DHW 5.2)
 - New loads: 0.2 kWh/day (circulation pumps, controls)
-- **Net reduction: 7.6 kWh/day (24% decrease)**
-- **New electrical demand: 24.4 kWh/day**
+- **Net reduction: 7.6 kWh/day (24% decrease vs. all-electric)**
+- **Actual electrical demand: 4.6-7.2 kWh/day** (as documented in homestead-scale-system.md)
+
+**Note:** This comparison shows the benefit of using solar thermal for DHW and refrigeration (direct heat) instead of converting solar electricity to heat via electric heaters/compressors (inefficient).
 
 ### Phase 1 Storage Requirements
 
