@@ -204,11 +204,13 @@ Cost: $250-500/year (varies by lactation cycles)
 |---|---|
 | Substrate input | 18 kg/day spent mushroom substrate (SMS) |
 | Substrate input | 1-2 kg/day aquaponics waste |
-| **Total substrate** | **19-20 kg/day** |
+| Substrate input (optional) | 3.5-4.6 kg/day seaweed processing waste |
+| **Total substrate** | **19-20 kg/day (baseline), 22-25 kg/day (with seaweed)** |
 | **BSF larvae production** | **2.7 kg fresh/day (990 kg/year)** |
-| Conversion ratio | ~13-15% (20 kg substrate → 2.7 kg larvae) |
+| Conversion ratio | ~13-15% (baseline), 8-10% (with seaweed dilution) |
 | Protein content | 40% crude protein |
 | Fat content | 30% |
+| **Nutritional enhancement** | **Omega-3, iodine, vitamin E (when seaweed waste added)** |
 
 **Material flow:**
 ```
@@ -218,12 +220,23 @@ Livestock manure (12 kg/day)
   → Spent mushroom substrate (SMS, 18 kg/day)
   → BSF composting bin
   + Aquaponics waste (1-2 kg/day)
-  → BSF larvae (2.7 kg/day)
+  + Seaweed processing waste (3.5-4.6 kg/day, optional for omega-3 enrichment)
+  → BSF larvae (2.7 kg/day, omega-3 enriched)
 
 BSF allocation:
-  → Fish: 2.0 kg/day (74% of production)
+  → Fish: 2.0 kg/day (74% of production, benefits from omega-3)
   → Chickens: 0.7 kg/day (26% of production)
 ```
+
+**Seaweed waste integration:**
+- Processing waste from ruminant feed prep (stems, damaged portions)
+- 15-20% of seaweed harvest (3.5-4.6 kg/day from 23 kg total)
+- Enriches larvae with omega-3 fatty acids, iodine, vitamin E
+- **Can be added UNWASHED** - dilution with SMS keeps substrate salinity at 0.33% (safe)
+- Calculation: 4 kg unwashed seaweed (1.5% NaCl) + 20 kg SMS (0.1% NaCl) = 0.33% final salinity
+- **Water savings: 80-120 L/day** by not washing BSF scraps
+- Only chicken feed seaweed (0.5 kg/day) needs washing (10 L/day water)
+- See [BSF Seaweed Research](chicken-seaweed-bsf-production.md#finding-9-bsf-larvae-performance-on-seaweed-substrate)
 
 **Analysis:**
 

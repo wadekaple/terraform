@@ -969,4 +969,65 @@ especially if targeting higher-value species/markets.
 
 ---
 
-**Status:** Research complete. Recommend solar thermal hot water pasteurization system with Paddy Straw mushroom as primary species, Shaggy Mane as high-yield secondary, and Wine Cap for outdoor/seasonal production. Integration with existing homestead systems feasible with minimal energy/water additions (1.7 kWh/week, 5-10 L/day). Revenue potential $5,800-18,200/year depending on market positioning.
+### E. Why Seaweed Is Not Used in Mushroom Substrate
+
+**Research Date:** 2026-02-08
+
+**Question:** Can seaweed/macroalgae be used as a substrate component for mushroom cultivation?
+
+**Answer:** **No - seaweed is incompatible with mushroom substrate requirements due to C:N ratio mismatch.**
+
+**Data:**
+
+**Optimal Mushroom Substrate C:N Ratio:**
+- **Target range: 25-30:1** (carbon to nitrogen ratio)
+- Source: AI system analysis for Agaricus bisporus using proteomic analyses
+- Substrate should have 65-70% moisture
+
+**Seaweed C:N Ratios (Global Assessment):**
+- **Brown seaweeds (Ochrophyta/Phaeophyceae):** 27.5:1 (range 7.6-122.5)
+  - Example: Sargassum species
+  - Highly variable, influenced by nutrient availability
+- **Green seaweeds (Chlorophyta):** 17.8:1 (range 6.2-54.3)
+  - Example: Ulva lactuca (sea lettuce)
+  - Characterized as "high N" seaweed
+- **Red seaweeds (Rhodophyta):** 14.8:1 (range 5.6-77.6)
+- **Global mean for all seaweeds:** 20:1 (range 6-123)
+
+**Analysis:**
+
+Green and red seaweeds are **too nitrogen-rich** (C:N ratio too low) for optimal mushroom cultivation:
+- Green seaweed at 17.8:1 vs. target 25-30:1 = 40% excess nitrogen
+- Red seaweed at 14.8:1 vs. target 25-30:1 = 51-67% excess nitrogen
+
+Brown seaweeds (Sargassum) fall within or near the target range (27.5:1), BUT:
+1. Extremely high variability (7.6-122.5) makes them unreliable
+2. Arsenic contamination in 86% of Sargassum samples (>40 ppm safe limit)
+3. Availability issues compared to manure/straw
+
+**Additional Concerns:**
+- **Salt content:** Raw seaweed >1% NaCl would inhibit mycelium growth
+- **Polysaccharide structure:** Seaweed contains agar/carrageenan/alginate, not cellulose/lignin that mushroom mycelium is adapted to digest
+- **Processing required:** Fresh-water soaking needed to reduce salt, adding labor/water costs
+
+**Conclusion:**
+
+Seaweed is not viable for mushroom substrate due to:
+1. **C:N ratio mismatch** - most species too nitrogen-rich (primary reason)
+2. Salt content requiring extensive processing
+3. Incompatible polysaccharide composition
+4. Better alternatives exist (manure + straw readily available, optimal C:N ratio)
+
+**Recommendation:** Use manure + straw substrates as designed. Reserve seaweed for:
+- Chicken feed (2-5% inclusion for omega-3 enrichment)
+- Ruminant feed (20-30% after soaking to reduce salt)
+- Potentially BSF larvae substrate (under investigation)
+
+**References:**
+- [Systems biology for mushroom cultivation promoting quality life](https://www.maxapress.com/article/doi/10.48130/cas-0025-0007) - C:N ratio 25-30:1 recommendation
+- [Seaweed biogeochemistry: Global assessment of C:N and C:P ratios](https://onlinelibrary.wiley.com/doi/full/10.1111/jpy.13381) - Comprehensive seaweed C:N data
+- [Nutrient content and stoichiometry of pelagic Sargassum](https://www.nature.com/articles/s41467-021-23135-7) - Sargassum variability
+
+---
+
+**Status:** Research complete. Recommend solar thermal hot water pasteurization system with Paddy Straw mushroom as primary species, Shaggy Mane as high-yield secondary, and Wine Cap for outdoor/seasonal production. Integration with existing homestead systems feasible with minimal energy/water additions (1.7 kWh/week, 5-10 L/day). Revenue potential $5,800-18,200/year depending on market positioning. **Updated 2026-02-08:** Added appendix documenting why seaweed is not used in substrate (C:N ratio incompatibility).

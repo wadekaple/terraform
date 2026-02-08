@@ -209,12 +209,13 @@ Combined with partial earth-sheltering: likely sufficient without evaporative co
   - **No additional RO capacity needed:** Phased approach works within existing 0.6 m³/day
 
 **Chicken and fish feed:** Black Soldier Fly (BSF) larvae + commercial supplements
-- **Material flow:** Livestock manure (12 kg/day) → Mushroom substrate → Spent mushroom substrate (SMS, 18 kg/day) + kitchen scraps (1.5-2.5 kg/day) + aquaponics waste (1.5-2.5 kg/day) → BSF composting
-- **BSF production:** 2.7 kg fresh larvae/day (990 kg/year) from SMS + kitchen scraps + aquaponics waste
+- **Material flow:** Livestock manure (12 kg/day) → Mushroom substrate → Spent mushroom substrate (SMS, 18 kg/day) + aquaponics waste (1-2 kg/day) + seaweed processing waste (3.5-4.6 kg/day, optional) → BSF composting
+- **BSF production:** 2.7 kg fresh larvae/day (990 kg/year) from SMS substrate (omega-3 enriched when seaweed waste added)
 - **BSF allocation:** Fish 2.0 kg/day (49% of diet), Chickens 0.7 kg/day (30% of diet)
 - **Commercial feed needed:** Fish pellets 2.1 kg/day ($1,150/year), Chicken feed 1.8 kg/day ($460/year)
 - **Feed self-sufficiency:** 42% from BSF, 58% purchased ($1,610/year total)
 - Larvae are 40% protein, 30% fat — ideal supplemental feed
+- **Seaweed integration:** Processing waste (stems, damaged portions) adds omega-3, iodine, vitamin E to larvae (see [BSF Seaweed Research](chicken-seaweed-bsf-production.md#finding-9-bsf-larvae-performance-on-seaweed-substrate))
 - See [Homestead System Flowchart](homestead-system-flowchart.md) for complete material flows
 
 ### 5. Brine-to-Salt Production
@@ -237,16 +238,16 @@ Instead of disposing of RO brine, convert it to food-grade sea salt:
 | Chickens (24 birds) | 12-24 | 0.5-1.0 L/bird in desert heat (35-45°C) |
 | Sheep (5 animals) | 25-40 | 5-8 L/head in hot arid climate |
 | Goats (5 animals) | 20-40 | 4-8 L/head in hot arid climate |
-| Livestock feed | 0 | Seaweed (seawater) + BSF larvae (compost) |
+| Seaweed processing | 10 | Chicken feed only (0.5 kg/day); ruminants eat unwashed seaweed |
 | Greenhouse cooling | 0 | Seawater loop (not consumed) |
 | Facility cooling | 0 | Rooftop salt pond evaporative cooling (not consumed) |
 | Human domestic (8 people) | 200 | 25 L/person/day |
 | BSF composting moisture | 10-20 | Maintain substrate humidity |
 | Facility cleaning | 20-40 | Pens, equipment |
 | Feed patch irrigation (100 m²) | 45-70 | Year 1: ~60 L/day; Year 2: ~70 L/day; Year 3+: ~45 L/day (established) |
-| **TOTAL (Year 1)** | **~497-624** | **~0.50-0.62 m³/day** |
-| **TOTAL (Year 2)** | **~507-634** | **~0.51-0.63 m³/day** |
-| **TOTAL (Year 3+)** | **~482-609** | **~0.48-0.61 m³/day** (all established) |
+| **TOTAL (Year 1)** | **~507-634** | **~0.51-0.63 m³/day** |
+| **TOTAL (Year 2)** | **~517-644** | **~0.52-0.64 m³/day** |
+| **TOTAL (Year 3+)** | **~492-619** | **~0.49-0.62 m³/day** (all established) |
 
 ### Water Sources
 

@@ -518,6 +518,148 @@ For the homestead system (using SMS substrate):
 
 ---
 
+### Finding 9: BSF Larvae Performance on Seaweed Substrate
+
+**Research Date:** 2026-02-08
+
+**Data:**
+
+**Seaweed as BSF Substrate - Viability Confirmed:**
+
+Multiple studies (2020-2025) confirm that Black Soldier Fly larvae can effectively process seaweed/macroalgae waste:
+
+**Species Tested:**
+- Kappaphycus alvarezii (red seaweed)
+- Gracilaria salicornia and G. tikvahiae (red seaweed)
+- Sargassum wightii, S. fusiforme (brown seaweed)
+- Rugulopteryx okamurae (invasive toxic brown seaweed)
+- Ulva species (green seaweed, implied but not explicitly tested in available studies)
+
+**Performance Metrics:**
+- **Waste reduction:** 65.5-78.9% of seaweed waste processed
+- **Prepupae production:** 252 g/m²/day (wet weight) under favorable conditions
+- **Substrate type:** Poultry manure-based substrates enriched with seaweed (5-20% seaweed addition)
+- **Processing time:** Standard 14-16 day cycle
+
+**Salt Tolerance:**
+- **Optimal salinity:** <2% salt content in substrate
+- **Best performance:** 1% salinity (maximum body length, weight, crude protein)
+- **Performance decline:** >4% salinity reduces growth parameters by >50%
+- **Critical implication:** Fresh seaweed (>1% NaCl) requires freshwater soaking, similar to chicken feed requirements
+
+**Nutritional Benefits:**
+- **Omega-3 enrichment:** Seaweed-fed larvae accumulate omega-3 fatty acids (EPA, DHA)
+- **Iodine content:** Increased iodine in larvae tissue
+- **Vitamin E:** Enhanced vitamin E levels
+- **Application:** Seaweed-enriched larvae improve nutritional profile for fish/chicken feed
+
+**Food Safety Concerns:**
+- Wild-harvested seaweed may harbor human pathogens (Vibrio, E. coli)
+- BSF processing reduces but does not eliminate pathogens
+- **Recommendation:** Heat treatment of larvae remains mandatory (>70°C for 5 min)
+
+**Seaweed Pre-Treatment Requirements:**
+- **Recommended:** Blend unwashed seaweed waste with low-salt SMS substrate - dilution achieves safe salinity
+  - Example: 4 kg seaweed waste (1.5% NaCl) + 20 kg SMS (0.1% NaCl) = 0.33% final salinity ✓
+  - Well under 2% BSF tolerance, close to 1% optimal
+  - **No washing required** - saves 80-120 L/day freshwater
+- **Alternative:** Fresh-water soak to reduce salt from >1% to <1% (only if using high % seaweed in substrate)
+- **Not recommended:** Using seaweed waste already processed for chicken feed (already washed, but small quantity)
+
+**Analysis:**
+
+BSF larvae can successfully process seaweed, but it functions **better as a substrate supplement than a primary substrate:**
+
+**Strengths:**
+1. Proven waste reduction (65-78%) comparable to other organic substrates
+2. Nutritional enrichment of larvae (omega-3, iodine, vitamin E)
+3. Can process toxic/invasive seaweed species (Rugulopteryx okamurae)
+4. Provides use for seaweed waste/trimmings from chicken feed processing
+
+**Limitations:**
+1. **Salt content:** Must be <2% (preferably 1%) requiring freshwater soaking or dilution
+2. **Not tested as 100% substrate:** All studies used seaweed-enriched substrates (5-20% seaweed + manure/food waste)
+3. **Polysaccharide digestion:** Like fiber limitations in Finding 8, seaweed polysaccharides (agar, carrageenan, alginate) may not be fully digestible by BSF
+4. **Pathogen concerns:** Wild seaweed may introduce marine pathogens
+5. **Variability:** Seaweed composition varies by species, season, location (C:N ratio 6-123, see mushroom appendix)
+
+**Comparison to Current SMS Substrate:**
+- SMS: 2.7 kg larvae/day from 19-20 kg substrate (7.2:1 ratio)
+- Seaweed-enriched substrate: 252 g/m²/day prepupae production (metrics not directly comparable)
+- SMS provides consistent, high-quality substrate from controlled mushroom operation
+- Seaweed would add collection labor, processing (soaking), variable quality
+
+**Implications:**
+
+For the homestead system:
+
+**Primary Recommendation: Use seaweed as supplemental substrate (5-20% addition), not primary substrate**
+
+**Three potential seaweed integration pathways:**
+
+1. **Seaweed processing waste → BSF substrate (UNWASHED)**
+   - **Chicken feed:** 515 g soaked seaweed/day (3% inclusion for 24 chickens) → waste ~100-150 g/day (pre-washed)
+   - **Ruminant feed:** 23 kg fresh unwashed seaweed/day (20-25% of diet for 10 animals) → waste ~3.5-4.6 kg/day (unwashed)
+   - **Total seaweed processing waste:** ~3.6-4.7 kg/day available for BSF
+   - **Key finding:** Unwashed ruminant scraps can go directly to BSF - dilution with SMS keeps salinity at 0.33% (safe!)
+   - Add to daily BSF substrate: 19-20 kg SMS + 3.6-4.7 kg unwashed seaweed waste = 22-25 kg total
+   - Result: Seaweed waste valorization + omega-3 enrichment of larvae + **zero additional water**
+
+2. **Dedicated seaweed-enriched batches for nutrient enrichment**
+   - Occasional batches: 80% SMS + 20% fresh-soaked seaweed (targeted omega-3 boost)
+   - Use seaweed-enriched larvae specifically for fish feed (aquaponics tilapia benefit from omega-3)
+   - Standard batches: 100% SMS (consistent baseline production)
+   - Flexibility to adjust based on seaweed availability
+
+3. **Seasonal seaweed abundance utilization**
+   - During seaweed blooms: Process larger quantities (5-10 kg/week)
+   - Dilute to 10-15% in BSF substrate
+   - Dry/store excess seaweed for off-season use
+   - Maintains feed independence goal while adding nutritional variety
+
+**Not recommended:**
+- ❌ Replacing SMS with 100% seaweed substrate (untested, salt/digestion concerns)
+- ❌ Using raw unwashed seaweed (>4% salt = 50% growth reduction)
+- ❌ Using Sargassum for BSF (arsenic concerns from chicken feed research apply here too)
+
+**Recommended:**
+- ✅ Use Ulva lactuca waste from both chicken and ruminant feed processing in BSF (~3.6-4.7 kg/day total)
+- ✅ **Add unwashed ruminant seaweed scraps directly to BSF** - SMS dilution keeps salinity at 0.33% (safe)
+- ✅ Only chicken feed seaweed needs washing (chickens are salt-sensitive)
+- ✅ Target <2% salinity in final substrate mix (achieved through dilution)
+- ✅ Produce seaweed-enriched larvae for aquaponics fish (omega-3 benefit)
+- ✅ Heat-treat all larvae before feeding (marine pathogen precaution)
+- ✅ **Water savings: 80-120 L/day by not washing BSF scraps**
+
+**Updated Material Flow:**
+```
+Seaweed harvest (23.5 kg/day total) → Split by use:
+  │
+  ├─ Chicken feed stream (0.5 kg/day):
+  │   └─ Freshwater soak (2 days, 10 L water) to reduce salt
+  │       ├─ 85%: Washed chicken feed (400-425 g/day, 3% inclusion)
+  │       │        └─ Eggs (omega-3 enriched)
+  │       └─ 15%: Processing waste (~75-100 g/day, pre-washed) → BSF substrate
+  │
+  └─ Ruminant feed stream (23 kg/day):
+      └─ UNWASHED (goats/sheep salt-tolerant, no water needed)
+          ├─ 85%: Ruminant feed (18-20 kg/day, 20-25% of diet)
+          │        └─ Milk, wool, meat
+          └─ 15%: Processing waste (3.5-4.6 kg/day, UNWASHED) → BSF substrate
+
+Total seaweed waste to BSF: 3.6-4.7 kg/day (mostly unwashed)
+  → BSF substrate: 19-20 kg SMS + 3.6-4.7 kg unwashed seaweed = 22-25 kg/day
+       → Dilution achieves 0.33% salinity (safe for BSF, no washing needed)
+       └─ BSF larvae (2.7 kg/day, omega-3 + iodine enriched)
+            ├─ Fish feed (aquaponics, 2.0 kg/day)
+            └─ Chicken feed (0.7 kg/day)
+
+Total freshwater for seaweed processing: 10 L/day (chicken feed only)
+Water savings vs. washing all seaweed: 225 L/day (96% reduction)
+```
+
+---
+
 ## Key Takeaways
 
 ### Chicken Seaweed Diet:
@@ -536,6 +678,7 @@ For the homestead system (using SMS substrate):
 4. **Processing:** 14-16 day cycles, 15-16 containers in rotation for daily harvest
 5. **Pathogen reduction:** 90-99.9% reduction in E. coli/Salmonella during BSF processing, plus larvae heat treatment (>70°C, 5 min) before feeding
 6. **Material flow:** Manure → Mushrooms ($5.8K-18K/year) → SMS → BSF (2.7 kg/day) - dual revenue + superior substrate
+7. **Seaweed substrate addition (NEW):** Seaweed can supplement BSF substrate at 5-20% inclusion for omega-3/iodine enrichment, but not as primary substrate. Unwashed seaweed scraps (3.6-4.7 kg/day) can be added directly - dilution with SMS achieves 0.33% salinity (safe). No washing required (saves 80-120 L/day freshwater).
 
 ---
 
@@ -558,6 +701,9 @@ Based on this research:
 
 - ✅ **DO:** Use Spent Mushroom Substrate (SMS, 18 kg/day) as primary BSF substrate, not raw manure
 - ✅ **DO:** Mix SMS with aquaponics plant waste (1-2 kg/day) for additional nutrients
+- ✅ **DO:** Add seaweed processing waste (3.6-4.7 kg/day total: chicken + ruminant feed prep) to BSF substrate for omega-3/iodine enrichment
+- ✅ **DO:** Add unwashed ruminant seaweed scraps directly to BSF - SMS dilution keeps salinity safe (0.33%)
+- ❌ **DON'T:** Wash seaweed scraps for BSF - unnecessary water use (saves 80-120 L/day)
 - ✅ **DO:** Maintain substrate moisture at 70-75% (SMS typically arrives at 65-70%, adjust as needed)
 - ✅ **DO:** Maintain BSFL facility at 27-32°C for optimal growth and pathogen reduction
 - ✅ **DO:** Harvest larvae at 14-16 days (prepupal stage) for optimal yield and before heavy pathogen accumulation
@@ -566,11 +712,16 @@ Based on this research:
 - ✅ **DO:** Set up 15-16 rearing containers in rotation for continuous daily 2.7 kg harvest
 - ✅ **DO:** Integrate BSF processing with mushroom pasteurization solar thermal system (uses excess capacity)
 - ✅ **DO:** Use all livestock manure (chicken + sheep + goat) in mushroom cultivation first, then SMS to BSF
+- ✅ **DO:** Optionally produce dedicated seaweed-enriched BSF batches (80% SMS + 20% soaked seaweed) for fish feed omega-3 boost
 - ❌ **DON'T:** Use raw livestock manure directly in BSF (mushroom pathway provides dual revenue + better substrate)
-- ❌ **DON'T:** Feed larvae to chickens/fish without heat treatment (potential pathogen transmission)
+- ❌ **DON'T:** Use seaweed as 100% primary BSF substrate (untested, salt/digestion concerns)
+- ❌ **DON'T:** Use raw/unwashed seaweed in BSF (>4% salt = 50% growth reduction)
+- ❌ **DON'T:** Use Sargassum in BSF substrate (arsenic concerns, same as chicken feed)
+- ❌ **DON'T:** Feed larvae to chickens/fish without heat treatment (potential pathogen transmission, especially marine pathogens from seaweed)
 - ❌ **DON'T:** Use BSFL frass directly without treatment (30+ day aging OR thermal pasteurization required)
 - ⚠️ **CAUTION:** SMS quality depends on mushroom cultivation; maintain good mushroom substrate pasteurization
 - ⚠️ **CAUTION:** Monitor BSF production rates weekly; should consistently yield 2.7 kg/day from 19-20 kg substrate
+- ⚠️ **CAUTION:** If using seaweed, target 1% salinity in final substrate mix for optimal BSF growth
 
 ---
 
@@ -826,25 +977,31 @@ Conclusion: Multi-stage processing provides food-grade safety level
 12. [Supplementation of iodine in laying hen diet - Taylor & Francis](https://www.tandfonline.com/doi/full/10.1080/1828051X.2020.1810142)
 13. [Iodine, Seaweed, and the Thyroid - PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC8077470/)
 
-### BSFL Processing of Livestock Manure:
+### BSFL Processing of Livestock Manure and Seaweed:
 
-14. [Manure Valorization Using Black Soldier Fly Larvae - MDPI Sustainability](https://www.mdpi.com/2071-1050/15/16/12177)
-15. [Growth efficiency, intestinal biology, and nutrient utilization of black soldier fly larvae - Journal of Animal Science and Biotechnology](https://jasbsci.biomedcentral.com/articles/10.1186/s40104-022-00682-7)
-16. [Evaluating the impact of bird manure vs. mammal manure on Hermetia illucens larvae - ScienceDirect](https://www.sciencedirect.com/science/article/abs/pii/S0959652620336155)
-17. [Black Soldier Fly Larvae as a Novel Protein Feed Resource - MDPI Insects](https://www.mdpi.com/2075-4450/16/8/830)
-18. [Nutritional Composition of Black Soldier Fly Larvae - PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC9502457/)
-19. [The nutritive value of black soldier fly larvae reared on common organic waste streams - Scientific Reports](https://www.nature.com/articles/s41598-019-46603-z)
-20. [Bioconversion of Different Waste Streams by Black Soldier Fly Larvae - PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC9968099/)
-21. [Cellulose-degrading bacteria improve conversion efficiency in co-digestion - PubMed](https://pubmed.ncbi.nlm.nih.gov/37837764/)
-22. [Black Soldier Fly Composting Guide - Purdue Extension](https://extension.entm.purdue.edu/publications/E-276/E-276.html)
-23. [Mass Production of Black Soldier Fly Reared on Three Manure Types - PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC7401607/)
-24. [Reduction of E. coli O157:H7 and Salmonella in Chicken Manure by BSFL - PubMed](https://pubmed.ncbi.nlm.nih.gov/15083719/)
-25. [Inhibition of Zoonotic Pathogens in Pig Manure by BSFL - MDPI Insects](https://www.mdpi.com/2075-4450/13/1/66)
-26. [Effect of moisture content on larval gut microbiome - ScienceDirect](https://www.sciencedirect.com/science/article/abs/pii/S0048969723082098)
-27. [Optimizing Black Soldier Fly production: substrate variation effects - Frontiers](https://www.frontiersin.org/journals/sustainable-food-systems/articles/10.3389/fsufs.2025.1621034/full)
-28. [BSF Larvae Tough in Fiber - Insect School](https://www.insectschool.com/breeding/bsf-larvae-tough-in-fiber/)
-29. [Synergistic bioconversion with thermophilic cellulose-degrading bacteria - Frontiers Microbiology](https://www.frontiersin.org/journals/microbiology/articles/10.3389/fmicb.2023.1288227/full)
-30. [Managing high fiber food waste for BSFL cultivation - NPJ Science of Food](https://www.nature.com/articles/s41538-019-0047-7)
+14. [Seaweed species and pre-treatment methods: Effects on fatty acid profile and performance in black soldier fly larvae - ScienceDirect](https://www.sciencedirect.com/science/article/abs/pii/S0377840125003372)
+15. [Modulation of nutrient composition of black soldier fly larvae by feeding seaweed-enriched media - PLOS One](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0183188)
+16. [The microbial safety of seaweed as a feed component for black soldier fly larvae - PubMed](https://pubmed.ncbi.nlm.nih.gov/32539946/)
+17. [Investigation of Blended Seaweed Waste Recycling Using Black Soldier Fly Larvae - ResearchGate](https://www.researchgate.net/publication/375889562_Investigation_of_Blended_Seaweed_Waste_Recycling_Using_Black_Soldier_Fly_Larvae)
+18. [Composting the Invasive Toxic Seaweed Using Black Soldier Fly - Springer](https://link.springer.com/article/10.1007/s12649-022-01849-z)
+19. [Effects of salinity in food waste on the growth of black soldier fly larvae - ScienceDirect](https://www.sciencedirect.com/science/article/abs/pii/S138589472306953X)
+20. [Manure Valorization Using Black Soldier Fly Larvae - MDPI Sustainability](https://www.mdpi.com/2071-1050/15/16/12177)
+21. [Growth efficiency, intestinal biology, and nutrient utilization of black soldier fly larvae - Journal of Animal Science and Biotechnology](https://jasbsci.biomedcentral.com/articles/10.1186/s40104-022-00682-7)
+22. [Evaluating the impact of bird manure vs. mammal manure on Hermetia illucens larvae - ScienceDirect](https://www.sciencedirect.com/science/article/abs/pii/S0959652620336155)
+23. [Black Soldier Fly Larvae as a Novel Protein Feed Resource - MDPI Insects](https://www.mdpi.com/2075-4450/16/8/830)
+24. [Nutritional Composition of Black Soldier Fly Larvae - PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC9502457/)
+25. [The nutritive value of black soldier fly larvae reared on common organic waste streams - Scientific Reports](https://www.nature.com/articles/s41598-019-46603-z)
+26. [Bioconversion of Different Waste Streams by Black Soldier Fly Larvae - PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC9968099/)
+27. [Cellulose-degrading bacteria improve conversion efficiency in co-digestion - PubMed](https://pubmed.ncbi.nlm.nih.gov/37837764/)
+28. [Black Soldier Fly Composting Guide - Purdue Extension](https://extension.entm.purdue.edu/publications/E-276/E-276.html)
+29. [Mass Production of Black Soldier Fly Reared on Three Manure Types - PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC7401607/)
+30. [Reduction of E. coli O157:H7 and Salmonella in Chicken Manure by BSFL - PubMed](https://pubmed.ncbi.nlm.nih.gov/15083719/)
+31. [Inhibition of Zoonotic Pathogens in Pig Manure by BSFL - MDPI Insects](https://www.mdpi.com/2075-4450/13/1/66)
+32. [Effect of moisture content on larval gut microbiome - ScienceDirect](https://www.sciencedirect.com/science/article/abs/pii/S0048969723082098)
+33. [Optimizing Black Soldier Fly production: substrate variation effects - Frontiers](https://www.frontiersin.org/journals/sustainable-food-systems/articles/10.3389/fsufs.2025.1621034/full)
+34. [BSF Larvae Tough in Fiber - Insect School](https://www.insectschool.com/breeding/bsf-larvae-tough-in-fiber/)
+35. [Synergistic bioconversion with thermophilic cellulose-degrading bacteria - Frontiers Microbiology](https://www.frontiersin.org/journals/microbiology/articles/10.3389/fmicb.2023.1288227/full)
+36. [Managing high fiber food waste for BSFL cultivation - NPJ Science of Food](https://www.nature.com/articles/s41538-019-0047-7)
 
 ---
 
@@ -955,4 +1112,4 @@ Conclusion: Multi-stage processing provides food-grade safety level
 
 ---
 
-**Status:** Research complete. Ready for integration into homestead-scale-system.md and creation of detailed feeding/processing protocols.
+**Status:** Research complete. Ready for integration into homestead-scale-system.md and creation of detailed feeding/processing protocols. **Updated 2026-02-08:** Added Finding 9 documenting seaweed as supplemental BSF substrate (5-20% addition for omega-3/iodine enrichment). Seaweed processing waste from chicken feed can be added to SMS substrate. Salt must be <2% (requires freshwater soaking).

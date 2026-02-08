@@ -103,8 +103,8 @@ graph TB
     MUSHROOM[MUSHROOM PRODUCTION<br/>Manure composting<br/>Substrate: 12 kg manure + 12 kg straw<br/>Output: 2 kg mushrooms/day<br/>SMS: 18 kg/day]
 
     %% BSF Composting
-    BSF[BSF COMPOSTING<br/>SMS + Plant waste + Food scraps<br/>Production: 2.7 kg larvae/day]
-    LARVAE[BSF LARVAE<br/>Protein feed]
+    BSF[BSF COMPOSTING<br/>SMS + Plant waste + Seaweed waste<br/>Production: 2.7 kg larvae/day<br/>Omega-3 enriched]
+    LARVAE[BSF LARVAE<br/>Protein feed<br/>Omega-3 enriched]
     FRASS[FRASS<br/>Fertilizer]
 
     %% Livestock
@@ -115,7 +115,9 @@ graph TB
     MANURE[MANURE<br/>12 kg/day]
 
     %% Seaweed
-    SEAWEED[🌿 SEAWEED HARVEST<br/>From ocean/tidal zones<br/>Rinsed with seawater<br/>23 kg/day for ruminants]
+    SEAWEED[🌿 SEAWEED HARVEST<br/>From ocean/tidal zones<br/>23.5 kg/day total<br/>Seawater rinse only]
+    SEAWEED_PROC_CHICKEN[CHICKEN FEED PROCESSING<br/>0.5 kg → Freshwater soak 2 days<br/>10 L water/day<br/>Reduces salt 95%]
+    SEAWEED_RUMINANT[RUMINANT FEED<br/>23 kg unwashed<br/>Goats/sheep salt-tolerant<br/>Zero freshwater]
 
     %% Solar connections
     SUN --> PV
@@ -164,8 +166,13 @@ graph TB
 
     %% Livestock system
     LARVAE --> CHICKENS
-    SEAWEED --> SHEEP
-    SEAWEED --> GOATS
+    SEAWEED --> SEAWEED_PROC_CHICKEN
+    SEAWEED --> SEAWEED_RUMINANT
+    SEAWEED_PROC_CHICKEN --> CHICKENS
+    SEAWEED_RUMINANT --> SHEEP
+    SEAWEED_RUMINANT --> GOATS
+    SEAWEED_PROC_CHICKEN -.washed waste.-> BSF
+    SEAWEED_RUMINANT -.unwashed waste.-> BSF
 
     CHICKENS --> MANURE
     SHEEP --> MANURE
@@ -382,12 +389,15 @@ graph TB
     SMS[Spent Mushroom Substrate<br/>SMS: 18 kg/day]
 
     %% BSF composting
-    BSF[BSF COMPOSTING<br/>SMS + plant waste + food scraps<br/>14-16 day cycle]
-    LARVAE[BSF Larvae<br/>2.7 kg/day<br/>Fish feed 49%<br/>Chicken feed 30%]
+    BSF[BSF COMPOSTING<br/>SMS + plant waste + seaweed waste<br/>14-16 day cycle<br/>Omega-3 enriched]
+    LARVAE[BSF Larvae<br/>2.7 kg/day<br/>Fish feed 49%<br/>Chicken feed 30%<br/>Omega-3 enriched]
     FRASS[Frass Fertilizer<br/>8-10 kg/day<br/>Thermally pasteurized]
 
-    %% External inputs
-    SEAWEED[🌿 Seaweed<br/>23 kg/day<br/>Ocean harvest]
+    %% External inputs and processing
+    SEAWEED[🌿 Seaweed<br/>23.5 kg/day<br/>Ocean harvest]
+    SEAWEED_CHICKEN[Chicken Seaweed<br/>0.5 kg washed<br/>10 L water/day]
+    SEAWEED_RUMINANT[Ruminant Seaweed<br/>23 kg unwashed<br/>Zero water]
+    SEAWEED_WASTE[Seaweed Waste<br/>3.6-4.7 kg/day<br/>Mostly unwashed]
     FOOD_SCRAPS[Food scraps<br/>Human waste]
 
     %% Aquaponics internal loop
@@ -407,6 +417,7 @@ graph TB
     SMS --> BSF
     PLANT_WASTE --> BSF
     FOOD_SCRAPS --> BSF
+    SEAWEED_WASTE --> BSF
 
     %% BSF outputs
     BSF --> LARVAE
@@ -417,8 +428,15 @@ graph TB
     LARVAE -.protein feed.-> LIVESTOCK
     FRASS -.fertilizer.-> PLANTS
 
-    %% External feed
-    SEAWEED -.feed.-> LIVESTOCK
+    %% Seaweed processing split
+    SEAWEED --> SEAWEED_CHICKEN
+    SEAWEED --> SEAWEED_RUMINANT
+
+    %% External feed with processing
+    SEAWEED_CHICKEN --> LIVESTOCK
+    SEAWEED_RUMINANT --> LIVESTOCK
+    SEAWEED_CHICKEN -.processing waste.-> SEAWEED_WASTE
+    SEAWEED_RUMINANT -.processing waste.-> SEAWEED_WASTE
 
     %% Styling
     classDef aqua fill:#4fc3f7,stroke:#0288d1,color:#000
@@ -507,7 +525,7 @@ graph TB
 
     SMS[SPENT MUSHROOM SUBSTRATE<br/>SMS: 18 kg/day<br/>~70-75% original volume<br/>Nutrients extracted, compostable]
 
-    BSF_INPUT[BSF COMPOSTING<br/>SMS: 18 kg/day<br/>Aquaponics waste: 1-2 kg/day<br/>Food scraps<br/>Total substrate: ~20 kg/day]
+    BSF_INPUT[BSF COMPOSTING<br/>SMS: 18 kg/day<br/>Aquaponics waste: 1-2 kg/day<br/>Seaweed waste: 3.5-4.6 kg/day (optional)<br/>Food scraps<br/>Total substrate: ~20-25 kg/day<br/>Omega-3 enriched when seaweed added]
 
     BSF_OUTPUT[BSF OUTPUTS<br/>14-16 day cycle]
 
@@ -570,15 +588,17 @@ graph TB
 
 1. **ALL manure goes to mushrooms first** (not directly to BSF)
 2. **SMS from mushrooms becomes BSF substrate** (not manure)
-3. **BSF production: 2.7 kg/day** from SMS + aquaponics waste
+3. **BSF production: 2.7 kg/day** from SMS + aquaponics waste (omega-3 enriched when seaweed waste added)
 4. **Feed self-sufficiency: 42%** from BSF larvae
 5. **Bonus output: 730 kg mushrooms/year** (14 kg/week)
+6. **Seaweed waste valorization:** Processing waste (15-20% of harvest, 3.6-4.7 kg/day) adds omega-3, iodine, vitamin E to BSF larvae. Unwashed ruminant scraps can go directly to BSF - dilution with SMS achieves safe 0.33% salinity. Only chicken feed (0.5 kg/day) requires 10 L freshwater for washing.
 
 ### Why This Flow?
 
 - **Mushrooms grow on fresh manure** (with straw as carbon source)
 - **SMS is ideal for BSF** (still has organic matter, pre-composted)
 - **Maximizes value extraction:** Manure → Mushrooms (human food) → BSF (animal protein) → Frass (fertilizer)
+- **Seaweed waste adds nutrition:** Processing scraps (stems, damaged portions) enrich BSF larvae with omega-3 fatty acids, iodine, vitamin E - especially beneficial for fish feed
 - **Eliminates double-counting:** Can't use same manure twice
 
 ---

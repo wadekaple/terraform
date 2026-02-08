@@ -84,7 +84,7 @@ Seaweed has limitations that prevent it from being a sole feed source:
 
 ### Recommended Diet Composition
 
-For 12 sheep + 12 goats in Baja coastal desert:
+For 5 sheep + 5 goats in Baja coastal desert:
 
 | Feed Source | % of Diet | Fresh Water Needed? | Notes |
 |-------------|-----------|---------------------|-------|
@@ -226,18 +226,60 @@ The 10-ruminant scale balances livestock output with manageable daily harvest la
 
 ## Processing and Storage
 
-### Drying (Primary Method)
+### Ruminant Feed Processing (Minimal Water)
+
+**CRITICAL FINDING:** Ruminants are highly salt-tolerant and can consume unwashed seaweed!
+
+**Research basis:**
+- Goats: No performance decrease with 100% unwashed halophyte in forage (20%+ salt content tolerated)
+- Sheep: No performance decrease with 50% unwashed halophyte in forage
+- Source: [Small ruminant halophyte trials](https://link.springer.com/chapter/10.1007/978-94-011-0818-8_26)
+
+**Recommended process for ruminants (23 kg/day):**
+1. Harvest fresh seaweed
+2. **Seawater rinse only** (remove sand, debris) - no freshwater needed
+3. Remove unusable portions (tough stems, damaged sections) → **BSF substrate waste stream (3.5-4.6 kg/day)**
+4. Feed fresh directly to goats/sheep OR dry for storage
+5. **Total freshwater needed: 0 L/day** ✓
+
+**Why this works:**
+- Seaweed at 20-25% of total diet
+- Goats/sheep naturally consume salt-tolerant plants (saltbush, halophytes)
+- Salt tolerance: Goats > Sheep >> Chickens
+- Monitor feed intake; if palatability issues, try brief freshwater rinse
+
+### Chicken Feed Processing (Requires Washing)
+
+**Chickens are salt-sensitive and require washed seaweed**
+
+**Process for chicken feed (0.5 kg/day):**
+1. Harvest fresh seaweed
+2. Seawater rinse (remove sand, debris)
+3. **Freshwater soak:** 2 days in freshwater (1:10 ratio), change water once
+   - Water needed: 0.5 kg × 10 = 5 L initial + 5 L change = **10 L/day total**
+4. Reduces salt from >1% to 0.6% NaCl (95% reduction)
+5. Dry or feed fresh to chickens at 2-5% of diet
+
+### Drying for Storage (Optional)
 
 **Process:**
-1. Rinse fresh seaweed with fresh water to reduce salt
-2. Spread on drying racks in single layer
-3. Sun-dry 3-5 days (turn daily for even drying)
-4. Target moisture: 10-15% (crisp, breaks when bent)
-5. Store in dry, ventilated area in bags or containers
+1. Spread on drying racks in single layer
+2. Sun-dry 3-5 days (turn daily for even drying)
+3. Target moisture: 10-15% (crisp, breaks when bent)
+4. Store in dry, ventilated area in bags or containers
 
-**Conversion:** 10 kg fresh → 1-1.5 kg dried
+**Conversion:** 10 kg fresh → 1-1.5 kg dried (edible portions only)
 
 **Shelf life:** Months to years if properly dried and stored dry
+
+### Processing Waste for BSF Substrate
+
+**Waste stream utilization:**
+- Stems, damaged portions: 15-20% of total harvest (3.5-4.6 kg/day from 23 kg harvest)
+- **Can be added UNWASHED to BSF substrate** - dilution with low-salt SMS keeps salinity safe
+- Calculation: 4 kg unwashed seaweed (1.5% salt) + 20 kg SMS/aquaponics (0.1% salt) = 0.33% final salinity (well under 2% BSF tolerance)
+- Enriches BSF larvae with omega-3, iodine, vitamin E (see [Finding 9](chicken-seaweed-bsf-production.md#finding-9-bsf-larvae-performance-on-seaweed-substrate))
+- **No additional washing required** ✓
 
 ### Fresh Feeding
 
@@ -257,6 +299,24 @@ The 10-ruminant scale balances livestock output with manageable daily harvest la
 
 ## Integration with Homestead System
 
+### Water Budget Summary
+
+**CRITICAL FINDING:** Only chicken feed requires freshwater washing - massive water savings!
+
+| Seaweed Stream | Amount | Washing | Water Used |
+|---|---|---|---|
+| Chicken feed | 0.5 kg/day | YES (salt-sensitive) | 10 L/day |
+| Ruminant feed | 23 kg/day | NO (salt-tolerant) | 0 L |
+| BSF scraps | 3.6-4.7 kg/day | NO (diluted by SMS) | 0 L |
+| **TOTAL** | **27-28 kg/day** | | **10 L/day** |
+
+**Water savings:** 96% reduction vs. washing all seaweed (10 L vs. 235-352 L/day)
+
+**Impact on system water budget:**
+- Original budget (Year 3+): 482-609 L/day
+- Add seaweed processing: +10 L/day
+- New total: 492-619 L/day ✅ (within 600 L RO capacity)
+
 ### Synergies
 
 1. **Seawater infrastructure dual-use:** The seawater pumped for facility cooling and RO desalination could also supply Ulva cultivation tanks
@@ -265,7 +325,7 @@ The 10-ruminant scale balances livestock output with manageable daily harvest la
 
 3. **Waste streams feed cultivation:** Aquaponics effluent (nitrogen-rich) could fertilize seaweed tanks
 
-4. **BSF composting accepts seaweed waste:** Unusable seaweed portions go to BSF system
+4. **BSF composting accepts seaweed waste:** Processing waste (stems, damaged portions, ~15-20% of harvest) goes to BSF substrate for omega-3/iodine enrichment of larvae (see [BSF Seaweed Research](chicken-seaweed-bsf-production.md#finding-9-bsf-larvae-performance-on-seaweed-substrate))
 
 ### Revised System Diagram
 
@@ -275,9 +335,13 @@ SEAWATER ─────┬──────► Facility cooling
               ├──────► RO desalination ──► Fresh water
               │                        └──► Brine ──► Salt ponds
               │
-              └──────► ULVA TANKS ──────► Seaweed feed (20-25% of diet)
-                           │
-                           └──► Aquaponics effluent boost (optional)
+              └──────► ULVA TANKS ──────► Seaweed harvest (23 kg/day)
+                           │                    │
+                           │                    ├──► 80-85%: Ruminant feed (18-20 kg/day, 20-25% of diet)
+                           │                    │
+                           │                    └──► 15-20%: Processing waste (3.5-4.6 kg/day)
+                           │                             │
+                           └──► Aquaponics effluent      └──► BSF substrate (omega-3 enrichment)
 
 
 LAND-BASED ───┬──────► Saltbush (rainfall) ──► 20-30% of diet
@@ -286,9 +350,22 @@ LAND-BASED ───┬──────► Saltbush (rainfall) ──► 20-30
 
 
 AQUAPONICS ───────────► Plant waste ──► 5-10% of diet
+                              └──► BSF substrate (1-2 kg/day)
 
 
-              ALL FEED SOURCES ──► LIVESTOCK ──► Manure ──► BSF Compost
+              ALL FEED SOURCES ──► LIVESTOCK ──► Manure (12 kg/day)
+                                                       │
+                                                       ├──► Mushroom substrate
+                                                       │         │
+                                                       │         └──► SMS (18 kg/day) ──┐
+                                                       │                                │
+                                                       │         ┌────────────────────┘
+                                                       │         │
+                                                       └─────────┴──► BSF substrate (19-20 kg/day total)
+                                                                 │    + seaweed waste (3.5-4.6 kg added)
+                                                                 │    + aquaponics waste (1-2 kg)
+                                                                 │
+                                                                 └──► BSF larvae (2.7+ kg/day, omega-3 enriched)
 ```
 
 ---

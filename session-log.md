@@ -4,6 +4,133 @@ Quick reference for picking up where you left off. Most recent sessions at top.
 
 ---
 
+## 2026-02-08 - Seaweed + BSF Integration & Critical Water Budget Fix
+
+**Session focus:** Researching BSF larvae on seaweed substrate and discovering massive water savings through salt tolerance differences
+
+**Files modified:**
+- `research/mushroom-substrate-preparation-species-selection.md` (updated) - Added Appendix E documenting why seaweed is incompatible with mushroom substrate (C:N ratio mismatch: 17.8:1 vs. 25-30:1 needed)
+- `research/chicken-seaweed-bsf-production.md` (updated) - Added Finding 9 on BSF larvae performance with seaweed substrate (5-20% inclusion viable, omega-3 enrichment, unwashed scraps safe at 0.33% salinity when diluted with SMS)
+- `research/seaweed-feed-feasibility.md` (updated) - Split processing by salt tolerance: ruminants get unwashed seaweed (0 L water), chickens need washing (10 L/day); added water budget summary table showing 96% water savings
+- `research/homestead-scale-system.md` (updated) - Water budget corrected to add 10 L/day seaweed processing (chicken feed only); total: 492-619 L/day (within 600 L RO capacity)
+- `research/homestead-system-flowchart.md` (updated) - Split seaweed flows showing chicken (washed) vs ruminant (unwashed) pathways; updated BSF substrate notes
+- `research/feed-budget-self-sufficiency-analysis.md` (updated) - Added seaweed waste integration with unwashed scraps calculation (0.33% salinity safe for BSF)
+
+**Discoveries/Decisions:**
+
+**CRITICAL: Seaweed washing water crisis averted**
+- Initial calculation: 23.5 kg seaweed × 1:10 ratio × 2 water changes = 235-352 L/day freshwater needed
+- This would have exceeded RO capacity by 20-60% (total: 717-961 L/day vs. 600 L capacity)
+- **Solution found:** Ruminants are highly salt-tolerant (research: goats tolerate 100% unwashed halophyte at 20%+ salt content, sheep tolerate 50%)
+- Only chickens need washed seaweed (salt-sensitive)
+- **Final water need: 10 L/day** (0.5 kg chicken seaweed only)
+- **Water savings: 96%** (225 L/day saved)
+
+**BSF substrate salinity with unwashed scraps**
+- Calculation: 4 kg unwashed seaweed (1.5% NaCl) + 20 kg SMS (0.1% NaCl) = 0.33% final salinity
+- BSF tolerance: optimal 1%, acceptable <2%, poor >4%
+- Result: 0.33% well within safety margin - no washing needed for BSF scraps
+- Saves additional 80-120 L/day vs. washing BSF scraps
+
+**Mushroom substrate + seaweed = incompatible**
+- User suspected C:N ratio issue - confirmed by research
+- Mushrooms need 25-30:1 C:N ratio
+- Green seaweed (Ulva): 17.8:1 (40% too much nitrogen)
+- Red seaweed: 14.8:1 (51-67% too much nitrogen)
+- Brown seaweed variable (7.6-123) + arsenic issues
+- Also: wrong polysaccharides (agar/carrageenan vs. cellulose/lignin)
+
+**BSF + seaweed substrate = viable as supplement**
+- Multiple 2020-2025 studies confirm viability
+- Waste reduction: 65-78% of seaweed processed
+- Nutritional benefit: Omega-3, iodine, vitamin E enrichment in larvae
+- Best use: 5-20% supplemental addition to SMS (not 100% replacement)
+- Salt tolerance: <2% salinity OK, 1% optimal, >4% reduces growth 50%
+
+**Active work status:**
+- ✅ Both research questions answered (mushroom = no, BSF = yes)
+- ✅ Water budget crisis identified and resolved (10 L vs. 235-352 L)
+- ✅ All 6 documents updated with findings
+- ✅ Material flows corrected (23 kg ruminant + 0.5 kg chicken split)
+- ✅ Seaweed processing waste numbers fixed (3.6-4.7 kg/day, not 8-11 kg)
+
+**Next session:**
+- Consider: Update system overview diagrams with seaweed water savings highlight
+- Possible: Add "Design Wins" section highlighting critical discoveries like this one
+- Ready for commit: 6 files modified with major water budget fix
+- Future: Monitor if any other "zero water" assumptions are incorrect (this one was wrong in water budget table)
+
+**Notes:**
+- Session started with user noticing missing BSF + seaweed research in docs
+- User caught critical error: 56 kg/day seaweed was for 24 ruminants, current design is 10 ruminants = 23 kg/day
+- User caught second critical error: seaweed washing water wasn't in budget at all
+- This water budget oversight could have been a showstopper (717-961 L/day vs. 600 L capacity)
+- Salt tolerance research saved the design: ruminants evolved for halophyte grazing
+- Research sources: Springer halophyte trials, PMC goat saline water studies, ScienceDirect sheep salt tolerance
+- Total seaweed streams: Chicken 0.5 kg (washed), Ruminant 23 kg (unwashed), BSF scraps 3.6-4.7 kg (unwashed)
+- Final system water budget: 492-619 L/day (within 600 L RO with comfortable margin)
+- Example of why "trust but verify" is critical - assumption about zero water for feed was wrong
+
+---
+
+## 2026-02-07 - README Proofreading & System Design Refinements
+
+**Session focus:** User-led proofreading pass on web documentation, correcting specs and replacing green roofs with rooftop salt ponds design, adding feed patch for self-sufficiency, reorganizing navigation, cleaning up orphaned files, and applying peer review recommendations
+
+**Files modified:**
+- `README.md` (updated) - Corrected homestead specs (water: 0.6 m³/day, energy: 28 kWh/day thermal from 14 m², agriculture: 100 m² aquaponics, key innovations now emphasize rooftop salt ponds for cooling)
+- `research/homestead-scale-system.md` (updated) - Replaced green roof design with rooftop salt ponds on both buildings (194 m² total), added phased 100 m² feed patch (prickly pear + saltbush + 11 forage trees over 2 years), updated water budget to 482-634 L/day (fits 0.6 m³/day RO), eliminated 60-100 L/day green roof irrigation
+- `mkdocs.yml` (updated) - Reorganized research navigation: Water/Agriculture/Economics prioritized over Energy (sustainability-first focus), added "Future Ideas / Not Yet" section for exploratory work, moved rooftop-salt-pond-design.md into navigation
+- `00-development-roadmap.md` (updated) - Fixed solar thermal references (6 m² → 14 m² Phase 1), corrected Phase 2 expansion math (10 m² additional = 24 m² total), added feed self-sufficiency clarification line
+- `research/solar-thermal-expansion-design.md` (updated) - Added clarifying notes that "32 kWh/day" is hypothetical all-electric baseline, actual electrical loads are 4.6-7.2 kWh/day
+- 7 orphaned research files (deleted) - Removed superseded industrial-scale documents: agricultural-water-requirements, population-capacity, solar-energy-per-acre, energy-requirements, desalination-energy-efficiency, capital-costs-estimate, dual-purpose-solar-thermal-pasteurization-med
+- `../terraform-review/recommendations.md` (updated) - Marked 3 recommendations as APPLIED (#5, #6, #7)
+
+**Discoveries/Decisions:**
+
+**Design shift: Green roofs → Rooftop salt ponds**
+- Processing + Livestock building roofs now have salt ponds (97 m² each = 194 m² total)
+- Eliminates 60-100 L/day fresh water irrigation requirement
+- Gains 273 kWh/day evaporative cooling + 11.5 tonnes/year salt revenue
+- Water budget reduced from 497-664 L/day to 437-564 L/day (before feed patch)
+
+**Feed self-sufficiency achieved**
+- Added 100 m² phased feed patch (Year 1: 70 m² ground cover + 6 trees, Year 2: +5 trees)
+- Species: Prickly pear + saltbush + moringa + mesquite + leucaena
+- Water needs: 45-70 L/day (fits within 0.6 m³/day RO buffer)
+- Eliminates $250-500/year grain/hay purchases
+- Final water budget: 482-634 L/day (comfortably within 600 L/day capacity)
+
+**Documentation cleanup**
+- Removed 7 orphaned files from early industrial-scale research phase
+- Research directory now 100% aligned with navigation (no missing files)
+- Navigation reorganized by priority: core systems first, exploratory work last
+
+**Active work status:**
+- ✅ README specs corrected and consistent with detailed docs
+- ✅ Green roofs fully replaced with salt pond design throughout
+- ✅ Feed patch integrated as Phase 1 base design (not optional Phase 2)
+- ✅ Navigation reflects sustainability-first focus (Water/Ag before Economics)
+- ✅ All 3 pending peer review recommendations applied
+- ✅ Repository cleaned of superseded research files
+
+**Next session:**
+- Ready for git commit (9 files modified, 7 deleted, multiple clarifications applied)
+- Consider: Visual footprint diagram showing three 100 m² buildings + salt pond locations + ground-mounted solar thermal + feed patch layout
+- Possible: Update system flowchart to reflect feed patch integration
+- Future: User mentioned more proofreading to come - session ended at natural checkpoint
+
+**Notes:**
+- Session was user-driven proofreading pass, not AI-initiated work
+- User's eagle eye caught multiple spec inconsistencies (28 kWh not 12, 100 m² not 1000 sq ft, etc.)
+- Feed patch decision shifts system from "zero fresh water for feed" to "feed self-sufficiency" - pragmatic choice
+- Phased planting approach (Year 1 → Year 2) manages water budget during establishment
+- Salt pond cooling (273 kWh/day) is 7.8x facility need - massive passive cooling benefit
+- Original author's sustainability focus honored in navigation reorganization (Economics moved below Energy)
+- Review system working well: 3 recommendations caught and fixed documentation inconsistencies
+
+---
+
 ## 2026-02-07 - Crystallizer Location Updates & Solar Thermal Sizing Corrections
 
 **Session focus:** Correcting outdated references showing crystallizers on ground (now on rooftops) and fixing solar thermal sizing inconsistencies (6 m² → 14 m² adopted baseline)
