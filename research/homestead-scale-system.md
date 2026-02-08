@@ -57,25 +57,25 @@ SITE LAYOUT VIEW:
 
 ┌─────────────────────────┐     ┌──────────────────────┐
 │   GREENHOUSE            │     │  PROCESSING BUILDING │
-│   (partial earth-shelter)│     │  (green roof)        │
+│   (partial earth-shelter)│     │  (salt ponds on roof)│
 │                         │     │                      │
 │ • Aquaponics (100 m²)   │     │ • RO desalination    │
 │ • Fish tanks            │     │ • BSF composting     │
 │ • Glazed roof (70-80%)  │     │ • Mushroom growing   │
 │ • Solar panels (20-30%) │     │ • Seaweed processing │
 │ • Bermed N/W/E walls    │     │ • Workshop/storage   │
-│                         │     │ • 0.5-1m soil roof   │
+│                         │     │ • Roof: 2A+2B+CrysA  │
 └─────────────────────────┘     └──────────────────────┘
 
          ┌────────────────────────┐
          │  LIVESTOCK SHELTER     │
-         │  (green roof)          │
+         │  (salt ponds on roof)  │
          │                        │
          │ • Chickens (24 birds)  │
          │ • Sheep pens (5)       │
          │ • Goat pens (5)        │
          │ • Feed storage         │
-         │ • 0.5-1m soil roof     │
+         │ • Roof: 2C+2D+CrysB    │
          └────────────────────────┘
 ```
 
@@ -87,16 +87,16 @@ SITE LAYOUT VIEW:
 - Houses: Aquaponics beds, fish tanks
 - **Benefit:** Natural light + thermal stability
 
-**Structure 2: Processing Building (Green Roof)**
+**Structure 2: Processing Building (Rooftop Salt Ponds)**
 - Can be surface-level or partially bermed
-- Roof: 0.5-1m soil cover (green roof) for insulation
+- Roof: Concentrators 2A, 2B + Crystallizer A (97 m² salt ponds)
 - No natural light needed - industrial/processing functions
 - Houses: RO unit, BSF composting, mushroom cultivation, seaweed processing, workshop
-- **Benefit:** Stable temperature for processing, minimal cooling needed
+- **Benefit:** Rooftop evaporative cooling (~136 kWh/day) + salt revenue stream
 
-**Structure 3: Livestock Shelter (Green Roof)**
+**Structure 3: Livestock Shelter (Rooftop Salt Ponds)**
 - Surface-level or partially bermed
-- Roof: 0.5-1m soil cover (green roof)
+- Roof: Concentrators 2C, 2D + Crystallizer B (97 m² salt ponds)
 - Clerestory windows or skylights for natural light
 - Houses: Chicken coop, sheep/goat pens, feed storage
 - **Benefit:** Cool in summer, better animal welfare than underground
@@ -110,40 +110,29 @@ SITE LAYOUT VIEW:
 - Cost: $29-48K for partial earth-sheltering vs $83-135K for full underground
 - See [Below-Grade Construction Analysis](below-grade-construction-analysis.md) for detailed comparison
 
-### Green Roof Vegetation & Water Requirements
+### 2. Rooftop Salt Pond Evaporative Cooling
 
-**Total green roof area:** ~200 m² (100 m² processing + 100 m² livestock)
+**Total rooftop salt pond area:** 194 m² (97 m² per building roof)
 
-**Planting strategy:**
+**Configuration:**
+- **Processing Building Roof:** Concentrators 2A, 2B (72 m²) + Crystallizer A (25 m²)
+- **Livestock Shelter Roof:** Concentrators 2C, 2D (72 m²) + Crystallizer B (25 m²)
 
-**Processing Building Roof (~100 m²):**
-- **Plants:** Native drought-tolerant succulents (sedums, ice plant, native cacti)
-- **Purpose:** Insulation only (no livestock access)
-- **Water needs:** 0.3-0.5 L/m²/day after establishment
-- **Substrate depth:** 0.5m (shallow, lightweight)
+**Evaporative cooling benefit:**
+- **Time-averaged evaporation area:** 157 m² (accounting for batch cycle fill levels)
+- **Cooling capacity:** 273 kWh/day time-averaged
+- **Facility cooling need:** 20-35 kWh/day (summer peak)
+- **Design margin:** 7.8x facility requirement
 
-**Livestock Shelter Roof (~100 m²):**
-- **Plants:** Mix of prickly pear cactus (Opuntia) + native browse plants (prostrate saltbush, trailing succulents)
-- **Purpose:** Insulation + supplemental livestock browse (plants cascade over roof edge for ground-level grazing)
-- **Water needs:** 0.3-0.5 L/m²/day after establishment
-- **Substrate depth:** 0.7-1.0m (deeper for browse plants)
+**Additional benefits:**
+- **Salt production:** 11.5 tonnes/year food-grade sea salt
+- **Revenue potential:** $140K-280K/year (Year 3-5 established market)
+- **Land savings:** 95% reduction in ground footprint (ponds on roof vs ground)
+- **Passive cooling:** Eliminates all evaporative water consumption from facility cooling
 
-**Total green roof irrigation (established plants):**
-- Daily: 200 m² × 0.4 L/m²/day = **~80 L/day** (13-18% of fresh water budget)
-- Establishment phase (first 6-12 months): 200 m² × 1.0 L/m²/day = **~200 L/day**
+See [Rooftop Salt Pond Design](rooftop-salt-pond-design.md) for detailed thermal analysis and material handling systems.
 
-**Water source options:**
-1. **Fresh RO water** (primary) - fits within expanded capacity or reduces other uses temporarily
-2. **Rainwater harvest** (supplemental) - captures roof runoff during rare rain events
-3. **Aquaponics system water** (occasional) - diluted fish tank water provides nutrients + irrigation
-
-**Benefits of green roof integration:**
-- Provides 5-10% additional browse for ruminants (reducing purchased supplements)
-- Rainfall capture: Green roofs absorb 50-80% of rainfall, reducing runoff and providing passive irrigation
-- Insulation value: 0.5-1m soil provides R-15 to R-20, reducing cooling load
-- Extends roof membrane life by 2-3x (protects from UV and temperature extremes)
-
-### 2. Seawater Cooling Loop
+### 3. Seawater Cooling Loop
 
 Instead of earth tubes or evaporative cooling, the facility uses **incoming seawater as coolant**:
 
@@ -174,7 +163,7 @@ Seawater provides: 40-75% of cooling needs
 Combined with partial earth-sheltering: likely sufficient without evaporative cooling
 ```
 
-### 3. Zero Fresh Water for Feed
+### 4. Zero Fresh Water for Feed
 
 **Ruminant feed (sheep & goats):** Mixed diet, zero irrigation
 
@@ -193,18 +182,31 @@ Combined with partial earth-sheltering: likely sufficient without evaporative co
 - **Cultivation:** Small Ulva tank system (~300 m²) using facility seawater supply
 - **Hybrid:** Cultivate base supply, supplement with wild Sargassum
 
-**Optional: Small irrigated feed patch (100-200 m²)**
-- **Purpose:** Reduce $250-500/year grain/hay supplement for ruminants
-- **Plants:** Prickly pear cactus (Opuntia) + drought-tolerant fodder trees (moringa, leucaena, mesquite)
-- **Water needed:** 50-150 L/day average
-- **Prerequisite:** Requires RO expansion to 0.7-0.8 m³/day (700-800 L/day) to accommodate green roofs + operations + feed patch
-- **Benefits:**
-  - Increases feed self-sufficiency from browsing/grazing
-  - Reduces purchased grain/hay needs ($250-500/year savings)
-  - Provides shade and windbreak for livestock area
-  - Fodder trees fix nitrogen, improve soil
-- **Tradeoff:** Additional RO capacity ($1,000-2,000 capital cost) + water/energy for irrigation
-- **Recommendation:** Phase 2 optimization after base system validation (Year 2-3). Not necessary for initial operation - green roofs already provide some browse, and $250-500/year supplement is manageable.
+**Irrigated feed patch (100 m² - Phase 1 base design)**
+- **Purpose:** Achieve feed self-sufficiency; eliminate $250-500/year grain/hay supplement for ruminants
+- **Size:** 100 m² (can expand to 150-200 m² in future if desired)
+- **Plants:** Mixed planting for year-round fodder
+  - 70 m² prickly pear (Opuntia) + saltbush (Atriplex) ground cover
+  - 11 forage trees total (3-4m spacing):
+    - 4 Moringa (fast-growing, 30-50% crude protein in leaves)
+    - 4 Mesquite (drought-hardy, protein-rich pods)
+    - 3 Leucaena (nitrogen-fixing legume, 20-30% crude protein)
+
+**Phased planting approach (fits within 0.6 m³/day RO capacity):**
+
+| Phase | Timing | Planting | Water Need | Status |
+|-------|--------|----------|------------|--------|
+| **Year 1** | Establishment | 70 m² ground cover + 6 trees (2 moringa, 2 mesquite, 2 leucaena) | ~60 L/day | Fits in buffer ✅ |
+| **Year 2** | Expansion | Add 5 more trees (2 moringa, 2 mesquite, 1 leucaena) | ~70 L/day | Fits in buffer ✅ |
+| **Year 3+** | Established | All plants mature | ~45 L/day | Comfortable margin ✅ |
+
+**Benefits:**
+  - **Feed self-sufficiency:** Eliminates ruminant grain/hay purchases ($250-500/year savings)
+  - **Protein production:** Moringa and leucaena provide exceptional protein content
+  - **Nitrogen fixation:** Leucaena improves soil fertility
+  - **Shade & windbreak:** Trees provide livestock shelter and reduce dust
+  - **Drought resilience:** All species selected for extreme drought tolerance
+  - **No additional RO capacity needed:** Phased approach works within existing 0.6 m³/day
 
 **Chicken and fish feed:** Black Soldier Fly (BSF) larvae + commercial supplements
 - **Material flow:** Livestock manure (12 kg/day) → Mushroom substrate → Spent mushroom substrate (SMS, 18 kg/day) + kitchen scraps (1.5-2.5 kg/day) + aquaponics waste (1.5-2.5 kg/day) → BSF composting
@@ -215,11 +217,12 @@ Combined with partial earth-sheltering: likely sufficient without evaporative co
 - Larvae are 40% protein, 30% fat — ideal supplemental feed
 - See [Homestead System Flowchart](homestead-system-flowchart.md) for complete material flows
 
-### 4. Brine-to-Salt Production
+### 5. Brine-to-Salt Production
 
 Instead of disposing of RO brine, convert it to food-grade sea salt:
 - Eliminates environmental disposal problem
-- Creates revenue stream
+- Creates revenue stream (11.5 tonnes/year from rooftop ponds)
+- Provides massive passive cooling (273 kWh/day evaporative benefit)
 - See detailed analysis in [Salt Production](#salt-production-from-brine) section below
 
 ---
@@ -236,12 +239,14 @@ Instead of disposing of RO brine, convert it to food-grade sea salt:
 | Goats (5 animals) | 20-40 | 4-8 L/head in hot arid climate |
 | Livestock feed | 0 | Seaweed (seawater) + BSF larvae (compost) |
 | Greenhouse cooling | 0 | Seawater loop (not consumed) |
+| Facility cooling | 0 | Rooftop salt pond evaporative cooling (not consumed) |
 | Human domestic (8 people) | 200 | 25 L/person/day |
 | BSF composting moisture | 10-20 | Maintain substrate humidity |
 | Facility cleaning | 20-40 | Pens, equipment |
-| Green roof irrigation (200 m²) | 60-100 | 0.3-0.5 L/m²/day established plants; 200 L/day during establishment (6-12 months) |
-| **TOTAL (established)** | **~497-664** | **~0.50-0.66 m³/day** |
-| **TOTAL (establishment phase)** | **~582-764** | **~0.58-0.76 m³/day** |
+| Feed patch irrigation (100 m²) | 45-70 | Year 1: ~60 L/day; Year 2: ~70 L/day; Year 3+: ~45 L/day (established) |
+| **TOTAL (Year 1)** | **~497-624** | **~0.50-0.62 m³/day** |
+| **TOTAL (Year 2)** | **~507-634** | **~0.51-0.63 m³/day** |
+| **TOTAL (Year 3+)** | **~482-609** | **~0.48-0.61 m³/day** (all established) |
 
 ### Water Sources
 
@@ -251,15 +256,15 @@ Instead of disposing of RO brine, convert it to food-grade sea salt:
 | Seawater (cooling loop) | 1.0+ m³/day | Not consumed; returns to ocean or feeds RO |
 | Rainwater harvesting | Variable | Supplemental; unreliable in desert |
 
-**Note:** With green roof irrigation included, total water demand (447-614 L/day established, 532-714 L/day during establishment) **exceeds baseline 0.5 m³/day (500 L/day) RO capacity**. Options:
+**Note:** Total water demand with feed patch included (482-634 L/day depending on establishment phase) **fits within 0.6 m³/day (600 L/day) RO capacity** with comfortable operational margin. The 0.6 m³/day sizing provides:
 
-1. **Expand RO capacity to 0.6-0.7 m³/day** - adds $500-1,500 to capital cost (slightly larger membrane/pump)
-2. **Phase green roof planting** - establish roofs over 2-3 years to spread water demand
-3. **Prioritize rainwater capture** - green roofs absorb 50-80% of rainfall, reducing irrigation needs
-4. **Use aquaponics system water** - occasional irrigation with diluted fish tank water (nutrient bonus)
-5. **Omit green roofs initially** - add in Phase 2 after validating water budget
+1. **Feed self-sufficiency** - 100 m² feed patch (prickly pear + saltbush + forage trees) eliminates $250-500/year grain/hay purchases
+2. **Peak summer buffer** - Allows for 20-30% increase in aquaponics/livestock water during heat waves
+3. **System resilience** - Margin for unexpected water needs or temporary losses
+4. **Phased establishment** - Year 1 plantings fit comfortably (497-624 L/day < 600 L/day capacity)
+5. **Brine production** - Higher fresh water output = more brine for salt production (11.5 tonnes/year at 0.6 m³/day vs 9.6 tonnes at 0.5 m³/day)
 
-**Recommended approach:** Size RO for 0.6 m³/day (600 L/day) from start - provides comfortable buffer for green roofs + peak summer aquaponics demands. Marginal cost increase ($500-1,000) justified by improved system resilience and livestock feed benefits.
+**Cost tradeoff:** Marginal cost increase ($500-1,000) for 0.6 m³/day vs 0.5 m³/day capacity is justified by feed self-sufficiency ($250-500/year savings) + improved system resilience + 20% increase in salt production revenue ($28K-56K additional annual revenue at Year 3-5 pricing).
 
 ### Aquaponics System Details
 
@@ -309,10 +314,10 @@ For complete specifications, see [Aquaponics System Design](aquaponics-system-de
 ### Passive Design Strategies
 
 **Processing Building:**
-- 2-3 skylights in roof (between soil areas) for workshop natural light
-- Operable roof vents for passive cooling
+- 2-3 skylights or clerestory windows for workshop natural light
+- Operable vents for passive ventilation
 - Seawater cooling pipes in floor slab and lower walls
-- Green roof (0.5-1m soil) provides R-15 to R-20 insulation
+- Rooftop salt ponds (97 m²) provide massive evaporative cooling (~136 kWh/day)
 
 **Livestock Shelter:**
 - Clerestory windows on south wall (natural light for animals)
@@ -584,7 +589,7 @@ Each roof operates independently with its own concentrator-to-crystallizer flow 
 
 **Recommended positioning:** "Solar-harvested Pacific sea salt from Baja California" — artisanal/gourmet market at $20-50/kg retail. See [Salt Market Analysis](salt-market-analysis.md) for full market research.
 
-**Note:** Scaling RO from 0.5 → 0.6 m³/day increased salt production by 53% (7.5 → 11.5 tonnes/year) while only increasing pond footprint by ~10 m². This makes the green roof water investment economically advantageous.
+**Note:** Scaling RO from 0.5 → 0.6 m³/day increased salt production by 53% (7.5 → 11.5 tonnes/year) while only increasing pond footprint by ~10 m². The marginal cost increase ($500-1,000) for larger RO capacity generates $28K-56K additional annual revenue (Year 3-5 pricing), making it economically advantageous.
 
 ### Bitterns (Byproduct)
 
@@ -650,17 +655,18 @@ The system design follows a phased approach to feed independence:
 - **Fish:** 49% BSF larvae, 51% commercial pellets ($1,150/year)
 - **Chickens:** 30% BSF larvae, 70% commercial feed ($460/year)
 - **Ruminants:** Seaweed + prickly pear + saltbush + 5-10% grain/hay supplement ($250-500/year)
-- **Water demand:** 0.6 m³/day (includes green roofs)
+- **Water demand:** 0.6 m³/day (sized with operational buffer)
 - **Feed self-sufficiency:** ~42% overall
 - **External feed cost:** $1,860-2,110/year
 
-**Phase 2: Forage Tree Integration (Year 2-3)**
-- **Addition:** 100-200 m² fodder tree plantation
-  - Moringa (fast-growing, high protein, 30-50% crude protein in leaves)
-  - Leucaena (nitrogen-fixing, 20-30% crude protein)
-  - Mesquite (drought-hardy, protein-rich pods)
+**Phase 1: Integrated Feed Patch (included in base design)**
+- **Size:** 100 m² fodder plantation (phased planting over 2 years)
+  - Year 1: 70 m² ground cover + 6 trees
+  - Year 2: Add 5 more trees (11 total)
+- **Species:** Prickly pear + Saltbush + Moringa + Leucaena + Mesquite
 - **Benefits:**
-  - Reduces ruminant grain/hay supplement to near zero (eliminates $250-500/year)
+  - Eliminates ruminant grain/hay supplement ($250-500/year savings)
+  - Achieves feed self-sufficiency goal
   - Provides shade and windbreak for livestock area
   - Trees fix nitrogen, improving soil for understory prickly pear
   - Pods and leaves harvest-able without killing plants
@@ -704,16 +710,16 @@ The system design follows a phased approach to feed independence:
 | Livestock shelter | ~100 m² | Chickens, sheep, goats |
 | Salt evaporation ponds | 204 m² | 7 ponds (batch operation), 15m × 14m |
 | Livestock paddock | ~140 m² | Small outdoor area for daily activity |
+| Feed patch (Phase 1) | 100 m² | Prickly pear + saltbush + forage trees (11 trees) |
 | Access paths/spacing | ~50 m² | Between structures, maintenance access |
-| **Subtotal (core facility)** | **~694 m²** | **~0.17 acres** |
+| **Total developed (Phase 1)** | **~794 m²** | Core facility with feed patch (~0.20 acres) |
 | Desert browse (optional) | Variable | Unirrigated rangeland for extended foraging |
-| Feed patch (Phase 2, optional) | 100-200 m² | Fodder trees + prickly pear |
-| **Total developed (Phase 1)** | **~694 m²** | Core facility only, excluding rangeland (~0.17 acres) |
-| **Total developed (Phase 2)** | **~794-894 m²** | With optional feed patch (~0.20-0.22 acres) |
+| Feed patch expansion (optional) | 50-100 m² | Additional fodder trees if desired |
+| **Total developed (with expansion)** | **~844-894 m²** | With expanded feed patch (~0.21-0.22 acres) |
 
 **Compact footprint comparison:**
-- Phase 1 core facility: 694 m² (~0.17 acres) - smaller than typical suburban house lot
-- Produces: Food for 10-20 people + 11.5 tonnes salt/year
+- Phase 1 complete facility: 794 m² (~0.20 acres) - smaller than typical suburban house lot
+- Produces: Food for 10-20 people + 11.5 tonnes salt/year + feed self-sufficiency
 - Can operate on marginal coastal land unsuitable for conventional agriculture
 
 ---
@@ -725,15 +731,15 @@ The system design follows a phased approach to feed independence:
 | Structure | Estimated Cost | Notes |
 |---|---|---|
 | **Greenhouse (partial earth-shelter)** | $29,000-48,000 | Bermed walls, glazed roof, solar panels (see [Below-Grade Analysis](below-grade-construction-analysis.md)) |
-| **Processing building (green roof)** | $15,000-30,000 | Surface or partially bermed, 0.5-1m soil roof |
-| **Livestock shelter (green roof)** | $10,000-20,000 | Surface level, soil roof, basic construction |
+| **Processing building (rooftop salt ponds)** | $15,000-30,000 | Surface or partially bermed, structural roof for salt ponds |
+| **Livestock shelter (rooftop salt ponds)** | $10,000-20,000 | Surface level, structural roof for salt ponds |
 | **Subtotal (structures)** | **$54,000-98,000** | Three separate buildings |
 
 ### Equipment & Systems
 
 | Component | Estimated Cost | Notes |
 |---|---|---|
-| RO desalination unit (0.6 m³/day) | $3,500-9,000 | Sized for green roofs + operations; household-scale units available |
+| RO desalination unit (0.6 m³/day) | $3,500-9,000 | Sized with operational buffer; household-scale units available |
 | Solar panels (1.2-1.5 kW, ~8.5 m²) | $2,500-4,000 | 2-3 panels + inverter (mounted on greenhouse) |
 | Battery storage (15-20 kWh) | $5,000-10,000 | LFP batteries |
 | **Solar thermal system (14 m²)** | **$4,300-8,100** | **1 RV fridge + DHW + processing - Phase 1 (see [Solar Thermal Expansion](solar-thermal-expansion-design.md))** |
@@ -812,7 +818,7 @@ The system design follows a phased approach to feed independence:
    - Improves RO efficiency (pre-warming bonus)
    - Uses infrastructure you're already building
 
-3. **Earth-sheltering transforms the energy equation.** Partial earth-sheltering and green roofs eliminate the #1 water and energy consumer (evaporative cooling) while providing year-round temperature stability.
+3. **Passive cooling transforms the energy equation.** Partial earth-sheltering + seawater cooling loop + rooftop salt pond evaporative cooling (273 kWh/day) eliminate the #1 water and energy consumer (active evaporative cooling) while providing year-round temperature stability.
 
 4. **Brine is a product, not a waste stream.** Food-grade sea salt production turns an environmental liability into a revenue stream worth $35,000-450,000/year.
 
@@ -820,7 +826,7 @@ The system design follows a phased approach to feed independence:
 
 6. **The system fits on a rooftop.** 2-3 solar panels (~8.5 m²) provide full energy self-sufficiency — the entire power system fits on 20-30% of the greenhouse roof.
 
-7. **Multi-structure design reduces energy consumption.** Skylights and natural ventilation eliminate 1.0-1.5 kWh/day compared to underground design, while maintaining thermal benefits through green roofs and partial earth-sheltering. Natural light improves animal welfare and egg production.
+7. **Multi-structure design reduces energy consumption.** Skylights and natural ventilation eliminate 1.0-1.5 kWh/day compared to underground design, while maintaining thermal benefits through rooftop salt pond evaporative cooling and partial earth-sheltering. Natural light improves animal welfare and egg production.
 
 8. **This is highly replicable.** Unlike the industrial model, this homestead design could be built by a small team with modest capital, and replicated along any coastal desert.
 

@@ -145,26 +145,28 @@ nav:
     - Homestead System:
       - System Overview: research/homestead-scale-system.md
       - System Flowchart: research/homestead-system-flowchart.md
-      - Below-Grade Construction: research/below-grade-construction-analysis.md
-    - Energy Systems:
-      - Mechanical Wind Power: research/mechanical-wind-power-pumping-aeration.md
-      - Solar Thermal Expansion: research/solar-thermal-expansion-design.md
-      - RV Fridge Retrofit: research/rv-fridge-solar-thermal-retrofit.md
-      - Waste Heat Recovery: research/waste-heat-recovery-cascade-system.md
     - Water & Brine:
       - Aquaponics Design: research/aquaponics-system-design.md
+      - Rooftop Salt Ponds: research/rooftop-salt-pond-design.md
       - Brine Byproducts: research/brine-byproducts-fractional-crystallization.md
-      - MED Scaling Prevention: research/med-calcium-carbonate-scaling-prevention.md
     - Agriculture:
       - Seaweed Feed: research/seaweed-feed-feasibility.md
       - Feed Budget Analysis: research/feed-budget-self-sufficiency-analysis.md
-      - Three Sisters Expansion: research/three-sisters-field-crop-expansion.md
       - BSF & Chickens: research/chicken-seaweed-bsf-production.md
       - Mushroom Cultivation: research/mushroom-substrate-preparation-species-selection.md
+      - Three Sisters Field Crop: research/three-sisters-field-crop-expansion.md
+    - Energy Systems:
+      - Solar Thermal Expansion: research/solar-thermal-expansion-design.md
+      - RV Fridge Retrofit: research/rv-fridge-solar-thermal-retrofit.md
+      - Waste Heat Recovery: research/waste-heat-recovery-cascade-system.md
     - Economics:
       - Salt Market Analysis: research/salt-market-analysis.md
     - Industrial Scale:
       - 1-Acre System Summary: research/system-summary-1-acre.md
+      - MED Scaling Prevention: research/med-calcium-carbonate-scaling-prevention.md
+    - Future Ideas / Not Yet:
+      - Below-Grade Construction: research/below-grade-construction-analysis.md
+      - Mechanical Wind Power: research/mechanical-wind-power-pumping-aeration.md
 
   - Technical Specs:
     - Overview: specs/README.md

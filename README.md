@@ -35,10 +35,10 @@ This project explores how solar-powered desalination can transform coastal deser
 
 **Scale:** Self-sufficient operation for <10 people
 
-- **Water:** 327-444 L/day via RO desalination
-- **Energy:** ~6 kWh/day electrical + 28 kWh/day thermal
-- **Agriculture:** 1,000 sq ft aquaponics + 24 chickens + 10 ruminants
-- **Key Innovation:** Seawater cooling eliminates 750-1,100 L/day evaporative cooling water
+- **Water:** 0.6 m³/day (600 L/day) via RO desalination
+- **Energy:** ~6 kWh/day electrical + 28 kWh/day thermal (14 m² solar thermal collectors)
+- **Agriculture:** 100 m² aquaponics + 24 chickens + 10 ruminants (5 sheep, 5 goats)
+- **Key Innovations:** Rooftop salt ponds (194 m²) provide 273 kWh/day evaporative cooling + bermed earth-sheltered architecture + seawater cooling loop eliminate all evaporative water consumption
 
 **[→ Explore Homestead System](research/homestead-scale-system.md)**
 
