@@ -1,0 +1,37 @@
+---
+title: 'Paradise Reborn'
+config:
+  layout: 'elk' 
+  theme: 'forest'
+---
+flowchart TD
+    S(Seawater) --> R(SWRO)
+    D(Sunshine) --> P(Solar Panels)
+    P --> |Power| R
+    R --> |Fresh water| G
+    G --> |Clippings| L
+    W --> B
+    G --> |Clippings| B(BSF)
+    B --> |Larvae/Worm tea| G
+    R --> |Brine| E("MED (future)")
+    D --> |Evap|Q("Crystallization(2)")
+    D --> |Evap|O("Gypsum(4)")
+    E --> |Brine| N(Calcium Carbonate)
+    N --> O("Gypsum(4)")
+    O --> Q("Crystallization(2)")
+    Q --> |Salt| Z
+    D --> G(Greenhouse)
+    R --> |Fresh water| C
+    R --> |Fresh water| L
+    B --> |Larvae| C(Chickens)
+    D --> |Pasteurize| A
+    C --> |Droppings| A(Compost)
+    A --> M(Mushrooms)
+    B --> |Frass| A
+    C --> |Eggs/Meat| Z
+    M --> |SMS| B
+    M --> |Mushrooms| Z
+    W(Seaweed) --> |Feed| L(Ruminants)
+    L --> |Droppings| A
+    L --> |Dairy/Fiber/Meat| Z
+    G --> |Vegetables| Z("Output (Salt/Vegetables/Eggs/Fish/Dairy/Meat/Fiber)")
